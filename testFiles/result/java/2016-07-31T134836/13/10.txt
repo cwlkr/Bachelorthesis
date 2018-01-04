@@ -1,0 +1,1 @@
+* this Menu is served in . If criteriaSet or mensas are empty , an empty list is returned . * This activity is just used as a callback for the push notifications . It 

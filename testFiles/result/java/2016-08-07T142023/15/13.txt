@@ -1,0 +1,1 @@
+Toast . makeText ( Main . this , MESSAGE _ GET _ DATA , Toast . LENGTH _ SHORT ) . show ( ) ; Toast . makeText ( getActivity ( ) , R . string . toast _ refreshing _ msg , Toast . LENGTH _ SHORT ) . show ( ) ; 

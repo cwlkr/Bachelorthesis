@@ -1,0 +1,1 @@
+if ( ( menu . getDescription ( ) . toLowerCase ( Locale . getDefault ( ) ) ) . contains ( criteria crit . getMap ( ) . put ( menu , temp ) ; temp = crit . getMap ( ) . get ( menu ) ; SocialManager . getInstance ( ) . removeObserver ( adapter ) ; 

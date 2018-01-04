@@ -1,0 +1,1 @@
+mApplication . setPath ( QDir : : fromNativeSeparators ( mUI . mPath - > text ( ) ) ) ; mApplication . setPath ( QDir : : fromNativeSeparators ( mUI . mPath - > text ( ) ) ) ; const std : : size _ t functions = symbolDatabase - > functionScopes . size ( ) ; const ValueType * const returnType = tok - > astOperand1 ( ) - > valueType ( ) ; 

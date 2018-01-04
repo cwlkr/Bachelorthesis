@@ -1,0 +1,1 @@
+|list|list := OrderedCollection  new.list add: 2.list add: 2.list.list at: 2 put:0.list.

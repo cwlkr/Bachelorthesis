@@ -1,0 +1,1 @@
+|path   kRunner before after|before := DateAndTime now.kRunner := KMeansRunner new.path := 'C:\Users\Cédric\Dropbox\pharo\testFiles'.kRunner runOn: path with: 8 type: 'java'. after := DateAndTime now.after - before.

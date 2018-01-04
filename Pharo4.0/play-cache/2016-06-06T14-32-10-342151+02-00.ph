@@ -1,0 +1,1 @@
+|array k|k := 0.array := #(7 6).array do: [:element| k:= k + 1  ].k

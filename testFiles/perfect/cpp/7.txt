@@ -1,0 +1,12 @@
+/ / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+/ / 64 - bit portability
+/ / Assign pointer to integer . . 
+/ / Check assignments 
+/ / Check return values 
+/ / Convert possible native ( Windows ) path to internal presentation format 
+/ / CWE ids used 
+/ / dtor 
+/ / In Windows ( almost ) all executables have . exe extension 
+/ / Register this check class ( by creating a static instance of it ) 
+/ / skip nested functions 
+/ / so it does not make sense to show everything .

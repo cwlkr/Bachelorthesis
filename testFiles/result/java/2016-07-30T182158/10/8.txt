@@ -1,0 +1,1 @@
+} else { setUpEmptyView ( view ) ; setHasOptionsMenu ( true ) ; menuItem = item ; startActivity ( intent ) ; 

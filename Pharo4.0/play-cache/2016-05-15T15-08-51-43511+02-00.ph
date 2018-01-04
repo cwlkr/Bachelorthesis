@@ -1,0 +1,1 @@
+|string identifier|string := 'ab c } agf ', Character cr asString, 'ab'.identifier :=  #word asParser plus/#punctuation asParser plus.identifier:=  #word asParser plus/#punctuation asParser plus/#blank asParser star optional.identifier matchesSkipIn: string.

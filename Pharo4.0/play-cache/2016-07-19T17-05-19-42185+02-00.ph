@@ -1,0 +1,1 @@
+|list1 list2|list1 := LinkedList new.list2 := LinkedList new.list1 add: 'asfd'.list1 add: 'ads'.list1 add: 'ad'.list1 add: 'hfg'.list2 add: 'asfd'.list2 add: 'ads'.list2 add: 'ad'.list2 add: 'hfg'.list2 = list1.0*0 ln

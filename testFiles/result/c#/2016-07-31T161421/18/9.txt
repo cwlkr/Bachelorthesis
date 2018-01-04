@@ -1,0 +1,1 @@
+internal class AuthServerStrings { resourceMan = temp ; resourceCulture = value ; internal class AuthServerStrings { resourceMan = temp ; resourceCulture = value ; public class ClientDescription : IClientDescription { 

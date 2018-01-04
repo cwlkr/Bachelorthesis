@@ -1,0 +1,8 @@
+! tok - > astOperand2 ( ) - > isNumber ( ) & & 
+const std : : size _ t functions = symbolDatabase - > functionScopes . size ( ) ; 
+const SymbolDatabase * symbolDatabase = _ tokenizer - > getSymbolDatabase ( ) ; 
+const ValueType * const returnType = tok - > astOperand1 ( ) - > valueType ( ) ; 
+const ValueType * lhstype = tok - > astOperand1 ( ) ? tok - > astOperand1 ( ) - > valueType ( ) : nullptr ; 
+filter + = tr ( " Executable files ( * . exe ) ; ; All files ( * . * ) " ) ; 
+rhstype - > type = = ValueType : : Type : : INT ) 
+tok = tok - > link ( ) ;

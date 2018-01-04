@@ -1,0 +1,1 @@
+public List < Criteria > match ( Set < String > criteriaSet , List < Mensa > mensas ) { for ( Mensa mensa : mensas ) { WeeklyMenuplan weekly = mensa . getMenuplan ( ) ; DailyMenuplan daily = weekly . getDailymenuplan ( Day . today ( ) ) ; for ( Menu menu : daily . getMenus ( ) ) { . toLowerCase ( Locale . getDefault ( ) ) ) ) { import java . util . Calendar ; 

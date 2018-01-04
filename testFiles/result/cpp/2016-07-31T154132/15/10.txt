@@ -1,0 +1,1 @@
+ApplicationDialog : : ApplicationDialog ( const QString & title , QString filter ; filter ) ; QMessageBox : : Ok , this ) ; ApplicationDialog : : ApplicationDialog ( const QString & title , QString filter ; filter ) ; QMessageBox : : Ok , this ) ; Check64BitPortability instance ; bool retPointer = false ; if ( ! returnType ) 

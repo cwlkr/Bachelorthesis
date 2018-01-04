@@ -1,0 +1,1 @@
+adapter = createAdapter ( ) ; menuItem . expandActionView ( ) ; public void onDestroy ( ) { super . onDestroy ( ) ; protected void loadingFinished ( ) { menuItem . collapseActionView ( ) ; 

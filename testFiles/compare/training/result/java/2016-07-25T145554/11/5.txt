@@ -1,0 +1,1 @@
+* Matches a Set of criteria to each { @ link Menu } of the current day and returns a * List of { @ link Criteria } objects . The List contains a Criteria object for each * Is either criteriaSet or mensas are null a { @ link NullPointerException } may be thrown . * List of { @ link Mensa } s you want to match the criterias with . * mensa in which the menu is served in . 

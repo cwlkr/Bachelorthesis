@@ -1,0 +1,1 @@
+for ( String criteria : criteriaSet ) { for ( Mensa mensa : mensas ) { if ( daily ! = null ) { if ( menuItem ! = null ) { 

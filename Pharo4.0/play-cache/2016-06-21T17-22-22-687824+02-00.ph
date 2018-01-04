@@ -1,0 +1,1 @@
+|str|str := '}'.str at: 1.str size = 1

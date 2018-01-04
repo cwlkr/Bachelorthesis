@@ -1,0 +1,1 @@
+|ev|ev = Evaluator new.ev path: 'C:\Users\Cédric\Dropbox\pharo\testFiles'.ev type: 'java'ev run.Number

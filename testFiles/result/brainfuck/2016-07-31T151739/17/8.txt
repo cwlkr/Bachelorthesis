@@ -1,0 +1,1 @@
++ cont = 1 - cont = 0 < + > cont = 1 < < < > > - > + < - > + < - - > > > < < < < < < < > > > - bool = 0 < < < > [ - ] < CLR div < < - dec ten < < - dec ten > [ - ] < clear ten < + > > [ - ] < [ - ] < < - ; ; prints " end of message " prosign after printing out the actual message [ < + > [ - - - - [ - - - [ - - [ - - 

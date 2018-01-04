@@ -1,0 +1,1 @@
+for ( const Token * tok = scope - > classStart - > next ( ) ; tok ! = scope - > classEnd ; tok = tok - > next ( ) ) { if ( tok - > scope ( ) - > type = = Scope : : ScopeType : : eFunction | | tok - > scope ( ) - > type = = Scope : : ScopeType : : eLambda ) for ( const Token * tok = scope - > classStart ; tok & & tok ! = scope - > classEnd ; tok = tok - > next ( ) ) { 

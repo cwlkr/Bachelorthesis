@@ -1,0 +1,1 @@
+container = new ArrayList < Criteria > ( ) ; temp = new ArrayList < Mensa > ( ) ; * @ param criteriaSet * @ param mensas for ( String criteria : criteriaSet ) { crit . setCriteriaName ( criteria ) ; if ( daily ! = null ) { temp = new ArrayList < Mensa > ( ) ; crit . getMap ( ) . put ( menu , temp ) ; temp = new ArrayList < Mensa > ( ) ; * the AlarmReceiver . 

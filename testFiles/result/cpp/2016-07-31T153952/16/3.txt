@@ -1,0 +1,1 @@
+for ( std : : size _ t i = 0 ; i < functions ; + + i ) { for ( std : : size _ t i = 0 ; i < functions ; + + i ) { for ( const Token * tok = scope - > classStart ; tok & & tok ! = scope - > classEnd ; tok = tok - > next ( ) ) { 

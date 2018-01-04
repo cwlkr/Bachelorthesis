@@ -1,0 +1,1 @@
+public CriteriaMatcher ( ) { * the AlarmReceiver . / / create a array adapter protected abstract InvitationsBaseAdapter createAdapter ( ) ; menuItem = item ; public void onDestroy ( ) { protected void loadingFinished ( ) { 

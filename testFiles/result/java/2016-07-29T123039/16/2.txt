@@ -1,0 +1,1 @@
+public void onReceive ( Context context , Intent intent ) { public void onItemClick ( AdapterView < ? > parent , View view , int pos , public View onCreateView ( LayoutInflater inflater , ViewGroup container , Bundle savedInstanceState ) { public void onCreateOptionsMenu ( Menu menu , MenuInflater inflater ) { 

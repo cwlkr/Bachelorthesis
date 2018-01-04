@@ -1,0 +1,1 @@
+|path fileHandler stream kRunner k|k:= 10.path := 'C:\Users\Cedric\Dropbox\pharo\testFiles'.fileHandler := FileHandler new.stream := fileHandler projectAsStream: path.kRunner := KMeansRunner new.kRunner runOn: stream with: k.

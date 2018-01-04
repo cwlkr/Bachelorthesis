@@ -1,0 +1,1 @@
+public abstract class AbstractInvitationsFragment extends Fragment { protected abstract InvitationsBaseAdapter createAdapter ( ) ; d onDestroy ( ) { super . onDestroy ( ) ; SocialManager . getInstance ( ) . removeObserver ( adapter ) ; protected void loadingFinished ( ) { menuItem . collapseActionView ( ) ; startActivity ( intent ) ; 

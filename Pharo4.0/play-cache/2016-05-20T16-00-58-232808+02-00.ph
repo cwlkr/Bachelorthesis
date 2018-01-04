@@ -1,0 +1,1 @@
+|list feature rand longestFeature |list := LinkedList new.longestFeature := 5.feature := LinkedList new.	rand := Random new.		(1 to: longestFeature) do:[:A|			feature add: (rand nextInt: 2).		 ].	list add: feature.

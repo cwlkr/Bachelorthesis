@@ -1,0 +1,1 @@
+Criteria crit = new Criteria ( ) ; crit . setCriteriaName ( criteria ) ; container . add ( crit ) ; 

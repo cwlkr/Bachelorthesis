@@ -1,0 +1,1 @@
+} else { * the AlarmReceiver . android . R . layout . simple _ list _ item _ 1 ) ; 

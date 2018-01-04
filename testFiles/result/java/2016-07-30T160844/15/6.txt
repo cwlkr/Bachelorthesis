@@ -1,0 +1,1 @@
+public CriteriaMatcher ( ) { * List of { @ link Criteria } objects . The List contains a Criteria object for each * List of { @ link Mensa } s you want to match the criterias with . setUpEmptyView ( view ) ; setHasOptionsMenu ( true ) ; startActivity ( intent ) ; 

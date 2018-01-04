@@ -1,0 +1,1 @@
+* String set of criterias you want to match with . * predefined values made in the Settings , if there are now settings made , 

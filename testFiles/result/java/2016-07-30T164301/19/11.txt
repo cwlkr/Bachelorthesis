@@ -1,0 +1,1 @@
+* List of { @ link Criteria } objects . The List contains a Criteria object for each * List of { @ link Mensa } s you want to match the criterias with . . toLowerCase ( Locale . getDefault ( ) ) ) ) { / / Inflate the menu ; this adds items to the action bar if it is present . 

@@ -1,0 +1,4 @@
+rhstype - > pointer = = 0U & & 
+lhstype - > pointer = = 0U & & 
+rhstype - > originalTypeName . empty ( ) & & 
+lhstype - > originalTypeName . empty ( ) & & 

@@ -1,0 +1,1 @@
+private static final CharSequence MESSAGE _ GET _ DATA = " lade . . . " ; / / make aysnc request to get a list of all canteens public class ToggleListener implements OnClickListener { public ToggleListener ( View toToggle , Context ctx ) { * starts the normal app and opens it at the invited tab . 

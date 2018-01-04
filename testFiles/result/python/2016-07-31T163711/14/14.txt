@@ -1,0 +1,1 @@
+while 42 : address = 0 address + = 1 offset = 0 offset = 3 

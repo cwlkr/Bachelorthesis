@@ -1,0 +1,1 @@
+# cardselect . py - select card and display ID if card . errorcode : # copytag . py - read all sectors from a standard tag and write them back if x > 0 : while 42 : if card . tagtype ! = targettype : # demotag . py - test IAIK TUG DemoTag # eeprom . py - display reader ' s eeprom settings while address < 0xf0 : if precoded : while True : print outhex [ x ] 

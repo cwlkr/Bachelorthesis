@@ -1,0 +1,1 @@
+/ / make aysnc request to get a list of all canteens public static final String SHOW _ INVITES = " showInvites " ; 

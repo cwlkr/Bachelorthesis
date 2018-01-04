@@ -1,0 +1,1 @@
+raw _ input ( ' Remove source tag and hit < CR > to continue . . . ' ) raw _ input ( ' Invalid tag type ! Hit < CR > to continue . . . ' ) raw _ input ( ' Tag not readable ! Hit < CR > to continue . . . ' ) outbin + = chr ( int ( out [ x : x + 8 ] , 2 ) ) 

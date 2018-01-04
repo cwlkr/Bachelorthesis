@@ -1,0 +1,1 @@
+DailyMenuplan daily = weekly . getDailymenuplan ( Day . today ( ) ) ; Calendar tenOClock = Calendar . getInstance ( Locale . getDefault ( ) ) ; PendingIntent operation = PendingIntent . getBroadcast ( context , 0 , new Intent ( context , AlarmReceiver . class ) , 

@@ -1,0 +1,1 @@
+public ClientDescription ( string secret , Uri defaultCallback ) { public ClientDescription ( Uri defaultCallback ) { 

@@ -1,0 +1,1 @@
+< description > The two daughters of Maeve , half - sisters , . blackText { font - family : arial ; color : # 000000 ; } . largeYellowText { font - family : arial ; font - size : 18pt ; . largeBlackText { font - family : arial ; font - size : 14pt ; < xsl : value - of select = " firstName " / > & # xa0 ; 

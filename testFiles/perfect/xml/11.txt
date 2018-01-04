@@ -1,0 +1,4 @@
+. borders { border - left : 1px solid # 000000 ; 
+. blackText { font - family : arial ; color : # 000000 ; } 
+. largeYellowText { font - family : arial ; font - size : 18pt ; 
+. largeBlackText { font - family : arial ; font - size : 14pt ; 

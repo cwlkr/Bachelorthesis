@@ -1,0 +1,1 @@
+android . R . layout . simple _ list _ item _ 1 ) ; Intent intent = new Intent ( Main . this , MenuplanActivity . class ) ; showMessage . setText ( R . string . not _ loged _ in ) ; inflater . inflate ( R . menu . invitations _ menu , menu ) ; 

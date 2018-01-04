@@ -1,0 +1,12 @@
+if ( ( menu . getDescription ( ) . toLowerCase ( Locale . getDefault ( ) ) ) . contains ( criteria 
+if ( ! crit . getMap ( ) . containsKey ( menu ) ) { 
+for ( Mensa mensa : mensas ) { 
+if ( daily ! = null ) {
+for ( String criteria : criteriaSet ) { 
+for ( Menu menu : daily . getMenus ( ) ) { 
+if ( ! container . contains ( crit ) ) 
+if ( pref . getDoNotification ( ) ) { 
+if ( toToggle . isShown ( ) ) { 
+if ( LoginService . isLoggedIn ( ) ) 
+if ( menuItem ! = null ) { 
+switch ( item . getItemId ( ) ) { 

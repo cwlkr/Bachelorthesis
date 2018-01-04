@@ -1,0 +1,1 @@
+new MensasRequest ( mensaListAdapter ) . execute ( ) ; protected abstract InvitationsBaseAdapter createAdapter ( ) ; public ToggleListener ( View toToggle , Context ctx ) { 

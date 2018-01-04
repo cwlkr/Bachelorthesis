@@ -1,0 +1,1 @@
+* Is either criteriaSet or mensas are null a { @ link NullPointerException } may be thrown . / / Inflate the menu ; this adds items to the action bar if it is present . * This activity is just used as a callback for the push notifications . It 

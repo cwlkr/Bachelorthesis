@@ -1,0 +1,1 @@
+|path |path := 'C:\Users\Cedric\Dropbox\pharo\testFiles\result\java\2016-06-13T154619\3'.path asFileReference exists.path asFileReference createDirectory .

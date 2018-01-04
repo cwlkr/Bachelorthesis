@@ -1,0 +1,1 @@
+if x = = 0 : if card . tagtype ! = targettype : print ' No data ! ' print " Encode : " , print ' binary is ' , out if writetag = = True : if x = = offset : print ' Write failed ! ' if x = = offset : 

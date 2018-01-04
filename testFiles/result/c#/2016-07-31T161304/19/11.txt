@@ -1,0 +1,1 @@
+get { return ! string . IsNullOrEmpty ( this . secret ) ; } 

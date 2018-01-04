@@ -1,0 +1,1 @@
+x := #(1 2 3).1 to: x size do: [:n | x at: n put: (x at: n) +2].x.

@@ -1,0 +1,1 @@
+# ifdef Q _ OS _ WIN # endif / / Q _ OS _ WIN # ifdef Q _ OS _ WIN # endif / / Q _ OS _ WIN / / 64 - bit portability " AssignmentAddressToInteger " , " AssignmentIntegerToAddress " , " CastAddressToIntegerAtReturn " , " CastIntegerToAddressAtReturn " , 

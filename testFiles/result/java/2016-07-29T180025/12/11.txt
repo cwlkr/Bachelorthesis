@@ -1,0 +1,1 @@
+public class BootReceiver extends BroadcastReceiver { public class Main extends Activity { setUpEmptyView ( view ) ; setHasOptionsMenu ( true ) ; public class ToggleListener implements OnClickListener { public class PushNotificationCallbackActivity extends Activity { startActivity ( intent ) ; 

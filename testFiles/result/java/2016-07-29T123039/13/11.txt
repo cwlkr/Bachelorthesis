@@ -1,0 +1,1 @@
+* List of { @ link Criteria } objects . The List contains a Criteria object for each * List of { @ link Mensa } s you want to match the criterias with . / / getMenuInflater ( ) . inflate ( R . menu . main , menu ) ; public void onDestroy ( ) { protected void loadingFinished ( ) { 

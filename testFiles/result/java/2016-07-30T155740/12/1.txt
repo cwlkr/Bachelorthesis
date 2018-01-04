@@ -1,0 +1,1 @@
+Intent intent = new Intent ( Main . this , MenuplanActivity . class ) ; / / getMenuInflater ( ) . inflate ( R . menu . main , menu ) ; Intent intent = new Intent ( this , DrawerMenuActivity . class ) ; 

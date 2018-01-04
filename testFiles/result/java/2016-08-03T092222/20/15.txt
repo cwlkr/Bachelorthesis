@@ -1,0 +1,1 @@
+temp = crit . getMap ( ) . get ( menu ) ; if ( pref . getDoNotification ( ) ) { mensaListView . setOnItemClickListener ( new OnItemClickListener ( ) { if ( LoginService . isLoggedIn ( ) ) if ( LoginService . isLoggedIn ( ) ) switch ( item . getItemId ( ) ) { ( ( DrawerMenuActivity ) getActivity ( ) ) . createInvitation ( ) ; if ( toToggle . isShown ( ) ) { 

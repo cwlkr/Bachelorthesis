@@ -1,0 +1,1 @@
+|list|list := LinkedList new.list addAll: #('asdf' 'asdfg' 'sdfsdf asdfgh' ' asdf adf adf').

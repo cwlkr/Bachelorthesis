@@ -1,0 +1,1 @@
+* Is either criteriaSet or mensas are null a { @ link NullPointerException } may be thrown . * an Intent for the { @ link AlarmReceiver } . Its actions depend on the / / Inflate the menu ; this adds items to the action bar if it is present . public static final String SHOW _ INVITES = " showInvites " ; 

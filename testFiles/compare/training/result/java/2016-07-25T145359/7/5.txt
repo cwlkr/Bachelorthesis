@@ -1,0 +1,1 @@
+container = new ArrayList < Criteria > ( ) ; temp = new ArrayList < Mensa > ( ) ; for ( String criteria : criteriaSet ) { for ( Mensa mensa : mensas ) { for ( Menu menu : daily . getMenus ( ) ) { if ( ( menu . getDescription ( ) . toLowerCase ( Locale . getDefault ( ) ) ) . contains ( criteria if ( ! crit . getMap ( ) . containsKey ( menu ) ) { 

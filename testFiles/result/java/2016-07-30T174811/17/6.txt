@@ -1,0 +1,1 @@
+private ListView mensaListView ; public boolean onCreateOptionsMenu ( Menu menu ) { private ListView invitedList ; private InvitationsBaseAdapter adapter ; private MenuItem menuItem ; protected abstract InvitationsBaseAdapter createAdapter ( ) ; public void onDestroy ( ) { protected void loadingFinished ( ) { private View toToggle ; private Context ctx ; 

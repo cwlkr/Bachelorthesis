@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<rule version="1">
+    <pattern>Severity :: fromString \( "\w+" \)</pattern>
+    <message>
+        <id>ConstantSeverityFromString</id>
+        <severity>style</severity>
+        <summary>Constant severity lookups should be done via
+Severity::constant.</summary>
+    </message>
+</rule>
+<?xml version="1.0"?>
+<rule version="1">
+    <pattern> [;{}] [*] \w+? (\+\+|\-\-) ; </pattern>
+    <message>
+        <id>UnusedDeref</id>
+        <severity>style</severity>
+        <summary>Redundant * found, "*p++" is the same as "*(p++)".</summary>
+    </message>
+</rule>
+<?xml version="1.0"?>
+<rule version="1">
+    <pattern>Token :: (?:findm|(?:simple|)M)atch \([^,]+,\s+"(?:\s+|[^"]+?\s+")</pattern>
+    <message>
+        <id>TokenMatchSpacing</id>
+        <severity>style</severity>
+        <summary>Useless extra spacing for Token::*Match.</summary>
+    </message>
+</rule>
+<rule version="1">
+    <pattern>(?U)Token :: Match \([^,]+,\s+"[^%|!\[\]]+"</pattern>
+    <message>
+    <id>UseTokensimpleMatch</id>
+    <severity>error</severity>
+    <summary>Token::simpleMatch should be used to match tokens
+without special pattern requirements.</summary>
+    </message>
+</rule>
+<rule version="1">
+    <pattern>\b[\w_]+ \. tokAt \( 0 \)</pattern>
+    <message>
+    <id>TokentokAt0</id>
+    <severity>error</severity>
+    <summary>tok->tokAt(0) is a slow way to say tok.</summary>
+    </message>
+</rule>
+<rule version="1">
+    <pattern>\b[\w_]+ \. strAt \( 0 \)</pattern>
+    <message>
+    <id>TokenstrAt0</id>
+    <severity>error</severity>
+    <summary>tok->strAt(0) is a slow way to say tok->str()</summary>
+    </message>
+</rule>
+<?xml version="1.0"?>
+<rule version="1">
+    <pattern> if \( ([!] )*?(strlen) \( \w+? \) ([>] [0] )*?\) { </pattern>
+    <message>
+        <id>StrlenEmptyString</id>
+        <severity>performance</severity>
+        <summary>Using strlen() to check if a string is empty is not efficient.</summary>
+    </message>
+</rule>
+<?xml version="1.0"?>
+<rule version="1">
+<!-- This should ideally be checked by lib/checkstl.cpp -->
+    <pattern> \. find \( "[^"]+?" \) == \d+ </pattern>
+    <message>
+        <id>UselessSTDStringFind</id>
+        <severity>performance</severity>

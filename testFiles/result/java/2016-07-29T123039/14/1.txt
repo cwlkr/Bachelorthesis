@@ -1,0 +1,1 @@
+public class BootReceiver extends BroadcastReceiver { * an Intent for the { @ link AlarmReceiver } . Its actions depend on the public class Main extends Activity { protected abstract InvitationsBaseAdapter createAdapter ( ) ; public class ToggleListener implements OnClickListener { public class PushNotificationCallbackActivity extends Activity { 

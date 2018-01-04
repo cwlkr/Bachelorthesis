@@ -1,0 +1,1 @@
+|string  list ex|ex := ''.string := 'asdfsfd asfdasf ', Character cr asString, ' sdafasf' , Character cr asString, 'asdf asfd'.list := (NewLineStatmentmaker new) createTokanizedStatement: string.list do: [:element| ex := ex ,element list asString].ex.

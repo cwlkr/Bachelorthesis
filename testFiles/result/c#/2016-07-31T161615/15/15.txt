@@ -1,0 +1,1 @@
+/ / < copyright file = " ClientDescription . cs " company = " Outercurve Foundation " > / / / An absolute URL ; or < c > null < / c > if none is registered . 

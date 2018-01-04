@@ -1,0 +1,1 @@
+ok ( recorded ) 522 - Tests _ HTTP _ HTTP : : test _ make _ absolute _ url with data set # 0 ( ' http : / / site . com / ' , ' http : / / example . com / ' , ' http : / / site . com / ' ) 

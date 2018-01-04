@@ -1,0 +1,1 @@
+|path k|path := 'C:\Users\Cédric\Dropbox\pharo\testFiles'.k := 2.KMeansRunner new runOn: path with:k.

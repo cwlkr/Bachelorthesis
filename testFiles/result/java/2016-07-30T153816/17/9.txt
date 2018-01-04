@@ -1,0 +1,1 @@
+* Is either criteriaSet or mensas are null a { @ link NullPointerException } may be thrown . if ( ( menu . getDescription ( ) . toLowerCase ( Locale . getDefault ( ) ) ) . contains ( criteria / / Inflate the menu ; this adds items to the action bar if it is present . 

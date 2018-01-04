@@ -1,0 +1,1 @@
+print ' Block % 02x : % s ' % ( n , buffer [ n ] ) , if not card . readblock ( n ) or card . data ! = buffer [ n ] : id = card . FDXBIDEncode ( args [ 0 ] , args [ 1 ] , args [ 2 ] ) print ' Q5 Data Block % 02d : ' % ( x / 4 + 1 ) , print ' Hitag2 Data Block % 02d : ' % ( x + 3 ) , 

@@ -1,0 +1,2 @@
+get { return ! string . IsNullOrEmpty ( this . secret ) ; } 
+Requires . NotNullOrEmpty ( secret , " secret " ) ; 

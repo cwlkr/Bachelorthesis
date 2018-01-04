@@ -1,0 +1,16 @@
+public List < Criteria > match ( Set < String > criteriaSet , List < Mensa > mensas ) { 
+public void onItemClick ( AdapterView < ? > parent , View view , int pos , 
+public View onCreateView ( LayoutInflater inflater , ViewGroup container , Bundle savedInstanceState ) {
+public CriteriaMatcher ( ) { 
+protected abstract InvitationsBaseAdapter createAdapter ( ) ; 
+protected void setUpEmptyView ( View view ) { 
+public void onCreateOptionsMenu ( Menu menu , MenuInflater inflater ) { 
+public boolean onOptionsItemSelected ( MenuItem item ) { 
+public void onDestroy ( ) { 
+protected void loadingFinished ( ) { 
+public ToggleListener ( View toToggle , Context ctx ) { 
+public void onClick ( View v ) { 
+protected void onCreate ( Bundle savedInstanceState ) { 
+setContentView ( R . layout . activity _ main ) ; 
+public boolean onCreateOptionsMenu ( Menu menu ) { 
+public void onReceive ( Context context , Intent intent ) { 

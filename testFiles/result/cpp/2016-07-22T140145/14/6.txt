@@ -1,0 +1,1 @@
+* This program is free software : you can redistribute it and / or modify * This program is free software : you can redistribute it and / or modify * This program is free software : you can redistribute it and / or modify const Scope * scope = symbolDatabase - > functionScopes [ i ] ; const Scope * scope = symbolDatabase - > functionScopes [ i ] ; 

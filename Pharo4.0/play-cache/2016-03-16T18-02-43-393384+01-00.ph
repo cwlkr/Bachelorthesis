@@ -1,0 +1,1 @@
+|path array |array := SortedCollection  new.path:= 'C:\Users\Cédric\Desktop\path'.path asFileReference allChildren		do: [ :t3 | 			(t3 isFile)				ifTrue: [ array  add: t3]].array.

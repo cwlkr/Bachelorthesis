@@ -1,0 +1,1 @@
+ok ( recorded ) 524 - Tests _ HTTP _ HTTP : : test _ make _ absolute _ url with data set # 2 ( ' ' , ' http : / / example . com ' , ' http : / / example . com / ' ) ok ( recorded ) 539 - Tests _ HTTP _ HTTP : : test _ make _ absolute _ url with data set # 17 ( ' ? query = string ' , ' http : / / example . com ' , ' http : / / example . com / ? query = string ' ) 

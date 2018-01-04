@@ -1,0 +1,1 @@
+PendingIntent . FLAG _ CANCEL _ CURRENT ) ; Main . this . startActivity ( intent ) ; toToggle . setVisibility ( View . GONE ) ; toToggle . setVisibility ( View . VISIBLE ) ; 

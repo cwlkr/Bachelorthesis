@@ -1,0 +1,1 @@
+QString filter ; QString filter ; Check64BitPortability instance ; bool retPointer = false ; 

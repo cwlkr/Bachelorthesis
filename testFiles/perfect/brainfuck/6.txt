@@ -1,0 +1,3 @@
+< < - dec ten 
+< - dec num 
+- DEC i

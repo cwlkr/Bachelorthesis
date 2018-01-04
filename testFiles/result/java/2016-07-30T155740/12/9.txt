@@ -1,0 +1,1 @@
+PendingIntent operation = PendingIntent . getBroadcast ( context , 0 , new Intent ( context , AlarmReceiver . class ) , Toast . makeText ( Main . this , MESSAGE _ GET _ DATA , Toast . LENGTH _ SHORT ) . show ( ) ; Toast . makeText ( getActivity ( ) , R . string . toast _ refreshing _ msg , Toast . LENGTH _ SHORT ) . show ( ) ; 

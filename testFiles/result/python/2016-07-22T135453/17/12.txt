@@ -1,0 +1,1 @@
+for x in range ( 98 ) : if card . readblock ( x ) : for n in range ( x ) : for n in range ( x ) : if args [ 1 ] = = ' WRITE ' : if x = = ' N ' : if x = = ' Y ' : print " Writing block % 02x : " % x , 

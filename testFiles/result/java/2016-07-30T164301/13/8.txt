@@ -1,0 +1,1 @@
+* this Menu is served in . If criteriaSet or mensas are empty , an empty list is returned . * Is either criteriaSet or mensas are null a { @ link NullPointerException } may be thrown . PendingIntent operation = PendingIntent . getBroadcast ( context , 0 , new Intent ( context , AlarmReceiver . class ) , 

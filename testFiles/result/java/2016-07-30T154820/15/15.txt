@@ -1,0 +1,1 @@
+for ( String criteria : criteriaSet ) { for ( Mensa mensa : mensas ) { if ( daily ! = null ) { adapter = createAdapter ( ) ; setUpEmptyView ( view ) ; setHasOptionsMenu ( true ) ; menuItem . expandActionView ( ) ; super . onDestroy ( ) ; if ( menuItem ! = null ) { menuItem . collapseActionView ( ) ; startActivity ( intent ) ; 

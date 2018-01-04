@@ -1,0 +1,1 @@
+Gofer newsmalltalkhubUser: 'Moose' project: 'PetitParser';package: 'ConfigurationOfPetitParser';load.(Smalltalk at: #ConfigurationOfPetitParser) perform: #loadDefault.

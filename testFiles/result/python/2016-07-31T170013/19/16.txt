@@ -1,0 +1,1 @@
+x = raw _ input ( ' Incompatible TAG ! Hit < RETURN > to retry . . . ' ) print ' \ tand a decimal National ID Number will generate a 16 HEX digit ID . ' 

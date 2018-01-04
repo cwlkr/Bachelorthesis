@@ -1,0 +1,1085 @@
+TAP version 13 (ABACUS remix)
+ok (recorded) 1 - Tests_Actions_Closures::test_action_closure
+ok (recorded) 2 - Tests_Actions::test_simple_action
+ok (recorded) 3 - Tests_Actions::test_remove_action
+ok (recorded) 4 - Tests_Actions::test_has_action
+ok (recorded) 5 - Tests_Actions::test_multiple_actions
+ok (recorded) 6 - Tests_Actions::test_action_args_1
+ok (recorded) 7 - Tests_Actions::test_action_args_2
+ok (recorded) 8 - Tests_Actions::test_action_priority
+ok (recorded) 9 - Tests_Actions::test_did_action
+ok (recorded) 10 - Tests_Actions::test_all_action
+ok (recorded) 11 - Tests_Actions::test_remove_all_action
+ok (recorded) 12 - Tests_Actions::test_action_ref_array
+ok (recorded) 13 - Tests_Actions::test_action_keyed_array
+ok (recorded) 14 - Tests_Actions::test_action_self_removal
+ok (recorded) 15 - Tests_Admin_includesMisc::test_shorten_url
+ok (recorded) 16 - Tests_Admin_includesPlugin::test_get_plugin_data
+ok (recorded) 17 - Tests_Admin_includesPlugin::test_menu_page_url
+ok (recorded) 18 - Tests_Admin_includesScreen::test_set_current_screen_with_hook_suffix
+ok (recorded) 19 - Tests_Admin_includesScreen::test_post_type_as_hookname
+ok (recorded) 20 - Tests_Admin_includesScreen::test_post_type_with_special_suffix_as_hookname
+ok (recorded) 21 - Tests_Admin_includesScreen::test_taxonomy_with_special_suffix_as_hookname
+ok (recorded) 22 - Tests_Admin_includesScreen::test_post_type_with_edit_prefix
+ok (recorded) 23 - Tests_Admin_includesScreen::test_post_type_edit_collisions
+not ok (recorded) 24 - Failure: Tests_Admin_includesScreen::test_help_tabs
+  ---
+  message: 'Failed asserting that Array ('
+  severity: fail
+  ...
+ok (recorded) 25 - Tests_Admin_includesScreen::test_in_admin
+ok (recorded) 26 - Tests_Admin_includesTemplate::test_equal
+ok (recorded) 27 - Tests_Admin_includesTemplate::test_notequal
+ok (recorded) 28 - Tests_Admin_includesTheme::test_page_templates
+ok (recorded) 29 - Tests_AdminBar::test_content_post_type
+ok (recorded) 30 - Tests_AdminBar::test_merging_existing_meta_values
+ok (recorded) 31 - Tests_Auth::test_auth_cookie_valid
+ok (recorded) 32 - Tests_Auth::test_auth_cookie_invalid
+ok (recorded) 33 - Tests_Auth::test_auth_cookie_scheme
+ok (recorded) 34 - Tests_Basic::test_true
+ok (recorded) 35 - Tests_Basic::test_globals
+ok (recorded) 36 - Tests_Basic::test_globals_bar
+ok (recorded) 37 - Tests_Basic::test_strip_ws
+ok (recorded) 38 - Tests_Basic::test_mask_input_value
+ok (recorded) 39 - Tests_Cache::test_miss
+ok (recorded) 40 - Tests_Cache::test_add_get
+ok (recorded) 41 - Tests_Cache::test_add_get_0
+ok (recorded) 42 - Tests_Cache::test_add_get_null
+ok (recorded) 43 - Tests_Cache::test_add
+ok (recorded) 44 - Tests_Cache::test_replace
+ok (recorded) 45 - Tests_Cache::test_set
+ok (recorded) 46 - Tests_Cache::test_flush
+ok (recorded) 47 - Tests_Cache::test_object_refs
+ok (recorded) 48 - Tests_Cache::test_incr
+ok (recorded) 49 - Tests_Cache::test_wp_cache_incr
+ok (recorded) 50 - Tests_Cache::test_decr
+ok (recorded) 51 - Tests_Cache::test_wp_cache_decr
+ok (recorded) 52 - Tests_Cache::test_delete
+ok (recorded) 53 - Tests_Cache::test_wp_cache_delete
+ok (recorded) 54 - Tests_Cache::test_switch_to_blog
+ok (recorded) 55 - Tests_Comment::test_wp_update_comment
+not ok (recorded) 56 - Failure: Tests_Comment_Query::test_get_comment_comment_approved_0
+  ---
+  message: 'Failed asserting that 1 matches expected 0.'
+  severity: fail
+  data:
+    got: 1
+    expected: 0
+  ...
+ok (recorded) 57 - Tests_Comment_Query::test_get_comment_comment_approved_1
+not ok (recorded) 58 - Failure: Tests_Comment_Query::test_get_comments_for_post
+  ---
+  message: 'Failed asserting that 20 matches expected 10.'
+  severity: fail
+  data:
+    got: 20
+    expected: 10
+  ...
+not ok (recorded) 59 - Failure: Tests_Comment_Query::test_orderby_meta
+  ---
+  message: 'Failed asserting that 3 matches expected 2.'
+  severity: fail
+  data:
+    got: 3
+    expected: 2
+  ...
+not ok (recorded) 60 - Failure: Tests_Comment_Query::test_get_status
+  ---
+  message: 'Failed asserting that 30 matches expected 20.'
+  severity: fail
+  data:
+    got: 30
+    expected: 20
+  ...
+ok (recorded) 61 - Tests_Compat::test_mb_substr
+not ok (recorded) 62 - Failure: Tests_Compat::test_hash_hmac_simple
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+    got: 665750517c69df97b844c3030061d725
+    expected: 140d1cb79fa12e2a31f32d35ad0a2723
+  ...
+not ok (recorded) 63 - Failure: Tests_Compat::test_hash_hmac_padding
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+    got: 6f68ead83947b25ede4c582cdb506cc2
+    expected: 3c1399103807cf12ec38228614416a8c
+  ...
+not ok (recorded) 64 - Failure: Tests_Compat::test_hash_hmac_output
+  ---
+  message: 'Failed asserting that two arrays are equal.'
+  severity: fail
+  data:
+    got: { 1: 665750517c69df97b844c3030061d725 }
+    expected: { 1: 140d1cb79fa12e2a31f32d35ad0a2723 }
+  ...
+ok (recorded) 65 - Tests_Cron::test_wp_get_schedule_empty
+ok (recorded) 66 - Tests_Cron::test_schedule_event_single
+ok (recorded) 67 - Tests_Cron::test_schedule_event_single_args
+ok (recorded) 68 - Tests_Cron::test_schedule_event
+ok (recorded) 69 - Tests_Cron::test_schedule_event_args
+ok (recorded) 70 - Tests_Cron::test_unschedule_event
+ok (recorded) 71 - Tests_Cron::test_clear_schedule
+ok (recorded) 72 - Tests_Cron::test_clear_schedule_multiple_args
+ok (recorded) 73 - Tests_Cron::test_clear_schedule_new_args
+ok (recorded) 74 - Tests_Cron::test_duplicate_event
+ok (recorded) 75 - Tests_Cron::test_not_duplicate_event
+ok (recorded) 76 - Tests_Dependencies::test_add
+ok (recorded) 77 - Tests_Dependencies::test_remove
+ok (recorded) 78 - Tests_Dependencies::test_enqueue
+ok (recorded) 79 - Tests_Dependencies::test_dequeue
+ok (recorded) 80 - Tests_Dependencies::test_enqueue_args
+ok (recorded) 81 - Tests_Dependencies::test_dequeue_args
+ok (recorded) 82 - Tests_Dependencies::test_query_and_registered_enqueued
+ok (recorded) 83 - Tests_Dependencies_jQuery::test_location_of_jquery
+ok (recorded) 84 - Tests_Dependencies_jQuery::test_presence_of_jquery_no_conflict
+ok (recorded) 85 - Tests_Dependencies_Scripts::test_wp_enqueue_script
+ok (recorded) 86 - Tests_Dependencies_Scripts::test_protocols
+ok (recorded) 87 - Tests_Dependencies_Styles::test_wp_enqueue_style
+ok (recorded) 88 - Tests_Dependencies_Styles::test_protocols
+ok (recorded) 89 - Tests_File::test_get_file_data
+ok (recorded) 90 - Tests_File::test_get_file_data_cr_line_endings
+ok (recorded) 91 - Tests_File::test_unique_filename_is_valid
+ok (recorded) 92 - Tests_File::test_unique_filename_is_unique
+ok (recorded) 93 - Tests_File::test_unique_filename_is_sanitized
+ok (recorded) 94 - Tests_File::test_unique_filename_with_slashes
+ok (recorded) 95 - Tests_File::test_unique_filename_multiple_ext
+ok (recorded) 96 - Tests_File::test_unique_filename_no_ext
+ok (recorded) 97 - Tests_Filters::test_simple_filter
+ok (recorded) 98 - Tests_Filters::test_remove_filter
+ok (recorded) 99 - Tests_Filters::test_has_filter
+ok (recorded) 100 - Tests_Filters::test_multiple_filters
+ok (recorded) 101 - Tests_Filters::test_filter_args_1
+ok (recorded) 102 - Tests_Filters::test_filter_args_2
+ok (recorded) 103 - Tests_Filters::test_filter_priority
+ok (recorded) 104 - Tests_Filters::test_all_filter
+ok (recorded) 105 - Tests_Filters::test_remove_all_filter
+ok (recorded) 106 - Tests_Filters::test_filter_ref_array
+ok (recorded) 107 - Tests_Filters::test_filter_ref_array_result
+ok (recorded) 108 - Tests_Formatting_Autop::test_first_post
+ok (recorded) 109 - Tests_Formatting_Autop::test_skip_pre_elements
+ok (recorded) 110 - Tests_Formatting_Autop::test_skip_input_elements
+ok (recorded) 111 - Tests_Formatting_CleanPre::test_removes_self_closing_br_with_space
+ok (recorded) 112 - Tests_Formatting_CleanPre::test_removes_self_closing_br_without_space
+ok (recorded) 113 - Tests_Formatting_CleanPre::test_removes_html_br
+ok (recorded) 114 - Tests_Formatting_CleanPre::test_removes_p
+ok (recorded) 115 - Tests_Formatting_ConvertChars::test_replaces_windows1252_entities_with_unicode_ones
+ok (recorded) 116 - Tests_Formatting_ConvertChars::test_replaces_latin_letter_z_with_caron
+ok (recorded) 117 - Tests_Formatting_ConvertChars::test_converts_html_br_and_hr_to_the_xhtml_self_closing_variety
+ok (recorded) 118 - Tests_Formatting_ConvertChars::test_escapes_lone_ampersands
+ok (recorded) 119 - Tests_Formatting_ConvertChars::test_removes_category_and_title_metadata_tags
+ok (recorded) 120 - Tests_Formatting_EscAttr::test_esc_attr_quotes
+ok (recorded) 121 - Tests_Formatting_EscAttr::test_esc_attr_amp
+ok (recorded) 122 - Tests_Formatting_EscHtml::test_esc_html_basics
+ok (recorded) 123 - Tests_Formatting_EscHtml::test_escapes_ampersands
+ok (recorded) 124 - Tests_Formatting_EscHtml::test_escapes_greater_and_less_than
+ok (recorded) 125 - Tests_Formatting_EscHtml::test_ignores_existing_entities
+ok (recorded) 126 - Tests_Formatting_HtmlExcerpt::test_simple
+ok (recorded) 127 - Tests_Formatting_HtmlExcerpt::test_html
+ok (recorded) 128 - Tests_Formatting_HtmlExcerpt::test_entities
+ok (recorded) 129 - Tests_Formatting_IsEmail::test_returns_true_if_given_a_valid_email_address
+ok (recorded) 130 - Tests_Formatting_IsEmail::test_returns_false_if_given_an_invalid_email_address
+ok (recorded) 131 - Tests_Formatting_JSEscape::test_js_escape_simple
+ok (recorded) 132 - Tests_Formatting_JSEscape::test_js_escape_quotes
+ok (recorded) 133 - Tests_Formatting_JSEscape::test_js_escape_backslash
+ok (recorded) 134 - Tests_Formatting_JSEscape::test_js_escape_amp
+ok (recorded) 135 - Tests_Formatting_JSEscape::test_js_escape_quote_entity
+ok (recorded) 136 - Tests_Formatting_JSEscape::test_js_no_carriage_return
+ok (recorded) 137 - Tests_Formatting_JSEscape::test_js_escape_rn
+ok (recorded) 138 - Tests_Formatting_RemoveAccents::test_remove_accents_simple
+ok (recorded) 139 - Tests_Formatting_RemoveAccents::test_remove_accents_latin1_supplement
+ok (recorded) 140 - Tests_Formatting_RemoveAccents::test_remove_accents_latin_extended_a
+ok (recorded) 141 - Tests_Formatting_RemoveAccents::test_remove_accents_latin_extended_b
+ok (recorded) 142 - Tests_Formatting_RemoveAccents::test_remove_accents_euro_pound_signs
+ok (recorded) 143 - Tests_Formatting_RemoveAccents::test_remove_accents_iso8859
+ok (recorded) 144 - Tests_Formatting_RemoveAccents::test_remove_accents_vowels_diacritic
+ok (recorded) 145 - Tests_Formatting_RemoveAccents::test_remove_accents_hanyu_pinyin
+ok (recorded) 146 - Tests_Formatting_SanitizeFileName::test_munges_extensions
+ok (recorded) 147 - Tests_Formatting_SanitizeFileName::test_removes_special_chars
+ok (recorded) 148 - Tests_Formatting_SanitizeFileName::test_replaces_any_number_of_hyphens_with_one_hyphen
+ok (recorded) 149 - Tests_Formatting_SanitizeFileName::test_trims_trailing_hyphens
+ok (recorded) 150 - Tests_Formatting_SanitizeFileName::test_replaces_any_amount_of_whitespace_with_one_hyphen
+ok (recorded) 151 - Tests_Formatting_SanitizeMimeType::test_sanitize_valid_mime_type
+ok (recorded) 152 - Tests_Formatting_SanitizeTextField::test_sanitize_text_field
+ok (recorded) 153 - Tests_Formatting_SanitizeTitle::test_strips_html
+ok (recorded) 154 - Tests_Formatting_SanitizeTitle::test_titles_sanitized_to_nothing_are_replaced_with_optional_fallback
+ok (recorded) 155 - Tests_Formatting_SanitizeTrackbackUrls::test_sanitize_trackback_urls_with_multiple_urls with data set #0 ('
+	 ')
+ok (recorded) 156 - Tests_Formatting_SanitizeTrackbackUrls::test_sanitize_trackback_urls_with_multiple_urls with data set #1 ('')
+ok (recorded) 157 - Tests_Formatting_SanitizeTrackbackUrls::test_sanitize_trackback_urls_with_multiple_urls with data set #2 ('
+')
+ok (recorded) 158 - Tests_Formatting_SanitizeTrackbackUrls::test_sanitize_trackback_urls_with_multiple_urls with data set #3 ('	')
+ok (recorded) 159 - Tests_Formatting_SanitizeTrackbackUrls::test_sanitize_trackback_urls_with_multiple_urls with data set #4 (' ')
+ok (recorded) 160 - Tests_Formatting_SanitizeTrackbackUrls::test_sanitize_trackback_urls_with_multiple_urls with data set #5 ('  ')
+ok (recorded) 161 - Tests_Formatting_SanitizeTrackbackUrls::test_sanitize_trackback_urls_with_multiple_urls with data set #6 ('
+  ')
+ok (recorded) 162 - Tests_Formatting_SanitizeTrackbackUrls::test_sanitize_trackback_urls_with_multiple_urls with data set #7 ('
+')
+ok (recorded) 163 - Tests_Formatting_Slashit::test_backslashes_alphas
+ok (recorded) 164 - Tests_Formatting_Slashit::test_double_backslashes_leading_numbers
+ok (recorded) 165 - Tests_Formatting_Slashit::test_removes_trailing_slashes
+ok (recorded) 166 - Tests_Formatting_Slashit::test_adds_trailing_slash
+ok (recorded) 167 - Tests_Formatting_Slashit::test_does_not_add_trailing_slash_if_one_exists
+ok (recorded) 168 - Tests_Formatting_Smilies::test_convert_smilies
+ok (recorded) 169 - Tests_Formatting_StripSlashesDeep::test_preserves_original_datatype
+ok (recorded) 170 - Tests_Formatting_StripSlashesDeep::test_strips_slashes
+ok (recorded) 171 - Tests_Formatting_StripSlashesDeep::test_permits_escaped_slash
+ok (recorded) 172 - Tests_Formatting_UrlEncodedToEntities::test_convert_urlencoded_to_entities with data set #0 ('%u7AE0%u5B50%u6021', '&#31456;&#23376;&#24609;')
+ok (recorded) 173 - Tests_Formatting_UrlEncodedToEntities::test_convert_urlencoded_to_entities with data set #1 ('%u0046%u0072%u0061%u006E%u00E7%u006F%u0069%u0073%u0020%u0054%u0072%u0075%u0066%u0066%u0061%u0075%u0074', '&#70;&#114;&#97;&#110;&#231;&#111;&#105;&#115;&#32;&#84;&#114;&#117;&#102;&#102;&#97;&#117;&#116;')
+ok (recorded) 174 - Tests_Formatting_UrlEncodedToEntities::test_convert_urlencoded_to_entities with data set #2 ('%u10E1%u10D0%u10E5%u10D0%u10E0%u10D7%u10D5%u10D4%u10DA%u10DD', '&#4321;&#4304;&#4325;&#4304;&#4320;&#4311;&#4309;&#4308;&#4314;&#4317;')
+ok (recorded) 175 - Tests_Formatting_UrlEncodedToEntities::test_convert_urlencoded_to_entities with data set #3 ('%u0042%u006A%u00F6%u0072%u006B%u0020%u0047%u0075%u00F0%u006D%u0075%u006E%u0064%u0073%u0064%u00F3%u0074%u0074%u0069%u0072', '&#66;&#106;&#246;&#114;&#107;&#32;&#71;&#117;&#240;&#109;&#117;&#110;&#100;&#115;&#100;&#243;&#116;&#116;&#105;&#114;')
+ok (recorded) 176 - Tests_Formatting_UrlEncodedToEntities::test_convert_urlencoded_to_entities with data set #4 ('%u5BAE%u5D0E%u3000%u99FF', '&#23470;&#23822;&#12288;&#39423;')
+ok (recorded) 177 - Tests_Formatting_Utf8UriEncode::test_percent_encodes_non_reserved_characters with data set #0 ('章子怡', '%e7%ab%a0%e5%ad%90%e6%80%a1')
+ok (recorded) 178 - Tests_Formatting_Utf8UriEncode::test_percent_encodes_non_reserved_characters with data set #1 ('François Truffaut', 'Fran%c3%a7ois Truffaut')
+ok (recorded) 179 - Tests_Formatting_Utf8UriEncode::test_percent_encodes_non_reserved_characters with data set #2 ('საქართველო', '%e1%83%a1%e1%83%90%e1%83%a5%e1%83%90%e1%83%a0%e1%83%97%e1%83%95%e1%83%94%e1%83%9a%e1%83%9d')
+ok (recorded) 180 - Tests_Formatting_Utf8UriEncode::test_percent_encodes_non_reserved_characters with data set #3 ('Björk Guðmundsdóttir', 'Bj%c3%b6rk Gu%c3%b0mundsd%c3%b3ttir')
+ok (recorded) 181 - Tests_Formatting_Utf8UriEncode::test_percent_encodes_non_reserved_characters with data set #4 ('宮崎　駿', '%e5%ae%ae%e5%b4%8e%e3%80%80%e9%a7%bf')
+ok (recorded) 182 - Tests_Formatting_Utf8UriEncode::test_output_is_not_longer_than_optional_length_argument with data set #0 ('章子怡', '%e7%ab%a0%e5%ad%90%e6%80%a1')
+ok (recorded) 183 - Tests_Formatting_Utf8UriEncode::test_output_is_not_longer_than_optional_length_argument with data set #1 ('François Truffaut', 'Fran%c3%a7ois Truffaut')
+ok (recorded) 184 - Tests_Formatting_Utf8UriEncode::test_output_is_not_longer_than_optional_length_argument with data set #2 ('საქართველო', '%e1%83%a1%e1%83%90%e1%83%a5%e1%83%90%e1%83%a0%e1%83%97%e1%83%95%e1%83%94%e1%83%9a%e1%83%9d')
+ok (recorded) 185 - Tests_Formatting_Utf8UriEncode::test_output_is_not_longer_than_optional_length_argument with data set #3 ('Björk Guðmundsdóttir', 'Bj%c3%b6rk Gu%c3%b0mundsd%c3%b3ttir')
+ok (recorded) 186 - Tests_Formatting_Utf8UriEncode::test_output_is_not_longer_than_optional_length_argument with data set #4 ('宮崎　駿', '%e5%ae%ae%e5%b4%8e%e3%80%80%e9%a7%bf')
+ok (recorded) 187 - Tests_Formatting_WPSpecialchars::test_wp_specialchars_basics
+ok (recorded) 188 - Tests_Formatting_WPSpecialchars::test_allowed_entity_names
+ok (recorded) 189 - Tests_Formatting_WPSpecialchars::test_not_allowed_entity_names
+ok (recorded) 190 - Tests_Formatting_WPSpecialchars::test_optionally_escapes_quotes
+ok (recorded) 191 - Tests_Formatting_WPTrimWords::test_trims_to_55_by_default
+ok (recorded) 192 - Tests_Formatting_WPTrimWords::test_trims_to_10
+ok (recorded) 193 - Tests_Formatting_WPTrimWords::test_trims_to_5_and_uses_custom_more
+ok (recorded) 194 - Tests_Formatting_WPTrimWords::test_strips_tags_before_trimming
+ok (recorded) 195 - Tests_Formatting_WPTrimWords::test_strips_script_and_style_content
+ok (recorded) 196 - Tests_Formatting_WPTrimWords::test_doesnt_trim_short_text
+ok (recorded) 197 - Tests_Formatting_Zeroise::test_pads_with_leading_zeroes
+ok (recorded) 198 - Tests_Formatting_Zeroise::test_does_nothing_if_input_is_already_longer
+ok (recorded) 199 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_basic_known_single_tags with data set #0 ('br')
+ok (recorded) 200 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_basic_known_single_tags with data set #1 ('hr')
+ok (recorded) 201 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_basic_known_single_tags with data set #2 ('img')
+ok (recorded) 202 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_basic_known_single_tags with data set #3 ('input')
+ok (recorded) 203 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #0 ('area')
+ok (recorded) 204 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #1 ('base')
+ok (recorded) 205 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #2 ('basefont')
+ok (recorded) 206 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #3 ('br')
+ok (recorded) 207 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #4 ('col')
+ok (recorded) 208 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #5 ('command')
+ok (recorded) 209 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #6 ('embed')
+ok (recorded) 210 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #7 ('frame')
+ok (recorded) 211 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #8 ('hr')
+ok (recorded) 212 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #9 ('img')
+ok (recorded) 213 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #10 ('input')
+ok (recorded) 214 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #11 ('isindex')
+ok (recorded) 215 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #12 ('link')
+ok (recorded) 216 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #13 ('meta')
+ok (recorded) 217 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #14 ('param')
+ok (recorded) 218 - Tests_Formatting_BalanceTags::test_selfcloses_unclosed_known_single_tags with data set #15 ('source')
+ok (recorded) 219 - Tests_Formatting_BalanceTags::test_selfcloses_basic_known_single_tags_having_closing_tag with data set #0 ('br')
+ok (recorded) 220 - Tests_Formatting_BalanceTags::test_selfcloses_basic_known_single_tags_having_closing_tag with data set #1 ('hr')
+ok (recorded) 221 - Tests_Formatting_BalanceTags::test_selfcloses_basic_known_single_tags_having_closing_tag with data set #2 ('img')
+ok (recorded) 222 - Tests_Formatting_BalanceTags::test_selfcloses_basic_known_single_tags_having_closing_tag with data set #3 ('input')
+ok (recorded) 223 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #0 ('area')
+ok (recorded) 224 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #1 ('base')
+ok (recorded) 225 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #2 ('basefont')
+ok (recorded) 226 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #3 ('br')
+ok (recorded) 227 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #4 ('col')
+ok (recorded) 228 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #5 ('command')
+ok (recorded) 229 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #6 ('embed')
+ok (recorded) 230 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #7 ('frame')
+ok (recorded) 231 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #8 ('hr')
+ok (recorded) 232 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #9 ('img')
+ok (recorded) 233 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #10 ('input')
+ok (recorded) 234 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #11 ('isindex')
+ok (recorded) 235 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #12 ('link')
+ok (recorded) 236 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #13 ('meta')
+ok (recorded) 237 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #14 ('param')
+ok (recorded) 238 - Tests_Formatting_BalanceTags::test_selfcloses_known_single_tags_having_closing_tag with data set #15 ('source')
+ok (recorded) 239 - Tests_Formatting_BalanceTags::test_closes_unknown_single_tags_with_closing_tag
+ok (recorded) 240 - Tests_Formatting_BalanceTags::test_closes_unclosed_single_tags_having_attributes
+ok (recorded) 241 - Tests_Formatting_BalanceTags::test_allows_validly_closed_single_tags
+ok (recorded) 242 - Tests_Formatting_BalanceTags::test_balances_nestable_tags
+ok (recorded) 243 - Tests_Formatting_BalanceTags::test_allows_adjacent_nestable_tags
+ok (recorded) 244 - Tests_Formatting_BalanceTags::test_allows_immediately_nested_object_tags
+ok (recorded) 245 - Tests_Formatting_BalanceTags::test_balances_nested_non_nestable_tags
+ok (recorded) 246 - Tests_Formatting_BalanceTags::test_fixes_improper_closing_tag_sequence
+ok (recorded) 247 - Tests_Formatting_BalanceTags::test_adds_missing_closing_tags
+ok (recorded) 248 - Tests_Formatting_BalanceTags::test_removes_extraneous_closing_tags
+ok (recorded) 249 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #0 ('nbsp', '160')
+ok (recorded) 250 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #1 ('iexcl', '161')
+ok (recorded) 251 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #2 ('cent', '162')
+ok (recorded) 252 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #3 ('pound', '163')
+ok (recorded) 253 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #4 ('curren', '164')
+ok (recorded) 254 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #5 ('yen', '165')
+ok (recorded) 255 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #6 ('brvbar', '166')
+ok (recorded) 256 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #7 ('sect', '167')
+ok (recorded) 257 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #8 ('uml', '168')
+ok (recorded) 258 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #9 ('copy', '169')
+ok (recorded) 259 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #10 ('ordf', '170')
+ok (recorded) 260 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #11 ('laquo', '171')
+ok (recorded) 261 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #12 ('not', '172')
+ok (recorded) 262 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #13 ('shy', '173')
+ok (recorded) 263 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #14 ('reg', '174')
+ok (recorded) 264 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #15 ('macr', '175')
+ok (recorded) 265 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #16 ('deg', '176')
+ok (recorded) 266 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #17 ('plusmn', '177')
+ok (recorded) 267 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #18 ('sup2', '178')
+ok (recorded) 268 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #19 ('sup3', '179')
+ok (recorded) 269 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #20 ('acute', '180')
+ok (recorded) 270 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #21 ('micro', '181')
+ok (recorded) 271 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #22 ('para', '182')
+ok (recorded) 272 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #23 ('middot', '183')
+ok (recorded) 273 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #24 ('cedil', '184')
+ok (recorded) 274 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #25 ('sup1', '185')
+ok (recorded) 275 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #26 ('ordm', '186')
+ok (recorded) 276 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #27 ('raquo', '187')
+ok (recorded) 277 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #28 ('frac14', '188')
+ok (recorded) 278 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #29 ('frac12', '189')
+ok (recorded) 279 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #30 ('frac34', '190')
+ok (recorded) 280 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #31 ('iquest', '191')
+ok (recorded) 281 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #32 ('Agrave', '192')
+ok (recorded) 282 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #33 ('Aacute', '193')
+ok (recorded) 283 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #34 ('Acirc', '194')
+ok (recorded) 284 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #35 ('Atilde', '195')
+ok (recorded) 285 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #36 ('Auml', '196')
+ok (recorded) 286 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #37 ('Aring', '197')
+ok (recorded) 287 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #38 ('AElig', '198')
+ok (recorded) 288 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #39 ('Ccedil', '199')
+ok (recorded) 289 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #40 ('Egrave', '200')
+ok (recorded) 290 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #41 ('Eacute', '201')
+ok (recorded) 291 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #42 ('Ecirc', '202')
+ok (recorded) 292 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #43 ('Euml', '203')
+ok (recorded) 293 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #44 ('Igrave', '204')
+ok (recorded) 294 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #45 ('Iacute', '205')
+ok (recorded) 295 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #46 ('Icirc', '206')
+ok (recorded) 296 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #47 ('Iuml', '207')
+ok (recorded) 297 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #48 ('ETH', '208')
+ok (recorded) 298 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #49 ('Ntilde', '209')
+ok (recorded) 299 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #50 ('Ograve', '210')
+ok (recorded) 300 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #51 ('Oacute', '211')
+ok (recorded) 301 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #52 ('Ocirc', '212')
+ok (recorded) 302 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #53 ('Otilde', '213')
+ok (recorded) 303 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #54 ('Ouml', '214')
+ok (recorded) 304 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #55 ('times', '215')
+ok (recorded) 305 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #56 ('Oslash', '216')
+ok (recorded) 306 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #57 ('Ugrave', '217')
+ok (recorded) 307 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #58 ('Uacute', '218')
+ok (recorded) 308 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #59 ('Ucirc', '219')
+ok (recorded) 309 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #60 ('Uuml', '220')
+ok (recorded) 310 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #61 ('Yacute', '221')
+ok (recorded) 311 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #62 ('THORN', '222')
+ok (recorded) 312 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #63 ('szlig', '223')
+ok (recorded) 313 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #64 ('agrave', '224')
+ok (recorded) 314 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #65 ('aacute', '225')
+ok (recorded) 315 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #66 ('acirc', '226')
+ok (recorded) 316 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #67 ('atilde', '227')
+ok (recorded) 317 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #68 ('auml', '228')
+ok (recorded) 318 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #69 ('aring', '229')
+ok (recorded) 319 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #70 ('aelig', '230')
+ok (recorded) 320 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #71 ('ccedil', '231')
+ok (recorded) 321 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #72 ('egrave', '232')
+ok (recorded) 322 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #73 ('eacute', '233')
+ok (recorded) 323 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #74 ('ecirc', '234')
+ok (recorded) 324 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #75 ('euml', '235')
+ok (recorded) 325 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #76 ('igrave', '236')
+ok (recorded) 326 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #77 ('iacute', '237')
+ok (recorded) 327 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #78 ('icirc', '238')
+ok (recorded) 328 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #79 ('iuml', '239')
+ok (recorded) 329 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #80 ('eth', '240')
+ok (recorded) 330 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #81 ('ntilde', '241')
+ok (recorded) 331 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #82 ('ograve', '242')
+ok (recorded) 332 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #83 ('oacute', '243')
+ok (recorded) 333 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #84 ('ocirc', '244')
+ok (recorded) 334 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #85 ('otilde', '245')
+ok (recorded) 335 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #86 ('ouml', '246')
+ok (recorded) 336 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #87 ('divide', '247')
+ok (recorded) 337 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #88 ('oslash', '248')
+ok (recorded) 338 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #89 ('ugrave', '249')
+ok (recorded) 339 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #90 ('uacute', '250')
+ok (recorded) 340 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #91 ('ucirc', '251')
+ok (recorded) 341 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #92 ('uuml', '252')
+ok (recorded) 342 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #93 ('yacute', '253')
+ok (recorded) 343 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #94 ('thorn', '254')
+ok (recorded) 344 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #95 ('yuml', '255')
+ok (recorded) 345 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #96 ('fnof', '402')
+ok (recorded) 346 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #97 ('Alpha', '913')
+ok (recorded) 347 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #98 ('Beta', '914')
+ok (recorded) 348 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #99 ('Gamma', '915')
+ok (recorded) 349 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #100 ('Delta', '916')
+ok (recorded) 350 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #101 ('Epsilon', '917')
+ok (recorded) 351 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #102 ('Zeta', '918')
+ok (recorded) 352 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #103 ('Eta', '919')
+ok (recorded) 353 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #104 ('Theta', '920')
+ok (recorded) 354 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #105 ('Iota', '921')
+ok (recorded) 355 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #106 ('Kappa', '922')
+ok (recorded) 356 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #107 ('Lambda', '923')
+ok (recorded) 357 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #108 ('Mu', '924')
+ok (recorded) 358 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #109 ('Nu', '925')
+ok (recorded) 359 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #110 ('Xi', '926')
+ok (recorded) 360 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #111 ('Omicron', '927')
+ok (recorded) 361 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #112 ('Pi', '928')
+ok (recorded) 362 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #113 ('Rho', '929')
+ok (recorded) 363 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #114 ('Sigma', '931')
+ok (recorded) 364 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #115 ('Tau', '932')
+ok (recorded) 365 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #116 ('Upsilon', '933')
+ok (recorded) 366 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #117 ('Phi', '934')
+ok (recorded) 367 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #118 ('Chi', '935')
+ok (recorded) 368 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #119 ('Psi', '936')
+ok (recorded) 369 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #120 ('Omega', '937')
+ok (recorded) 370 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #121 ('alpha', '945')
+ok (recorded) 371 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #122 ('beta', '946')
+ok (recorded) 372 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #123 ('gamma', '947')
+ok (recorded) 373 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #124 ('delta', '948')
+ok (recorded) 374 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #125 ('epsilon', '949')
+ok (recorded) 375 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #126 ('zeta', '950')
+ok (recorded) 376 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #127 ('eta', '951')
+ok (recorded) 377 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #128 ('theta', '952')
+ok (recorded) 378 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #129 ('iota', '953')
+ok (recorded) 379 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #130 ('kappa', '954')
+ok (recorded) 380 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #131 ('lambda', '955')
+ok (recorded) 381 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #132 ('mu', '956')
+ok (recorded) 382 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #133 ('nu', '957')
+ok (recorded) 383 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #134 ('xi', '958')
+ok (recorded) 384 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #135 ('omicron', '959')
+ok (recorded) 385 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #136 ('pi', '960')
+ok (recorded) 386 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #137 ('rho', '961')
+ok (recorded) 387 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #138 ('sigmaf', '962')
+ok (recorded) 388 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #139 ('sigma', '963')
+ok (recorded) 389 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #140 ('tau', '964')
+ok (recorded) 390 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #141 ('upsilon', '965')
+ok (recorded) 391 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #142 ('phi', '966')
+ok (recorded) 392 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #143 ('chi', '967')
+ok (recorded) 393 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #144 ('psi', '968')
+ok (recorded) 394 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #145 ('omega', '969')
+ok (recorded) 395 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #146 ('thetasym', '977')
+ok (recorded) 396 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #147 ('upsih', '978')
+ok (recorded) 397 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #148 ('piv', '982')
+ok (recorded) 398 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #149 ('bull', '8226')
+ok (recorded) 399 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #150 ('hellip', '8230')
+ok (recorded) 400 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #151 ('prime', '8242')
+ok (recorded) 401 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #152 ('Prime', '8243')
+ok (recorded) 402 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #153 ('oline', '8254')
+ok (recorded) 403 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #154 ('frasl', '8260')
+ok (recorded) 404 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #155 ('weierp', '8472')
+ok (recorded) 405 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #156 ('image', '8465')
+ok (recorded) 406 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #157 ('real', '8476')
+ok (recorded) 407 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #158 ('trade', '8482')
+ok (recorded) 408 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #159 ('alefsym', '8501')
+ok (recorded) 409 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #160 ('larr', '8592')
+ok (recorded) 410 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #161 ('uarr', '8593')
+ok (recorded) 411 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #162 ('rarr', '8594')
+ok (recorded) 412 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #163 ('darr', '8595')
+ok (recorded) 413 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #164 ('harr', '8596')
+ok (recorded) 414 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #165 ('crarr', '8629')
+ok (recorded) 415 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #166 ('lArr', '8656')
+ok (recorded) 416 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #167 ('uArr', '8657')
+ok (recorded) 417 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #168 ('rArr', '8658')
+ok (recorded) 418 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #169 ('dArr', '8659')
+ok (recorded) 419 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #170 ('hArr', '8660')
+ok (recorded) 420 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #171 ('forall', '8704')
+ok (recorded) 421 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #172 ('part', '8706')
+ok (recorded) 422 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #173 ('exist', '8707')
+ok (recorded) 423 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #174 ('empty', '8709')
+ok (recorded) 424 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #175 ('nabla', '8711')
+ok (recorded) 425 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #176 ('isin', '8712')
+ok (recorded) 426 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #177 ('notin', '8713')
+ok (recorded) 427 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #178 ('ni', '8715')
+ok (recorded) 428 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #179 ('prod', '8719')
+ok (recorded) 429 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #180 ('sum', '8721')
+ok (recorded) 430 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #181 ('minus', '8722')
+ok (recorded) 431 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #182 ('lowast', '8727')
+ok (recorded) 432 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #183 ('radic', '8730')
+ok (recorded) 433 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #184 ('prop', '8733')
+ok (recorded) 434 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #185 ('infin', '8734')
+ok (recorded) 435 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #186 ('ang', '8736')
+ok (recorded) 436 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #187 ('and', '8743')
+ok (recorded) 437 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #188 ('or', '8744')
+ok (recorded) 438 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #189 ('cap', '8745')
+ok (recorded) 439 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #190 ('cup', '8746')
+ok (recorded) 440 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #191 ('int', '8747')
+ok (recorded) 441 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #192 ('there4', '8756')
+ok (recorded) 442 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #193 ('sim', '8764')
+ok (recorded) 443 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #194 ('cong', '8773')
+ok (recorded) 444 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #195 ('asymp', '8776')
+ok (recorded) 445 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #196 ('ne', '8800')
+ok (recorded) 446 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #197 ('equiv', '8801')
+ok (recorded) 447 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #198 ('le', '8804')
+ok (recorded) 448 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #199 ('ge', '8805')
+ok (recorded) 449 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #200 ('sub', '8834')
+ok (recorded) 450 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #201 ('sup', '8835')
+ok (recorded) 451 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #202 ('nsub', '8836')
+ok (recorded) 452 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #203 ('sube', '8838')
+ok (recorded) 453 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #204 ('supe', '8839')
+ok (recorded) 454 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #205 ('oplus', '8853')
+ok (recorded) 455 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #206 ('otimes', '8855')
+ok (recorded) 456 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #207 ('perp', '8869')
+ok (recorded) 457 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #208 ('sdot', '8901')
+ok (recorded) 458 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #209 ('lceil', '8968')
+ok (recorded) 459 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #210 ('rceil', '8969')
+ok (recorded) 460 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #211 ('lfloor', '8970')
+ok (recorded) 461 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #212 ('rfloor', '8971')
+ok (recorded) 462 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #213 ('lang', '9001')
+ok (recorded) 463 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #214 ('rang', '9002')
+ok (recorded) 464 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #215 ('loz', '9674')
+ok (recorded) 465 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #216 ('spades', '9824')
+ok (recorded) 466 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #217 ('clubs', '9827')
+ok (recorded) 467 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #218 ('hearts', '9829')
+ok (recorded) 468 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #219 ('diams', '9830')
+ok (recorded) 469 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #220 ('quot', '34')
+ok (recorded) 470 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #221 ('amp', '38')
+ok (recorded) 471 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #222 ('lt', '60')
+ok (recorded) 472 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #223 ('gt', '62')
+ok (recorded) 473 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #224 ('OElig', '338')
+ok (recorded) 474 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #225 ('oelig', '339')
+ok (recorded) 475 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #226 ('Scaron', '352')
+ok (recorded) 476 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #227 ('scaron', '353')
+ok (recorded) 477 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #228 ('Yuml', '376')
+ok (recorded) 478 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #229 ('circ', '710')
+ok (recorded) 479 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #230 ('tilde', '732')
+ok (recorded) 480 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #231 ('ensp', '8194')
+ok (recorded) 481 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #232 ('emsp', '8195')
+ok (recorded) 482 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #233 ('thinsp', '8201')
+ok (recorded) 483 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #234 ('zwnj', '8204')
+ok (recorded) 484 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #235 ('zwj', '8205')
+ok (recorded) 485 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #236 ('lrm', '8206')
+ok (recorded) 486 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #237 ('rlm', '8207')
+ok (recorded) 487 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #238 ('ndash', '8211')
+ok (recorded) 488 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #239 ('mdash', '8212')
+ok (recorded) 489 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #240 ('lsquo', '8216')
+ok (recorded) 490 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #241 ('rsquo', '8217')
+ok (recorded) 491 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #242 ('sbquo', '8218')
+ok (recorded) 492 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #243 ('ldquo', '8220')
+ok (recorded) 493 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #244 ('rdquo', '8221')
+ok (recorded) 494 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #245 ('bdquo', '8222')
+ok (recorded) 495 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #246 ('dagger', '8224')
+ok (recorded) 496 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #247 ('Dagger', '8225')
+ok (recorded) 497 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #248 ('permil', '8240')
+ok (recorded) 498 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #249 ('lsaquo', '8249')
+ok (recorded) 499 - Tests_Formatting_Ent2NCR::test_converts_named_entities_to_numeric_character_references with data set #250 ('rsaquo', '8250')
+ok (recorded) 500 - Test_WP_ISO_Descrambler::test_decodes_iso_8859_1_rfc2047_q_encoding
+ok (recorded) 501 - Tests_Formatting_Redirect::test_wp_sanitize_redirect
+ok (recorded) 502 - Tests_Functions_ListFilter::test_filter_object_list_and
+ok (recorded) 503 - Tests_Functions_ListFilter::test_filter_object_list_or
+ok (recorded) 504 - Tests_Functions_ListFilter::test_filter_object_list_not
+ok (recorded) 505 - Tests_Functions_ListFilter::test_filter_object_list_and_field
+ok (recorded) 506 - Tests_Functions_ListFilter::test_filter_object_list_or_field
+ok (recorded) 507 - Tests_Functions_ListFilter::test_filter_object_list_not_field
+ok (recorded) 508 - Tests_Functions_ListFilter::test_wp_list_pluck
+ok (recorded) 509 - Tests_Functions_ListFilter::test_filter_object_list_nested_array_and
+ok (recorded) 510 - Tests_Functions_ListFilter::test_filter_object_list_nested_array_not
+ok (recorded) 511 - Tests_Functions_ListFilter::test_filter_object_list_nested_array_or
+ok (recorded) 512 - Tests_Functions_ListFilter::test_filter_object_list_nested_array_or_singular
+ok (recorded) 513 - Tests_Functions_ListFilter::test_filter_object_list_nested_array_and_field
+ok (recorded) 514 - Tests_Functions_ListFilter::test_filter_object_list_nested_array_not_field
+ok (recorded) 515 - Tests_Functions_ListFilter::test_filter_object_list_nested_array_or_field
+ok (recorded) 516 - Tests_HTTP_Functions::test_head_request
+ok (recorded) 517 - Tests_HTTP_Functions::test_head_redirect
+ok (recorded) 518 - Tests_HTTP_Functions::test_head_404
+ok (recorded) 519 - Tests_HTTP_Functions::test_get_request
+ok (recorded) 520 - Tests_HTTP_Functions::test_get_redirect
+ok (recorded) 521 - Tests_HTTP_Functions::test_get_redirect_limit_exceeded
+ok (recorded) 522 - Tests_HTTP_HTTP::test_make_absolute_url with data set #0 ('http://site.com/', 'http://example.com/', 'http://site.com/')
+ok (recorded) 523 - Tests_HTTP_HTTP::test_make_absolute_url with data set #1 ('/location', '', '/location')
+ok (recorded) 524 - Tests_HTTP_HTTP::test_make_absolute_url with data set #2 ('', 'http://example.com', 'http://example.com/')
+ok (recorded) 525 - Tests_HTTP_HTTP::test_make_absolute_url with data set #3 ('/root-relative-link.ext', 'http://example.com/', 'http://example.com/root-relative-link.ext')
+ok (recorded) 526 - Tests_HTTP_HTTP::test_make_absolute_url with data set #4 ('/root-relative-link.ext?with=query', 'http://example.com/index.ext?query', 'http://example.com/root-relative-link.ext?with=query')
+ok (recorded) 527 - Tests_HTTP_HTTP::test_make_absolute_url with data set #5 ('relative-file.ext', 'http://example.com/', 'http://example.com/relative-file.ext')
+ok (recorded) 528 - Tests_HTTP_HTTP::test_make_absolute_url with data set #6 ('relative-file.ext', 'http://example.com/filename', 'http://example.com/relative-file.ext')
+ok (recorded) 529 - Tests_HTTP_HTTP::test_make_absolute_url with data set #7 ('relative-file.ext', 'http://example.com/directory/', 'http://example.com/directory/relative-file.ext')
+ok (recorded) 530 - Tests_HTTP_HTTP::test_make_absolute_url with data set #8 ('../file-in-parent.ext', 'http://example.com', 'http://example.com/file-in-parent.ext')
+ok (recorded) 531 - Tests_HTTP_HTTP::test_make_absolute_url with data set #9 ('../file-in-parent.ext', 'http://example.com/filename', 'http://example.com/file-in-parent.ext')
+ok (recorded) 532 - Tests_HTTP_HTTP::test_make_absolute_url with data set #10 ('../file-in-parent.ext', 'http://example.com/directory/', 'http://example.com/file-in-parent.ext')
+ok (recorded) 533 - Tests_HTTP_HTTP::test_make_absolute_url with data set #11 ('../file-in-parent.ext', 'http://example.com/directory/filename', 'http://example.com/file-in-parent.ext')
+ok (recorded) 534 - Tests_HTTP_HTTP::test_make_absolute_url with data set #12 ('../../file-in-grand-parent.ext', 'http://example.com', 'http://example.com/file-in-grand-parent.ext')
+ok (recorded) 535 - Tests_HTTP_HTTP::test_make_absolute_url with data set #13 ('../../file-in-grand-parent.ext', 'http://example.com/filename', 'http://example.com/file-in-grand-parent.ext')
+ok (recorded) 536 - Tests_HTTP_HTTP::test_make_absolute_url with data set #14 ('../../file-in-grand-parent.ext', 'http://example.com/directory/', 'http://example.com/file-in-grand-parent.ext')
+ok (recorded) 537 - Tests_HTTP_HTTP::test_make_absolute_url with data set #15 ('../../file-in-grand-parent.ext', 'http://example.com/directory/filename/', 'http://example.com/file-in-grand-parent.ext')
+ok (recorded) 538 - Tests_HTTP_HTTP::test_make_absolute_url with data set #16 ('../../file-in-grand-parent.ext', 'http://example.com/directory1/directory2/filename', 'http://example.com/file-in-grand-parent.ext')
+ok (recorded) 539 - Tests_HTTP_HTTP::test_make_absolute_url with data set #17 ('?query=string', 'http://example.com', 'http://example.com/?query=string')
+ok (recorded) 540 - Tests_HTTP_HTTP::test_make_absolute_url with data set #18 ('?query=string', 'http://example.com/file.ext', 'http://example.com/file.ext?query=string')
+ok (recorded) 541 - Tests_HTTP_HTTP::test_make_absolute_url with data set #19 ('?query=string', 'http://example.com/file.ext?existing=query-string', 'http://example.com/file.ext?query=string')
+ok (recorded) 542 - Tests_HTTP_HTTP::test_make_absolute_url with data set #20 ('otherfile.ext?query=string', 'http://example.com/file.ext?existing=query-string', 'http://example.com/otherfile.ext?query=string')
+ok (recorded) 543 - Tests_HTTP_HTTP::test_make_absolute_url with data set #21 ('.ext', 'http://example.com/', 'http://example.com/.ext')
+ok (recorded) 544 - Tests_Image_Dimensions::test_400x400_no_crop
+ok (recorded) 545 - Tests_Image_Dimensions::test_400x0_no_crop
+ok (recorded) 546 - Tests_Image_Dimensions::test_0x400_no_crop
+ok (recorded) 547 - Tests_Image_Dimensions::test_800x800_no_crop
+ok (recorded) 548 - Tests_Image_Dimensions::test_800x0_no_crop
+ok (recorded) 549 - Tests_Image_Dimensions::test_0x800_no_crop
+ok (recorded) 550 - Tests_Image_Dimensions::test_400x400_crop
+ok (recorded) 551 - Tests_Image_Dimensions::test_400x0_crop
+ok (recorded) 552 - Tests_Image_Dimensions::test_0x400_crop
+ok (recorded) 553 - Tests_Image_Dimensions::test_400x500_crop
+ok (recorded) 554 - Tests_Image_Meta::test_exif_d70
+ok (recorded) 555 - Tests_Image_Meta::test_exif_d70_mf
+ok (recorded) 556 - Tests_Image_Meta::test_exif_d70_iptc
+ok (recorded) 557 - Tests_Image_Meta::test_exif_fuji
+ok (recorded) 558 - Tests_Image_Meta::test_exif_error
+ok (recorded) 559 - Tests_Image_Meta::test_exif_no_data
+ok (recorded) 560 - Tests_Image_Meta::test_utf8_iptc_tags
+ok (recorded) 561 - Tests_Image_Meta::test_missing_image_file
+ok (recorded) 562 - Tests_Image_Size::test_constrain_dims_zero
+ok (recorded) 563 - Tests_Image_Size::test_constrain_dims_smaller
+ok (recorded) 564 - Tests_Image_Size::test_constrain_dims_equal
+ok (recorded) 565 - Tests_Image_Size::test_constrain_dims_larger
+ok (recorded) 566 - Tests_Image_Size::test_constrain_dims_boundary
+ok (recorded) 567 - Tests_Image_Size::test_shrink_dimensions_default
+ok (recorded) 568 - Tests_Image_Size::test_shrink_dimensions_smaller
+ok (recorded) 569 - Tests_Image_Size::test_shrink_dimensions_equal
+ok (recorded) 570 - Tests_Image_Size::test_shrink_dimensions_larger
+ok (recorded) 571 - Tests_Image_Size::test_shrink_dimensions_boundary
+ok (recorded) 572 - Tests_Image_Size::test_constrain_size_for_editor_thumb
+ok (recorded) 573 - Tests_Image_Size::test_constrain_size_for_editor_medium
+ok (recorded) 574 - Tests_Image_Size::test_constrain_size_for_editor_full
+ok (recorded) 575 - TestFactoryFor::test_create_creates_a_category
+ok (recorded) 576 - TestFactoryFor::test_get_object_by_id_gets_an_object
+ok (recorded) 577 - TestFactoryFor::test_get_object_by_id_gets_an_object_with_the_same_name
+ok (recorded) 578 - TestFactoryFor::test_the_taxonomy_argument_overrules_the_factory_taxonomy
+ok (recorded) 579 - Tests_Media::test_img_caption_shortcode_added
+ok (recorded) 580 - Tests_Media::test_img_caption_shortcode_with_empty_params
+ok (recorded) 581 - Tests_Media::test_img_caption_shortcode_with_bad_attr
+ok (recorded) 582 - Tests_Media::test_img_caption_shortcode_with_old_format
+ok (recorded) 583 - Tests_Media::test_img_caption_shortcode_with_old_format_id_and_align
+ok (recorded) 584 - Tests_Media::test_new_img_caption_shortcode_with_html_caption
+ok (recorded) 585 - Tests_Media::test_new_img_caption_shortcode_new_format
+ok (recorded) 586 - Tests_Media::test_new_img_caption_shortcode_new_format_and_linked_image
+ok (recorded) 587 - Tests_Media::test_new_img_caption_shortcode_new_format_and_linked_image_with_newline
+ok (recorded) 588 - Tests_Media::test_add_remove_oembed_provider
+ok (recorded) 589 - Tests_Meta::test_sanitize_meta
+ok (recorded) 590 - Tests_Meta::test_delete_metadata_by_mid
+ok (recorded) 591 - Tests_Meta::test_update_metadata_by_mid
+ok (recorded) 592 - Tests_Meta::test_metadata_exists
+ok (recorded) 593 - Tests_Meta::test_user_metadata_not_exists
+ok (recorded) 594 - Tests_Meta::test_metadata_slashes
+ok (recorded) 595 - Tests_Option_Option::test_the_basics
+ok (recorded) 596 - Tests_Option_Option::test_default_filter
+ok (recorded) 597 - Tests_Option_Option::test_serialized_data
+ok (recorded) 598 - Tests_Option_SiteOption::test_the_basics
+ok (recorded) 599 - Tests_Option_SiteOption::test_default_filter
+ok (recorded) 600 - Tests_Option_SiteOption::test_serialized_data
+ok (recorded) 601 - Tests_Option_SiteOption::test_update_adds_falsey_value
+ok (recorded) 602 - Tests_Option_SiteOption::test_get_doesnt_cache_default_value
+ok (recorded) 603 - Tests_Option_SiteTransient::test_the_basics
+ok (recorded) 604 - Tests_Option_SiteTransient::test_serialized_data
+ok (recorded) 605 - Tests_Option_Transient::test_the_basics
+ok (recorded) 606 - Tests_Option_Transient::test_serialized_data
+ok (recorded) 607 - Tests_Post_Attachments::test_insert_bogus_image
+ok (recorded) 608 - Tests_Post_Attachments::test_insert_image_no_thumb
+ok (recorded) 609 - Tests_Post_Attachments::test_insert_image_thumb_only
+ok (recorded) 610 - Tests_Post_Attachments::test_insert_image_medium
+ok (recorded) 611 - Tests_Post_Attachments::test_insert_image_delete
+ok (recorded) 612 - Tests_Post_Meta::test_unique_postmeta
+ok (recorded) 613 - Tests_Post_Meta::test_nonunique_postmeta
+ok (recorded) 614 - Tests_Post_Meta::test_update_post_meta
+ok (recorded) 615 - Tests_Post_Meta::test_delete_post_meta
+ok (recorded) 616 - Tests_Post_Meta::test_delete_post_meta_by_key
+ok (recorded) 617 - Tests_Post_Meta::test_get_post_meta_by_id
+ok (recorded) 618 - Tests_Post_Meta::test_delete_meta
+ok (recorded) 619 - Tests_Post_Meta::test_update_meta
+ok (recorded) 620 - Tests_Post_Meta::test_funky_post_meta
+ok (recorded) 621 - Tests_Post_Objects::test_get_post
+ok (recorded) 622 - Tests_Post_Objects::test_get_post_ancestors
+ok (recorded) 623 - Tests_Post_Objects::test_get_post_category_property
+ok (recorded) 624 - Tests_Post_Objects::test_get_tags_input_property
+ok (recorded) 625 - Tests_Post_Objects::test_get_page_template_property
+ok (recorded) 626 - Tests_Post_Objects::test_get_post_filter
+ok (recorded) 627 - Tests_Post_Objects::test_get_post_identity
+ok (recorded) 628 - Tests_Post_Objects::test_get_post_array
+ok (recorded) 629 - Tests_Post_Output::test_the_content
+ok (recorded) 630 - Tests_Post_Output::test_the_content_shortcode
+ok (recorded) 631 - Tests_Post_Output::test_the_content_shortcode_paragraph
+ok (recorded) 632 - Tests_Post_Output::test_the_content_attribute_filtering
+ok (recorded) 633 - Tests_Post_Output::test_the_content_attribute_value_with_colon
+ok (recorded) 634 - Tests_Post_Query::test_meta_key_or_query
+ok (recorded) 635 - Tests_Post_Query::test_meta_key_and_query
+ok (recorded) 636 - Tests_Post_Query::test_meta_key_not_exists
+ok (recorded) 637 - Tests_Post_Query::test_taxonomy_empty_or
+ok (recorded) 638 - Tests_Post_Query::test_meta_between_not_between
+ok (recorded) 639 - Tests_Post_Query::test_meta_default_compare
+ok (recorded) 640 - Tests_Post_Query::test_duplicate_posts_when_no_key
+ok (recorded) 641 - Tests_Post_Query::test_empty_meta_value
+ok (recorded) 642 - Tests_Post_Types::test_register_post_type
+ok (recorded) 643 - Tests_Post_Types::test_register_taxonomy_for_object_type
+ok (recorded) 644 - Tests_Post_Types::test_post_type_exists
+ok (recorded) 645 - Tests_Post_Types::test_post_type_supports
+ok (recorded) 646 - Tests_Post_Types::test_post_type_with_no_support
+ok (recorded) 647 - Tests_Query::test_home
+ok (recorded) 648 - Tests_Query::test_404
+ok (recorded) 649 - Tests_Query::test_permalink
+ok (recorded) 650 - Tests_Query::test_post_comments_feed
+ok (recorded) 651 - Tests_Query::test_post_comments_feed_with_no_comments
+ok (recorded) 652 - Tests_Query::test_page
+ok (recorded) 653 - Tests_Query::test_parent_page
+ok (recorded) 654 - Tests_Query::test_child_page_1
+ok (recorded) 655 - Tests_Query::test_child_page_2
+ok (recorded) 656 - Tests_Query::test_page_trackback
+ok (recorded) 657 - Tests_Query::test_page_feed
+ok (recorded) 658 - Tests_Query::test_page_feed_with_no_comments
+ok (recorded) 659 - Tests_Query::test_page_feed_atom
+ok (recorded) 660 - Tests_Query::test_page_page_2
+ok (recorded) 661 - Tests_Query::test_page_page_2_no_slash
+ok (recorded) 662 - Tests_Query::test_pagination_of_posts_page
+ok (recorded) 663 - Tests_Query::test_main_feed_2
+ok (recorded) 664 - Tests_Query::test_main_feed
+ok (recorded) 665 - Tests_Query::test_paged
+ok (recorded) 666 - Tests_Query::test_main_comments_feed
+ok (recorded) 667 - Tests_Query::test_search_feed
+ok (recorded) 668 - Tests_Query::test_search_paged
+ok (recorded) 669 - Tests_Query::test_search
+ok (recorded) 670 - Tests_Query::test_search_encoded_chars
+ok (recorded) 671 - Tests_Query::test_category_feed
+ok (recorded) 672 - Tests_Query::test_category_paged
+ok (recorded) 673 - Tests_Query::test_category
+ok (recorded) 674 - Tests_Query::test_tag_feed
+ok (recorded) 675 - Tests_Query::test_tag_paged
+ok (recorded) 676 - Tests_Query::test_tag
+ok (recorded) 677 - Tests_Query::test_author_feed
+ok (recorded) 678 - Tests_Query::test_author_paged
+ok (recorded) 679 - Tests_Query::test_author
+ok (recorded) 680 - Tests_Query::test_author_with_no_posts
+ok (recorded) 681 - Tests_Query::test_ymd_feed
+ok (recorded) 682 - Tests_Query::test_ymd_paged
+ok (recorded) 683 - Tests_Query::test_ymd
+ok (recorded) 684 - Tests_Query::test_ym_feed
+ok (recorded) 685 - Tests_Query::test_ym_paged
+ok (recorded) 686 - Tests_Query::test_ym
+ok (recorded) 687 - Tests_Query::test_y_feed
+ok (recorded) 688 - Tests_Query::test_y_paged
+ok (recorded) 689 - Tests_Query::test_y
+ok (recorded) 690 - Tests_Query::test_post_trackback
+ok (recorded) 691 - Tests_Query::test_post_comment_feed
+ok (recorded) 692 - Tests_Query::test_post_paged_short
+ok (recorded) 693 - Tests_Query::test_post_attachment
+ok (recorded) 694 - Tests_Query_VerbosePageRules::test_home
+ok (recorded) 695 - Tests_Query_VerbosePageRules::test_404
+ok (recorded) 696 - Tests_Query_VerbosePageRules::test_permalink
+ok (recorded) 697 - Tests_Query_VerbosePageRules::test_post_comments_feed
+ok (recorded) 698 - Tests_Query_VerbosePageRules::test_post_comments_feed_with_no_comments
+ok (recorded) 699 - Tests_Query_VerbosePageRules::test_page
+ok (recorded) 700 - Tests_Query_VerbosePageRules::test_parent_page
+ok (recorded) 701 - Tests_Query_VerbosePageRules::test_child_page_1
+ok (recorded) 702 - Tests_Query_VerbosePageRules::test_child_page_2
+ok (recorded) 703 - Tests_Query_VerbosePageRules::test_page_trackback
+ok (recorded) 704 - Tests_Query_VerbosePageRules::test_page_feed
+ok (recorded) 705 - Tests_Query_VerbosePageRules::test_page_feed_with_no_comments
+ok (recorded) 706 - Tests_Query_VerbosePageRules::test_page_feed_atom
+ok (recorded) 707 - Tests_Query_VerbosePageRules::test_page_page_2
+ok (recorded) 708 - Tests_Query_VerbosePageRules::test_page_page_2_no_slash
+ok (recorded) 709 - Tests_Query_VerbosePageRules::test_pagination_of_posts_page
+ok (recorded) 710 - Tests_Query_VerbosePageRules::test_main_feed_2
+ok (recorded) 711 - Tests_Query_VerbosePageRules::test_main_feed
+ok (recorded) 712 - Tests_Query_VerbosePageRules::test_paged
+ok (recorded) 713 - Tests_Query_VerbosePageRules::test_main_comments_feed
+ok (recorded) 714 - Tests_Query_VerbosePageRules::test_search_feed
+ok (recorded) 715 - Tests_Query_VerbosePageRules::test_search_paged
+ok (recorded) 716 - Tests_Query_VerbosePageRules::test_search
+ok (recorded) 717 - Tests_Query_VerbosePageRules::test_search_encoded_chars
+ok (recorded) 718 - Tests_Query_VerbosePageRules::test_category_feed
+ok (recorded) 719 - Tests_Query_VerbosePageRules::test_category_paged
+ok (recorded) 720 - Tests_Query_VerbosePageRules::test_category
+ok (recorded) 721 - Tests_Query_VerbosePageRules::test_tag_feed
+ok (recorded) 722 - Tests_Query_VerbosePageRules::test_tag_paged
+ok (recorded) 723 - Tests_Query_VerbosePageRules::test_tag
+ok (recorded) 724 - Tests_Query_VerbosePageRules::test_author_feed
+ok (recorded) 725 - Tests_Query_VerbosePageRules::test_author_paged
+ok (recorded) 726 - Tests_Query_VerbosePageRules::test_author
+ok (recorded) 727 - Tests_Query_VerbosePageRules::test_author_with_no_posts
+ok (recorded) 728 - Tests_Query_VerbosePageRules::test_ymd_feed
+ok (recorded) 729 - Tests_Query_VerbosePageRules::test_ymd_paged
+ok (recorded) 730 - Tests_Query_VerbosePageRules::test_ymd
+ok (recorded) 731 - Tests_Query_VerbosePageRules::test_ym_feed
+ok (recorded) 732 - Tests_Query_VerbosePageRules::test_ym_paged
+ok (recorded) 733 - Tests_Query_VerbosePageRules::test_ym
+ok (recorded) 734 - Tests_Query_VerbosePageRules::test_y_feed
+ok (recorded) 735 - Tests_Query_VerbosePageRules::test_y_paged
+ok (recorded) 736 - Tests_Query_VerbosePageRules::test_y
+ok (recorded) 737 - Tests_Query_VerbosePageRules::test_post_trackback
+ok (recorded) 738 - Tests_Query_VerbosePageRules::test_post_comment_feed
+ok (recorded) 739 - Tests_Query_VerbosePageRules::test_post_paged_short
+ok (recorded) 740 - Tests_Query_VerbosePageRules::test_post_attachment
+ok (recorded) 741 - Tests_Taxonomy::test_get_post_taxonomies
+ok (recorded) 742 - Tests_Taxonomy::test_get_link_taxonomies
+ok (recorded) 743 - Tests_Taxonomy::test_get_unknown_taxonomies
+ok (recorded) 744 - Tests_Taxonomy::test_get_post_taxonomy
+ok (recorded) 745 - Tests_Taxonomy::test_get_link_taxonomy
+ok (recorded) 746 - Tests_Taxonomy::test_taxonomy_exists_known
+ok (recorded) 747 - Tests_Taxonomy::test_taxonomy_exists_unknown
+ok (recorded) 748 - Tests_Taxonomy::test_is_taxonomy_hierarchical
+ok (recorded) 749 - Tests_Taxonomy::test_is_taxonomy_hierarchical_unknown
+ok (recorded) 750 - Tests_Taxonomy::test_register_taxonomy
+ok (recorded) 751 - Tests_Taxonomy::test_register_hierarchical_taxonomy
+ok (recorded) 752 - Tests_Theme::test_wp_get_themes_default
+ok (recorded) 753 - Tests_Theme::test_get_themes_default
+ok (recorded) 754 - Tests_Theme::test_get_theme
+ok (recorded) 755 - Tests_Theme::test_wp_get_theme
+ok (recorded) 756 - Tests_Theme::test_get_themes_contents
+ok (recorded) 757 - Tests_Theme::test_wp_get_theme_contents
+ok (recorded) 758 - Tests_Theme::test_extra_theme_headers
+ok (recorded) 759 - Tests_Theme::test_switch_theme
+ok (recorded) 760 - Tests_Theme::test_switch_theme_bogus
+ok (recorded) 761 - Tests_Theme_WPTheme::test_new_WP_Theme_top_level
+ok (recorded) 762 - Tests_Theme_WPTheme::test_new_WP_Theme_subdir
+ok (recorded) 763 - Tests_Theme_WPTheme::test_new_WP_Theme_subdir_bad_root
+ok (recorded) 764 - Tests_Theme_WPTheme::test_wp_theme_uris_with_spaces
+ok (recorded) 765 - Tests_Theme_Support::test_the_basics
+ok (recorded) 766 - Tests_Theme_Support::test_admin_bar
+ok (recorded) 767 - Tests_Theme_Support::test_post_thumbnails
+ok (recorded) 768 - Tests_Theme_Support::test_plugin_hook
+ok (recorded) 769 - Tests_URL::test_is_ssl_positive
+ok (recorded) 770 - Tests_URL::test_is_ssl_negative
+ok (recorded) 771 - Tests_URL::test_admin_url_valid
+ok (recorded) 772 - Tests_URL::test_admin_url_invalid
+ok (recorded) 773 - Tests_URL::test_home_url_valid
+ok (recorded) 774 - Tests_URL::test_home_url_invalid
+ok (recorded) 775 - Tests_URL::test_home_url_from_admin
+ok (recorded) 776 - Tests_URL::test_network_home_url_from_admin
+ok (recorded) 777 - Tests_URL::test_set_url_scheme
+ok (recorded) 778 - Tests_URL::test_get_adjacent_post
+ok (recorded) 779 - Tests_User_Author::test_get_the_author
+ok (recorded) 780 - Tests_User_Author::test_get_the_author_meta
+ok (recorded) 781 - Tests_User_Author::test_get_the_author_meta_no_authordata
+ok (recorded) 782 - Tests_User_Capabilities::test_user_administrator
+ok (recorded) 783 - Tests_User_Capabilities::test_user_editor
+ok (recorded) 784 - Tests_User_Capabilities::test_user_author
+ok (recorded) 785 - Tests_User_Capabilities::test_user_contributor
+ok (recorded) 786 - Tests_User_Capabilities::test_user_subscriber
+ok (recorded) 787 - Tests_User_Capabilities::test_bogus_role
+ok (recorded) 788 - Tests_User_Capabilities::test_user_subscriber_contributor
+ok (recorded) 789 - Tests_User_Capabilities::test_add_empty_role
+ok (recorded) 790 - Tests_User_Capabilities::test_add_role
+ok (recorded) 791 - Tests_User_Capabilities::test_role_add_cap
+ok (recorded) 792 - Tests_User_Capabilities::test_role_remove_cap
+ok (recorded) 793 - Tests_User_Capabilities::test_user_add_cap
+ok (recorded) 794 - Tests_User_Capabilities::test_user_remove_cap
+ok (recorded) 795 - Tests_User_Capabilities::test_user_level_update
+ok (recorded) 796 - Tests_User_Capabilities::test_user_remove_all_caps
+ok (recorded) 797 - Tests_User_Capabilities::test_post_meta_caps
+ok (recorded) 798 - Tests_User_Capabilities::test_page_meta_caps
+ok (recorded) 799 - Tests_User_Capabilities::test_negative_caps
+ok (recorded) 800 - Tests_User_MapMetaCap::test_capability_type_post_with_no_extra_caps
+ok (recorded) 801 - Tests_User_MapMetaCap::test_custom_capability_type_with_map_meta_cap
+ok (recorded) 802 - Tests_User_MapMetaCap::test_capability_type_post_with_one_renamed_cap
+ok (recorded) 803 - Tests_User_MapMetaCap::test_capability_type_post_map_meta_cap_true_with_renamed_cap
+ok (recorded) 804 - Tests_User_MapMetaCap::test_capability_type_post_with_all_meta_caps_renamed
+ok (recorded) 805 - Tests_User_MapMetaCap::test_capability_type_post_with_all_meta_caps_renamed_mapped
+ok (recorded) 806 - Tests_User_MapMetaCap::test_unfiltered_html_cap
+ok (recorded) 807 - Tests_User_MapMetaCap::test_file_edit_caps_not_reliant_on_unfiltered_html_constant
+ok (recorded) 808 - Tests_WP_User_Query::test_get_and_set
+ok (recorded) 809 - Tests_WP_User_Query::test_include
+ok (recorded) 810 - Tests_WP_User_Query::test_exclude
+ok (recorded) 811 - Tests_XMLRPC_Basic::test_enabled
+ok (recorded) 812 - Tests_XMLRPC_Basic::test_login_pass_ok
+ok (recorded) 813 - Tests_XMLRPC_mt_getRecentPostTitles::test_invalid_username_password
+ok (recorded) 814 - Tests_XMLRPC_mt_getRecentPostTitles::test_no_posts
+ok (recorded) 815 - Tests_XMLRPC_mt_getRecentPostTitles::test_no_editable_posts
+ok (recorded) 816 - Tests_XMLRPC_mt_getRecentPostTitles::test_date
+ok (recorded) 817 - Tests_XMLRPC_mw_editPost::test_invalid_username_password
+ok (recorded) 818 - Tests_XMLRPC_mw_editPost::test_edit_own_post
+ok (recorded) 819 - Tests_XMLRPC_mw_editPost::test_capable_edit_others_post
+ok (recorded) 820 - Tests_XMLRPC_mw_editPost::test_incapable_edit_others_post
+ok (recorded) 821 - Tests_XMLRPC_mw_editPost::test_capable_reassign_author
+ok (recorded) 822 - Tests_XMLRPC_mw_editPost::test_incapable_reassign_author
+ok (recorded) 823 - Tests_XMLRPC_mw_editPost::test_post_thumbnail
+ok (recorded) 824 - Tests_XMLRPC_mw_editPost::test_edit_basic_post_info
+ok (recorded) 825 - Tests_XMLRPC_mw_editPost::test_change_post_type
+ok (recorded) 826 - Tests_XMLRPC_mw_getPost::test_invalid_username_password
+ok (recorded) 827 - Tests_XMLRPC_mw_getPost::test_incapable_user
+ok (recorded) 828 - Tests_XMLRPC_mw_getPost::test_invalid_postid
+ok (recorded) 829 - Tests_XMLRPC_mw_getPost::test_valid_post
+ok (recorded) 830 - Tests_XMLRPC_mw_getPost::test_post_thumbnail
+ok (recorded) 831 - Tests_XMLRPC_mw_getPost::test_date
+ok (recorded) 832 - Tests_XMLRPC_mw_getRecentPosts::test_invalid_username_password
+ok (recorded) 833 - Tests_XMLRPC_mw_getRecentPosts::test_no_editable_posts
+ok (recorded) 834 - Tests_XMLRPC_mw_getRecentPosts::test_valid_post
+ok (recorded) 835 - Tests_XMLRPC_mw_getRecentPosts::test_post_thumbnail
+ok (recorded) 836 - Tests_XMLRPC_mw_getRecentPosts::test_date
+ok (recorded) 837 - Tests_XMLRPC_mw_newPost::test_invalid_username_password
+ok (recorded) 838 - Tests_XMLRPC_mw_newPost::test_incapable_user
+ok (recorded) 839 - Tests_XMLRPC_mw_newPost::test_no_content
+ok (recorded) 840 - Tests_XMLRPC_mw_newPost::test_basic_content
+ok (recorded) 841 - Tests_XMLRPC_mw_newPost::test_ignore_id
+ok (recorded) 842 - Tests_XMLRPC_mw_newPost::test_capable_publish
+ok (recorded) 843 - Tests_XMLRPC_mw_newPost::test_incapable_publish
+ok (recorded) 844 - Tests_XMLRPC_mw_newPost::test_capable_other_author
+ok (recorded) 845 - Tests_XMLRPC_mw_newPost::test_incapable_other_author
+ok (recorded) 846 - Tests_XMLRPC_mw_newPost::test_invalid_author
+ok (recorded) 847 - Tests_XMLRPC_mw_newPost::test_empty_author
+ok (recorded) 848 - Tests_XMLRPC_mw_newPost::test_post_thumbnail
+ok (recorded) 849 - Tests_XMLRPC_mw_newPost::test_incapable_set_post_type_as_page
+ok (recorded) 850 - Tests_XMLRPC_mw_newPost::test_capable_set_post_type_as_page
+ok (recorded) 851 - Tests_XMLRPC_wp_deletePost::test_invalid_username_password
+ok (recorded) 852 - Tests_XMLRPC_wp_deletePost::test_invalid_post
+ok (recorded) 853 - Tests_XMLRPC_wp_deletePost::test_incapable_user
+ok (recorded) 854 - Tests_XMLRPC_wp_deletePost::test_post_deleted
+ok (recorded) 855 - Tests_XMLRPC_wp_deleteTerm::test_invalid_username_password
+ok (recorded) 856 - Tests_XMLRPC_wp_deleteTerm::test_empty_taxonomy
+ok (recorded) 857 - Tests_XMLRPC_wp_deleteTerm::test_invalid_taxonomy
+ok (recorded) 858 - Tests_XMLRPC_wp_deleteTerm::test_incapable_user
+ok (recorded) 859 - Tests_XMLRPC_wp_deleteTerm::test_empty_term
+ok (recorded) 860 - Tests_XMLRPC_wp_deleteTerm::test_invalid_term
+ok (recorded) 861 - Tests_XMLRPC_wp_deleteTerm::test_term_deleted
+ok (recorded) 862 - Tests_XMLRPC_wp_editPost::test_invalid_username_password
+ok (recorded) 863 - Tests_XMLRPC_wp_editPost::test_edit_own_post
+ok (recorded) 864 - Tests_XMLRPC_wp_editPost::test_capable_edit_others_post
+ok (recorded) 865 - Tests_XMLRPC_wp_editPost::test_incapable_edit_others_post
+ok (recorded) 866 - Tests_XMLRPC_wp_editPost::test_capable_reassign_author
+ok (recorded) 867 - Tests_XMLRPC_wp_editPost::test_incapable_reassign_author
+ok (recorded) 868 - Tests_XMLRPC_wp_editPost::test_post_thumbnail
+ok (recorded) 869 - Tests_XMLRPC_wp_editPost::test_edit_custom_fields
+ok (recorded) 870 - Tests_XMLRPC_wp_editPost::test_capable_unsticky
+ok (recorded) 871 - Tests_XMLRPC_wp_editPost::test_password_transition_unsticky
+ok (recorded) 872 - Tests_XMLRPC_wp_editPost::test_if_not_modified_since
+ok (recorded) 873 - Tests_XMLRPC_wp_editProfile::test_invalid_username_password
+ok (recorded) 874 - Tests_XMLRPC_wp_editProfile::test_subscriber_profile
+ok (recorded) 875 - Tests_XMLRPC_wp_editProfile::test_ignore_password_change
+ok (recorded) 876 - Tests_XMLRPC_wp_editProfile::test_ignore_email_change
+ok (recorded) 877 - Tests_XMLRPC_wp_editTerm::test_invalid_username_password
+ok (recorded) 878 - Tests_XMLRPC_wp_editTerm::test_empty_taxonomy
+ok (recorded) 879 - Tests_XMLRPC_wp_editTerm::test_invalid_taxonomy
+ok (recorded) 880 - Tests_XMLRPC_wp_editTerm::test_incapable_user
+ok (recorded) 881 - Tests_XMLRPC_wp_editTerm::test_term_not_exists
+ok (recorded) 882 - Tests_XMLRPC_wp_editTerm::test_empty_term
+ok (recorded) 883 - Tests_XMLRPC_wp_editTerm::test_empty_term_name
+ok (recorded) 884 - Tests_XMLRPC_wp_editTerm::test_parent_for_nonhierarchical
+ok (recorded) 885 - Tests_XMLRPC_wp_editTerm::test_parent_empty
+ok (recorded) 886 - Tests_XMLRPC_wp_editTerm::test_parent_invalid
+ok (recorded) 887 - Tests_XMLRPC_wp_editTerm::test_parent_not_existing
+ok (recorded) 888 - Tests_XMLRPC_wp_editTerm::test_parent_duplicate_slug
+ok (recorded) 889 - Tests_XMLRPC_wp_editTerm::test_edit_all_fields
+ok (recorded) 890 - Tests_XMLRPC_wp_getComment::test_invalid_username_password
+ok (recorded) 891 - Tests_XMLRPC_wp_getComment::test_incapable_user
+ok (recorded) 892 - Tests_XMLRPC_wp_getComment::test_valid_comment
+ok (recorded) 893 - Tests_XMLRPC_wp_getComment::test_valid_child_comment
+ok (recorded) 894 - Tests_XMLRPC_wp_getComment::test_invalid_id
+ok (recorded) 895 - Tests_XMLRPC_wp_getComments::test_invalid_username_password
+ok (recorded) 896 - Tests_XMLRPC_wp_getComments::test_incapable_user
+ok (recorded) 897 - Tests_XMLRPC_wp_getComments::test_capable_user
+ok (recorded) 898 - Tests_XMLRPC_wp_getComments::test_post_filter
+not ok (recorded) 899 - Failure: Tests_XMLRPC_wp_getComments::test_number_filter
+  ---
+  message: 'Failed asserting that 15 matches expected 10.'
+  severity: fail
+  data:
+    got: 15
+    expected: 10
+  ...
+ok (recorded) 900 - Tests_XMLRPC_wp_getMediaItem::test_invalid_username_password
+ok (recorded) 901 - Tests_XMLRPC_wp_getMediaItem::test_valid_media_item
+ok (recorded) 902 - Tests_XMLRPC_wp_getPage::test_invalid_username_password
+ok (recorded) 903 - Tests_XMLRPC_wp_getPage::test_invalid_pageid
+ok (recorded) 904 - Tests_XMLRPC_wp_getPage::test_valid_page
+ok (recorded) 905 - Tests_XMLRPC_wp_getPage::test_date
+ok (recorded) 906 - Tests_XMLRPC_wp_getPageList::test_invalid_username_password
+ok (recorded) 907 - Tests_XMLRPC_wp_getPageList::test_incapable_user
+ok (recorded) 908 - Tests_XMLRPC_wp_getPageList::test_date
+ok (recorded) 909 - Tests_XMLRPC_wp_getPages::test_invalid_username_password
+ok (recorded) 910 - Tests_XMLRPC_wp_getPages::test_incapable_user
+ok (recorded) 911 - Tests_XMLRPC_wp_getPages::test_capable_user
+ok (recorded) 912 - Tests_XMLRPC_wp_getPages::test_semi_capable_user
+ok (recorded) 913 - Tests_XMLRPC_wp_getPost::test_invalid_username_password
+ok (recorded) 914 - Tests_XMLRPC_wp_getPost::test_valid_post
+ok (recorded) 915 - Tests_XMLRPC_wp_getPost::test_no_fields
+ok (recorded) 916 - Tests_XMLRPC_wp_getPost::test_default_fields
+ok (recorded) 917 - Tests_XMLRPC_wp_getPost::test_date
+ok (recorded) 918 - Tests_XMLRPC_wp_getPost::test_valid_page
+ok (recorded) 919 - Tests_XMLRPC_wp_getPostType::test_invalid_username_password
+ok (recorded) 920 - Tests_XMLRPC_wp_getPostType::test_invalid_post_type_name
+ok (recorded) 921 - Tests_XMLRPC_wp_getPostType::test_valid_post_type_name
+ok (recorded) 922 - Tests_XMLRPC_wp_getPostType::test_incapable_user
+ok (recorded) 923 - Tests_XMLRPC_wp_getPostType::test_valid_type
+ok (recorded) 924 - Tests_XMLRPC_wp_getPostTypes::test_invalid_username_password
+ok (recorded) 925 - Tests_XMLRPC_wp_getPostTypes::test_incapable_user
+ok (recorded) 926 - Tests_XMLRPC_wp_getPostTypes::test_capable_user
+ok (recorded) 927 - Tests_XMLRPC_wp_getPostTypes::test_simple_filter
+ok (recorded) 928 - Tests_XMLRPC_wp_getPosts::test_invalid_username_password
+ok (recorded) 929 - Tests_XMLRPC_wp_getPosts::test_incapable_user
+ok (recorded) 930 - Tests_XMLRPC_wp_getPosts::test_capable_user
+ok (recorded) 931 - Tests_XMLRPC_wp_getPosts::test_invalid_post_type
+ok (recorded) 932 - Tests_XMLRPC_wp_getPosts::test_filters
+ok (recorded) 933 - Tests_XMLRPC_wp_getPosts::test_fields
+ok (recorded) 934 - Tests_XMLRPC_wp_getPosts::test_search
+ok (recorded) 935 - Tests_XMLRPC_wp_getProfile::test_invalid_username_password
+ok (recorded) 936 - Tests_XMLRPC_wp_getProfile::test_subscriber
+ok (recorded) 937 - Tests_XMLRPC_wp_getProfile::test_administrator
+ok (recorded) 938 - Tests_XMLRPC_wp_getProfile::test_arbitrary_fields
+ok (recorded) 939 - Tests_XMLRPC_wp_getRevisions::test_invalid_username_password
+ok (recorded) 940 - Tests_XMLRPC_wp_getRevisions::test_incapable_user
+ok (recorded) 941 - Tests_XMLRPC_wp_getRevisions::test_capable_user
+ok (recorded) 942 - Tests_XMLRPC_wp_getRevisions::test_revision_count
+ok (recorded) 943 - Tests_XMLRPC_wp_getTaxonomies::test_invalid_username_password
+ok (recorded) 944 - Tests_XMLRPC_wp_getTaxonomies::test_taxonomy_validated
+ok (recorded) 945 - Tests_XMLRPC_wp_getTaxonomy::test_invalid_username_password
+ok (recorded) 946 - Tests_XMLRPC_wp_getTaxonomy::test_empty_taxonomy
+ok (recorded) 947 - Tests_XMLRPC_wp_getTaxonomy::test_invalid_taxonomy
+ok (recorded) 948 - Tests_XMLRPC_wp_getTaxonomy::test_incapable_user
+ok (recorded) 949 - Tests_XMLRPC_wp_getTaxonomy::test_taxonomy_validated
+ok (recorded) 950 - Tests_XMLRPC_wp_getTaxonomy::test_prepare_taxonomy
+ok (recorded) 951 - Tests_XMLRPC_wp_getTerm::test_invalid_username_password
+ok (recorded) 952 - Tests_XMLRPC_wp_getTerm::test_empty_taxonomy
+ok (recorded) 953 - Tests_XMLRPC_wp_getTerm::test_invalid_taxonomy
+ok (recorded) 954 - Tests_XMLRPC_wp_getTerm::test_incapable_user
+ok (recorded) 955 - Tests_XMLRPC_wp_getTerm::test_empty_term
+ok (recorded) 956 - Tests_XMLRPC_wp_getTerm::test_invalid_term
+ok (recorded) 957 - Tests_XMLRPC_wp_getTerm::test_valid_term
+ok (recorded) 958 - Tests_XMLRPC_wp_getTerms::test_invalid_username_password
+ok (recorded) 959 - Tests_XMLRPC_wp_getTerms::test_empty_taxonomy
+ok (recorded) 960 - Tests_XMLRPC_wp_getTerms::test_invalid_taxonomy
+ok (recorded) 961 - Tests_XMLRPC_wp_getTerms::test_incapable_user
+ok (recorded) 962 - Tests_XMLRPC_wp_getTerms::test_valid_terms
+ok (recorded) 963 - Tests_XMLRPC_wp_getTerms::test_custom_taxonomy
+ok (recorded) 964 - Tests_XMLRPC_wp_getTerms::test_term_ordering
+ok (recorded) 965 - Tests_XMLRPC_wp_getTerms::test_terms_search
+ok (recorded) 966 - Tests_XMLRPC_wp_getUser::test_invalid_username_password
+ok (recorded) 967 - Tests_XMLRPC_wp_getUser::test_invalid_user
+ok (recorded) 968 - Tests_XMLRPC_wp_getUser::test_incapable_user
+ok (recorded) 969 - Tests_XMLRPC_wp_getUser::test_subscriber_self
+ok (recorded) 970 - Tests_XMLRPC_wp_getUser::test_valid_user
+ok (recorded) 971 - Tests_XMLRPC_wp_getUser::test_no_fields
+ok (recorded) 972 - Tests_XMLRPC_wp_getUser::test_basic_fields
+ok (recorded) 973 - Tests_XMLRPC_wp_getUser::test_arbitrary_fields
+ok (recorded) 974 - Tests_XMLRPC_wp_getUsers::test_invalid_username_password
+ok (recorded) 975 - Tests_XMLRPC_wp_getUsers::test_incapable_user
+ok (recorded) 976 - Tests_XMLRPC_wp_getUsers::test_capable_user
+ok (recorded) 977 - Tests_XMLRPC_wp_getUsers::test_invalid_role
+ok (recorded) 978 - Tests_XMLRPC_wp_getUsers::test_role_filter
+ok (recorded) 979 - Tests_XMLRPC_wp_getUsers::test_paging_filters
+ok (recorded) 980 - Tests_XMLRPC_wp_getUsers::test_order_filters
+ok (recorded) 981 - Tests_XMLRPC_wp_newPost::test_invalid_username_password
+ok (recorded) 982 - Tests_XMLRPC_wp_newPost::test_incapable_user
+ok (recorded) 983 - Tests_XMLRPC_wp_newPost::test_no_content
+ok (recorded) 984 - Tests_XMLRPC_wp_newPost::test_basic_content
+ok (recorded) 985 - Tests_XMLRPC_wp_newPost::test_ignore_id
+ok (recorded) 986 - Tests_XMLRPC_wp_newPost::test_capable_publish
+ok (recorded) 987 - Tests_XMLRPC_wp_newPost::test_incapable_publish
+ok (recorded) 988 - Tests_XMLRPC_wp_newPost::test_capable_private
+ok (recorded) 989 - Tests_XMLRPC_wp_newPost::test_incapable_private
+ok (recorded) 990 - Tests_XMLRPC_wp_newPost::test_capable_other_author
+ok (recorded) 991 - Tests_XMLRPC_wp_newPost::test_incapable_other_author
+ok (recorded) 992 - Tests_XMLRPC_wp_newPost::test_invalid_author
+ok (recorded) 993 - Tests_XMLRPC_wp_newPost::test_empty_author
+ok (recorded) 994 - Tests_XMLRPC_wp_newPost::test_post_thumbnail
+ok (recorded) 995 - Tests_XMLRPC_wp_newPost::test_invalid_post_status
+ok (recorded) 996 - Tests_XMLRPC_wp_newPost::test_incapable_sticky
+ok (recorded) 997 - Tests_XMLRPC_wp_newPost::test_capable_sticky
+ok (recorded) 998 - Tests_XMLRPC_wp_newPost::test_private_sticky
+ok (recorded) 999 - Tests_XMLRPC_wp_newPost::test_post_format
+ok (recorded) 1000 - Tests_XMLRPC_wp_newPost::test_invalid_post_format
+ok (recorded) 1001 - Tests_XMLRPC_wp_newPost::test_invalid_taxonomy
+ok (recorded) 1002 - Tests_XMLRPC_wp_newPost::test_invalid_term_id
+ok (recorded) 1003 - Tests_XMLRPC_wp_newPost::test_terms
+ok (recorded) 1004 - Tests_XMLRPC_wp_newPost::test_terms_names
+ok (recorded) 1005 - Tests_XMLRPC_wp_newTerm::test_invalid_username_password
+ok (recorded) 1006 - Tests_XMLRPC_wp_newTerm::test_empty_taxonomy
+ok (recorded) 1007 - Tests_XMLRPC_wp_newTerm::test_invalid_taxonomy
+ok (recorded) 1008 - Tests_XMLRPC_wp_newTerm::test_incapable_user
+ok (recorded) 1009 - Tests_XMLRPC_wp_newTerm::test_empty_term
+ok (recorded) 1010 - Tests_XMLRPC_wp_newTerm::test_parent_for_nonhierarchical
+ok (recorded) 1011 - Tests_XMLRPC_wp_newTerm::test_parent_invalid
+ok (recorded) 1012 - Tests_XMLRPC_wp_newTerm::test_parent_not_existing
+ok (recorded) 1013 - Tests_XMLRPC_wp_newTerm::test_add_term
+ok (recorded) 1014 - Tests_XMLRPC_wp_newTerm::test_add_term_with_parent
+ok (recorded) 1015 - Tests_XMLRPC_wp_newTerm::test_add_term_with_all
+ok (recorded) 1016 - Tests_XMLRPC_wp_restoreRevision::test_invalid_username_password
+ok (recorded) 1017 - Tests_XMLRPC_wp_restoreRevision::test_incapable_user
+ok (recorded) 1018 - Tests_XMLRPC_wp_restoreRevision::test_capable_user
+ok (recorded) 1019 - Tests_XMLRPC_wp_restoreRevision::test_revision_restored
+1..1019

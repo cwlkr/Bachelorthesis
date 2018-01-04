@@ -1,0 +1,1 @@
+print ' \ tMaximum value for country code is 999 according to the standard , but 4 digits will work . ' print ' \ tIf the WRITE option is specified , a Q5 or Hitag2 will be programmed to emulate FDX - B . ' 

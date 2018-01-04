@@ -1,0 +1,1 @@
+lineCount"Answer the number of lines represented by the receiver,where every cr adds one line."| cr count |cr := Character cr.count := 1 min: self size.self do:[:c | c == cr ifTrue: [count := count + 1]].^ count

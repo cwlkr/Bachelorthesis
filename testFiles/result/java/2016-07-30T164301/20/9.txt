@@ -1,0 +1,1 @@
+if ( LoginService . isLoggedIn ( ) ) if ( LoginService . isLoggedIn ( ) ) menuItem = item ; default : this . toToggle = toToggle ; this . ctx = ctx ; else { 

@@ -1,0 +1,1 @@
+|aStream stmt|aStream := '{{{asd 11 1a ab c}', Character cr asString, 'a . ,1 2 3'.stmt := NewLineStatementmaker new.stmt createTokanizedStatement: aStream.

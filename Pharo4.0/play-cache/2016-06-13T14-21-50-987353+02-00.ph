@@ -1,0 +1,1 @@
+|path|path := 'C:\Users\Cédric\Desktop\neueOrdner\'.path asFileReference createDirectory.path asFileReference exists.

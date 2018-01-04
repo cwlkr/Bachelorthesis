@@ -1,0 +1,1 @@
+* Criteria object with all the Menus the String is matching and the mensas * @ return List of Criteria Objects which stores the matching menus and the * Listener which sets the viability of a view from visible to gone and vice versa 

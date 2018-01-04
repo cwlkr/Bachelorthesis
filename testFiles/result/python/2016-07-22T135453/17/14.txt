@@ -1,0 +1,1 @@
+if x = = 0 : if writetag = = True : if x = = offset : if x = = offset : print ' \ t ( normally based on ISO - 3166 country codes or ICAR . ORG manufacturer codes , range 0 - 4095 ) ' 

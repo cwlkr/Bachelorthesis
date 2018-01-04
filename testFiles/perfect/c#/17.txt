@@ -1,0 +1,4 @@
+internal static global : : System . Globalization . CultureInfo Culture {
+internal static global : : System . Resources . ResourceManager ResourceManager { 
+private static global : : System . Globalization . CultureInfo resourceCulture ; 
+private static global : : System . Resources . ResourceManager resourceMan ; 

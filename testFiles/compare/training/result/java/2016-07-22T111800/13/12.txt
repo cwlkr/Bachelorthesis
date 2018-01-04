@@ -1,0 +1,1 @@
+* Is either criteriaSet or mensas are null a { @ link NullPointerException } may be thrown . * String set of criterias you want to match with . * an Intent for the { @ link AlarmReceiver } . Its actions depend on the  ) ; else public class ToggleListener implements OnClickListener { public class PushNotificationCallbackActivity extends Activity { 

@@ -1,0 +1,1 @@
+public CriteriaMatcher ( ) { Criteria crit = new Criteria ( ) ; SharedPrefsHandler pref = new SharedPrefsHandler ( context ) ; new MensasRequest ( mensaListAdapter ) . execute ( ) ; protected abstract InvitationsBaseAdapter createAdapter ( ) ; public void onDestroy ( ) { protected void loadingFinished ( ) { public ToggleListener ( View toToggle , Context ctx ) { 

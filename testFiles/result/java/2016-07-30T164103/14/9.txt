@@ -1,0 +1,1 @@
+* predefined values made in the Settings , if there are now settings made , * it does nothing else it sets an daily repeating AlarmManager , starting * This activity is just used as a callback for the push notifications . It * starts the normal app and opens it at the invited tab . 

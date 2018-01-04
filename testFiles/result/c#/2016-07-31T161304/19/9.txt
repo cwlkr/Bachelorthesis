@@ -1,0 +1,1 @@
+return EqualityComparer < Uri > . Default . Equals ( this . DefaultCallback , callback ) ; 

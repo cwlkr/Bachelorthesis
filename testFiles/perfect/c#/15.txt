@@ -1,0 +1,15 @@
+internal AuthServerStrings ( ) { 
+internal class AuthServerStrings { 
+internal static string AccessScopeExceedsGrantScope { 
+internal static string AccessTokenSigningKeyMissing { 
+internal static string ClientCallbackDisallowed { 
+internal static string ClientOrTokenSecretNotFound { 
+internal static string ClientSecretMismatch { 
+internal static string InvalidResourceOwnerPasswordCredential { 
+internal static string NoCallback { 
+namespace DotNetOpenAuth . OAuth2 { 
+protected ClientDescription ( ) {
+public class ClientDescription : IClientDescription { 
+public virtual bool HasNonEmptySecret { 
+public virtual bool IsCallbackAllowed ( Uri callback ) { 
+public virtual bool IsValidClientSecret ( string secret ) { 

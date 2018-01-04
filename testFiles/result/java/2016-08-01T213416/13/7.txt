@@ -1,0 +1,1 @@
+* Matches a Set of criteria to each { @ link Menu } of the current day and returns a new MensasRequest ( mensaListAdapter ) . execute ( ) ; Mensa mensa = ( Mensa ) parent . getItemAtPosition ( pos ) ; public ToggleListener ( View toToggle , Context ctx ) { Intent intent = new Intent ( this , DrawerMenuActivity . class ) ; 

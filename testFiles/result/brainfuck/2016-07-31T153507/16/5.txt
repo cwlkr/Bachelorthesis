@@ -1,0 +1,1 @@
+[ > + > [ - ] < < - ] bool = ten = = 0 > [ < < + + + + + + + + + + > > - ] if ten = 0 ten = 10 [ > + > [ - ] < < - ] bool = ten = = 0 > [ < < + + + + + + + + + + > > > + < - ] if ten = 0 ten = 10 inc div ; ; text to morse code translator ( using international morse code ) ; ; prints " end of message " prosign after printing out the actual message 

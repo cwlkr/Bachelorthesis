@@ -1,0 +1,1 @@
+SharedPrefsHandler pref = new SharedPrefsHandler ( context ) ; new MensasRequest ( mensaListAdapter ) . execute ( ) ; Mensa mensa = ( Mensa ) parent . getItemAtPosition ( pos ) ; Intent intent = new Intent ( Main . this , MenuplanActivity . class ) ; public ToggleListener ( View toToggle , Context ctx ) { Intent intent = new Intent ( this , DrawerMenuActivity . class ) ; 

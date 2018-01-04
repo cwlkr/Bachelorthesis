@@ -1,0 +1,1 @@
+if ( scope - > function - > token - > strAt ( - 1 ) = = " * " ) / / Function returns a pointer const ValueType * lhstype = tok - > astOperand1 ( ) ? tok - > astOperand1 ( ) - > valueType ( ) : nullptr ; const ValueType * rhstype = tok - > astOperand2 ( ) ? tok - > astOperand2 ( ) - > valueType ( ) : nullptr ; 

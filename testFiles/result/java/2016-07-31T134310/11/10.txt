@@ -1,0 +1,1 @@
+for ( Menu menu : daily . getMenus ( ) ) { . toLowerCase ( Locale . getDefault ( ) ) ) ) { * Receives BootUpComplete Broadcast and sets an { @ link AlarmManager } with ( ( DrawerMenuActivity ) getActivity ( ) ) . createInvitation ( ) ; public static final String SHOW _ INVITES = " showInvites " ; 

@@ -1,0 +1,1 @@
+public List < Criteria > match ( Set < String > criteriaSet , List < Mensa > mensas ) { DailyMenuplan daily = weekly . getDailymenuplan ( Day . today ( ) ) ; . toLowerCase ( Locale . getDefault ( ) ) ) ) { 

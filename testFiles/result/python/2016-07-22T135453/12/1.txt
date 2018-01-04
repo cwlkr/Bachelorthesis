@@ -1,0 +1,1 @@
+card = rfidiot . card args = rfidiot . args card = rfidiot . card buffer = [ ] sys . stdout . flush ( ) targettype = card . tagtype sys . stdout . flush ( ) print ' OK \ r ' , sys . stdout . flush ( ) card = rfidiot . card args = rfidiot . args card = rfidiot . card card = rfidiot . card args = rfidiot . args help = rfidiot . help id = args [ 0 ] outbin = ' ' 

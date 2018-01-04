@@ -1,0 +1,1 @@
+return container ; public class BootReceiver extends BroadcastReceiver { operation ) ; public class Main extends Activity { return true ; return view ; return true ; return true ; default : return false ; public class ToggleListener implements OnClickListener { else { public class PushNotificationCallbackActivity extends Activity { 

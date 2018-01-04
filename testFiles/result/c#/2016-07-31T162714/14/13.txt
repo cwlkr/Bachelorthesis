@@ -1,0 +1,1 @@
+/ / / < param name = " secret " > The secret obtained from the client . < / param > 

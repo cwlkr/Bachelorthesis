@@ -1,0 +1,1 @@
+for ( std : : size _ t i = 0 ; i < functions ; + + i ) { if ( tok - > str ( ) = = " { " ) { if ( tok - > str ( ) ! = " return " ) if ( retPointer & & returnType - > pointer = = 0U ) for ( std : : size _ t i = 0 ; i < functions ; + + i ) { if ( tok - > str ( ) ! = " = " ) if ( lhstype - > pointer > = 1U & & if ( rhstype - > pointer > = 1U & & 

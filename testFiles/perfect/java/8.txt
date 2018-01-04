@@ -1,0 +1,9 @@
+private View toToggle ; 
+private Context ctx ; 
+private ListView invitedList ; 
+private InvitationsBaseAdapter adapter ; 
+private MenuItem menuItem ; 
+private ListView mensaListView ; 
+private List < Criteria > container ; 
+private List < Mensa > temp ; 
+private ArrayAdapter < Mensa > mensaListAdapter ;

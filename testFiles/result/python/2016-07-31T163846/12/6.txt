@@ -1,0 +1,1 @@
+print card . demotag ( card . DT _ SET _ UID , card . ToBinary ( args [ 0 ] ) ) if not help and ( len ( args ) = = 1 or len ( args ) = = 2 ) : for x in range ( 4 + offset , - 1 + offset , - 1 ) : 

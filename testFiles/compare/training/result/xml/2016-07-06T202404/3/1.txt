@@ -1,0 +1,1 @@
+< ? xml version = " 1 . 0 " encoding = " UTF - 8 " ? > < ? xml - stylesheet type = " text / xsl " href = " table _ template _ optimized . xsl " ? > < Fecha > 1973 - 09 - 23 < / Fecha > < Fecha > 1972 - 02 - 14 < / Fecha > < Fecha > 2009 - 07 - 14 < / Fecha > < Fecha > 2010 - 09 - 22 < / Fecha > < Fecha > 1944 - 10 - 26 < / Fecha > 

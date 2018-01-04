@@ -1,0 +1,1 @@
+|path aStream|path := 'C:\Users\Cedric\Dropbox\pharo\testFiles\result\txt.txt'.aStream := String new writeStream.aStream nextPutAll:'sadf asdf asdf'.FileHandler new saveFile: aStream to: path. 

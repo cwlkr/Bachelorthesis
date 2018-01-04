@@ -1,0 +1,1 @@
+for ( Menu menu : daily . getMenus ( ) ) { public View onCreateView ( LayoutInflater inflater , ViewGroup container , Bundle savedInstanceState ) { ( ( DrawerMenuActivity ) getActivity ( ) ) . createInvitation ( ) ; 

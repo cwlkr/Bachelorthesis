@@ -1,0 +1,1 @@
+public virtual bool IsCallbackAllowed ( Uri callback ) { public virtual bool IsValidClientSecret ( string secret ) { 

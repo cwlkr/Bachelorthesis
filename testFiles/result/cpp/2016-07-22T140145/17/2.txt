@@ -1,0 +1,1 @@
+tr ( " Cppcheck " ) , QMessageBox : : Ok , tr ( " Cppcheck " ) , QMessageBox : : Ok , if ( ! returnType ) if ( ! lhstype | | ! rhstype ) 

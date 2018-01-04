@@ -1,0 +1,1 @@
+" different platforms and compilers . For example in 32 - bit Windows and Linux they are same width , but in " " to 32 - bit integer . The safe way is to always return an integer . " , CWE758 , false ) ; 

@@ -1,0 +1,1 @@
+* Matches a Set of criteria to each { @ link Menu } of the current day and returns a 

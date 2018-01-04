@@ -1,0 +1,1 @@
+< xsl : value - of select = " @ skill " / > < xsl : value - of select = " @ handicap " / > < xsl : value - of select = " @ clubs " / > < xsl : value - of select = " firstName " / > & # xa0 ; < xsl : value - of select = " @ city " / > < xsl : value - of select = " @ state " / > < xsl : value - of select = " @ name " / > 

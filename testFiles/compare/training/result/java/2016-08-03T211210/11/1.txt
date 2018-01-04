@@ -1,0 +1,1 @@
+container = new ArrayList < Criteria > ( ) ; temp = new ArrayList < Mensa > ( ) ; for ( String criteria : criteriaSet ) { Criteria crit = new Criteria ( ) ; crit . setCriteriaName ( criteria ) ; for ( Mensa mensa : mensas ) { if ( daily ! = null ) { container . add ( crit ) ; 

@@ -1,0 +1,1 @@
+protected static final String MENSA _ ID _ KEY = " ch . xonix . mensa . unibe : : mensa _ ID " ; protected static final String MENSA _ NAME _ KEY = " ch . xonix . mensa . unibe : : mensa _ name " ; n view ; return true ; return true ; return false ; public ToggleListener ( View toToggle , Context ctx ) { 

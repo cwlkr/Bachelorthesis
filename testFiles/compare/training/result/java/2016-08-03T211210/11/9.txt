@@ -1,0 +1,1 @@
+* Matches a Set of criteria to each { @ link Menu } of the current day and returns a * matching criteria of the criteriaSet . The Algorithm also fills this * this Menu is served in . If criteriaSet or mensas are empty , an empty list is returned . 

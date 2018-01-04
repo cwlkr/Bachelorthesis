@@ -1,0 +1,1 @@
+public List < Criteria > match ( Set < String > criteriaSet , List < Mensa > mensas ) { if ( ! crit . getMap ( ) . containsKey ( menu ) ) { import ch . xonix . mensa . unibe . model . Mensa ; import ch . xonix . mensa . unibe . request . MensasRequest ; 

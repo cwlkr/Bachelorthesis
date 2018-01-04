@@ -1,0 +1,1 @@
+alarm . setInexactRepeating ( AlarmManager . RTC , tenOClock . getTimeInMillis ( ) , AlarmManager . INTERVAL _ DAY , 

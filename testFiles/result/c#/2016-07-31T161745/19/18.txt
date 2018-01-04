@@ -1,0 +1,1 @@
+namespace DotNetOpenAuth . OAuth2 { internal AuthServerStrings ( ) { namespace DotNetOpenAuth . OAuth2 { internal AuthServerStrings ( ) { namespace DotNetOpenAuth . OAuth2 { using System . Collections . Generic ; using System . Linq ; using System . Text ; using DotNetOpenAuth . Messaging ; protected ClientDescription ( ) { 

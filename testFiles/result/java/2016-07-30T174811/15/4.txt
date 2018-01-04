@@ -1,0 +1,1 @@
+for ( Mensa mensa : mensas ) { if ( daily ! = null ) { if ( ! container . contains ( crit ) ) return container ; operation ) ; mensaListAdapter = new ArrayAdapter < Mensa > ( this , else default : else { 

@@ -1,0 +1,52 @@
+# cardselect . py - select card and display ID 
+# uses , please contact the author : 
+# copytag . py - read all sectors from a standard tag and write them back 
+# demotag . py - test IAIK TUG DemoTag 
+# eeprom . py - display reader ' s eeprom settings 
+# the Free Software Foundation ; either version 2 of the License , or 
+# ( at your option ) any later version . 
+# but WITHOUT ANY WARRANTY ; without even the implied warranty of 
+# control block for Q5 : 
+# now check for FDX - B ID 
+# rf / ? ( don ' t care ) - set to 00 
+# http : / / rfidiot . org / 
+# fdxbnum . py - generate / decode FDX - B EM4x05 compliant IDs 
+# http : / / rfidiot . org /
+# ! / usr / bin / python 
+# 
+# This code is free software ; you can redistribute it and / or modify 
+# it under the terms of the GNU General Public License as published by 
+# This code is distributed in the hope that it will be useful , 
+# force card type if specified 
+# to a blank 
+# Q5 must be forced into Q5 mode to be sure of detection so try that first 
+# now turn it all back to 4 byte hex blocks for writing 
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE . See the 
+# GNU General Public License for more details . 
+# data inverted 
+# biphase 
+# maxblock 4 
+# control block for Hitag2 
+# Public Mode B 
+# default password 
+# we expect a Q5 to fail after writing the control block as it re - reads 
+# it before trying to verify the write and switches mode so is now no longer in Q5 mode 
+# hitag2 don ' t change mode until the next time they ' re selected so write 
+# confirmation of control block should be ok 
+# Adam Laurie < adam @ algroup . co . uk > 
+# This code is copyright ( c ) Adam Laurie , 2006 , All rights reserved . 
+# For non - commercial use only , the following terms apply - for all other 
+# carrier 32 ( 2 * 15 + 2 )
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+StackElement createAndAdd: 'c' at: 1.

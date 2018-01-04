@@ -1,0 +1,1 @@
+|inputLoader stream |inputLoader := InputLoader new.stream := inputLoader loadFromFile: 'C:\Users\Cédric\Desktop\txt.txt'.stream 

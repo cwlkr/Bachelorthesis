@@ -1,0 +1,1 @@
+get { return ! string . IsNullOrEmpty ( this . secret ) ; } return EqualityComparer < Uri > . Default . Equals ( this . DefaultCallback , callback ) ; 

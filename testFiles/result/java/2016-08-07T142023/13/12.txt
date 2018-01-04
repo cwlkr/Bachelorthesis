@@ -1,0 +1,1 @@
+for ( Menu menu : daily . getMenus ( ) ) { if ( ! container . contains ( crit ) ) private static final CharSequence MESSAGE _ GET _ DATA = " lade . . . " ; public View onCreateView ( LayoutInflater inflater , ViewGroup container , Bundle savedInstanceState ) { SocialManager . getInstance ( ) . removeObserver ( adapter ) ; 

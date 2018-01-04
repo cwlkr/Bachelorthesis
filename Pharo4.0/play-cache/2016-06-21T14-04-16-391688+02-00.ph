@@ -1,0 +1,1 @@
+Vector distanceFrom: LinkedList new to: LinkedList new. 

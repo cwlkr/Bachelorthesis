@@ -1,0 +1,1 @@
+resourceMan = temp ; resourceCulture = value ; resourceMan = temp ; resourceCulture = value ; / / Copyright ( c ) Outercurve Foundation . All rights reserved . this . secret = secret ; this . DefaultCallback = defaultCallback ; this . ClientType = ClientType . Confidential ; this . DefaultCallback = defaultCallback ; this . ClientType = ClientType . Public ; 

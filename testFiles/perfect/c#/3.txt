@@ -1,0 +1,2 @@
+Requires . NotNullOrEmpty ( secret , " secret " ) ; 
+Requires . NotNull ( defaultCallback , " defaultCallback " ) ; 

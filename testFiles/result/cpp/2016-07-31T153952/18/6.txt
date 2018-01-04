@@ -1,0 +1,1 @@
+" different platforms and compilers . For example in 32 - bit Windows and Linux they are same width , but in " 

@@ -1,0 +1,1 @@
+/ / In Windows ( almost ) all executables have . exe extension / / In Windows ( almost ) all executables have . exe extension / / Register this check class ( by creating a static instance of it ) / / Assign integer to pointer . . / / Assign pointer to integer . . 

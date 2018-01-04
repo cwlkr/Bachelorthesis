@@ -1,0 +1,4 @@
+private static final CharSequence MESSAGE _ GET _ DATA = " lade . . . " ; 
+protected static final String MENSA _ ID _ KEY = " ch . xonix . mensa . unibe : : mensa _ ID " ; 
+protected static final String MENSA _ NAME _ KEY = " ch . xonix . mensa . unibe : : mensa _ name " ; 
+public static final String SHOW _ INVITES = " showInvites " ; 

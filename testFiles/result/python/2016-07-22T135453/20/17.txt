@@ -1,0 +1,1 @@
+if not help and ( len ( args ) > = 3 or precoded ) : for x in range ( 4 + offset , - 1 + offset , - 1 ) : 

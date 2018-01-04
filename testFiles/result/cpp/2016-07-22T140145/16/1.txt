@@ -1,0 +1,1 @@
+* along with this program . If not , see < http : / / www . gnu . org / licenses / > . * along with this program . If not , see < http : / / www . gnu . org / licenses / > . * along with this program . If not , see < http : / / www . gnu . org / licenses / > . " to 32 - bit integer . The safe way is to always return an integer . " , CWE758 , false ) ; 

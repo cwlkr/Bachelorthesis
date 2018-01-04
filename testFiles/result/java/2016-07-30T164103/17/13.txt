@@ -1,0 +1,1 @@
+* String set of criterias you want to match with . * mensa in which the menu is served in . * it does nothing else it sets an daily repeating AlarmManager , starting * starts the normal app and opens it at the invited tab . 

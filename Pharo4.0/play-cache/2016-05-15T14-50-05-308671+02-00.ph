@@ -1,0 +1,1 @@
+|string identifier|string := 'ab d df asf oisjdfa }'.identifier := #word asParser star.identifier matchesSkipIn: string.

@@ -1,0 +1,1 @@
+# cardselect . py - select card and display ID if card . select ( ) : if card . errorcode : # copytag . py - read all sectors from a standard tag and write them back if x = = 0 : if x > 0 : if card . tagtype ! = targettype : # demotag . py - test IAIK TUG DemoTag while address < 0xf0 : print outhex [ x ] if writetag = = True : if x = = offset : if x = = offset : 

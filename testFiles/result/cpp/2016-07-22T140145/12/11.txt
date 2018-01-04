@@ -1,0 +1,1 @@
+" Returning an address value in a function with integer ( int / long / etc ) return type is not portable across " " Returning an integer in a function with pointer return type is not portable . \ n " " The safe way is to always return a pointer . " , CWE758 , false ) ; 

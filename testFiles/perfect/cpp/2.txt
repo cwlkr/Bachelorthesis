@@ -1,0 +1,23 @@
+else if ( Token : : Match ( scope - > function - > token - > previous ( ) , " int | long | DWORD " ) ) / / Function returns an integer 
+for ( const Token * tok = scope - > classStart - > next ( ) ; tok ! = scope - > classEnd ; tok = tok - > next ( ) ) { 
+for ( const Token * tok = scope - > classStart ; tok & & tok ! = scope - > classEnd ; tok = tok - > next ( ) ) { 
+for ( std : : size _ t i = 0 ; i < functions ; + + i ) { 
+if ( ! _ settings - > isEnabled ( " portability " ) ) 
+if ( ! lhstype | | ! rhstype )
+if ( ! retPointer & & returnType - > pointer > = 1U )
+if ( ! returnType ) 
+if ( ! selectedFile . isEmpty ( ) ) { 
+if ( ! tok - > astOperand1 ( ) | | tok - > astOperand1 ( ) - > isNumber ( ) ) 
+if ( lhstype - > pointer > = 1U & & 
+if ( mUI . mName - > text ( ) . isEmpty ( ) | | mUI . mPath - > text ( ) . isEmpty ( ) ) { 
+if ( retPointer & & returnType - > pointer = = 0U ) 
+if ( rhstype - > pointer > = 1U & & 
+if ( scope - > function - > token - > strAt ( - 1 ) = = " * " ) / / Function returns a pointer 
+if ( scope - > function = = 0 | | ! scope - > function - > hasBody ( ) ) / / We only look for functions with a body 
+if ( tok - > scope ( ) - > type = = Scope : : ScopeType : : eFunction | | tok - > scope ( ) - > type = = Scope : : ScopeType : : eLambda ) 
+if ( tok - > str ( ) ! = " = " )if ( mUI . mName - > text ( ) . isEmpty ( ) | | mUI . mPath - > text ( ) . isEmpty ( ) ) { 
+if ( tok - > str ( ) ! = " return " ) 
+if ( tok - > str ( ) = = " { " ) { 
+tr ( " Cppcheck " ) ,
+tr ( " Select viewer application " ) , 
+tr ( " You must specify a name , a path and optionally parameters for the application ! " ) , 

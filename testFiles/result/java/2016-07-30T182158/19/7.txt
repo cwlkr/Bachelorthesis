@@ -1,0 +1,1 @@
+/ * * public class CriteriaMatcher { / * * / * * private ListView mensaListView ; } ) ; / * * private ListView invitedList ; private InvitationsBaseAdapter adapter ; private MenuItem menuItem ; / * * / * * private View toToggle ; private Context ctx ; / * * 

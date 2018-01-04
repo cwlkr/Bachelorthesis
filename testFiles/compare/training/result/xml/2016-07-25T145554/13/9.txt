@@ -1,0 +1,1 @@
+< book id = " bk101 " > < publish _ date > 2000 - 10 - 01 < / publish _ date > 

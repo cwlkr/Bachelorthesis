@@ -1,0 +1,1 @@
+* mensa in which the menu is served in . WeeklyMenuplan weekly = mensa . getMenuplan ( ) ; . toLowerCase ( Locale . getDefault ( ) ) ) ) { SharedPrefsHandler pref = new SharedPrefsHandler ( context ) ; import android . widget . AdapterView . OnItemClickListener ; android . R . layout . simple _ list _ item _ 1 ) ; import android . view . View . OnClickListener ; 

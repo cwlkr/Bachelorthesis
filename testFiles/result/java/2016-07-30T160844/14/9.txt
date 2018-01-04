@@ -1,0 +1,1 @@
+* Matches a Set of criteria to each { @ link Menu } of the current day and returns a * mensa in which the menu is served in . * an Intent for the { @ link AlarmReceiver } . Its actions depend on the new MensasRequest ( mensaListAdapter ) . execute ( ) ; public ToggleListener ( View toToggle , Context ctx ) { 

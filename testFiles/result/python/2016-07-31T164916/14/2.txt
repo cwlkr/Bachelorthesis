@@ -1,0 +1,1 @@
+# http : / / rfidiot . org / if len ( args ) = = 1 : # http : / / rfidiot . org / # http : / / rfidiot . org / # http : / / rfidiot . org / # http : / / rfidiot . org / if len ( args ) = = 2 : if x = = ' N ' : if x = = ' Y ' : print outhex [ x / 4 + 1 ] print card . FROSCH _ Errors [ card . errorcode ] 

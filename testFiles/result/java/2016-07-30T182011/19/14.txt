@@ -1,0 +1,1 @@
+* List of { @ link Criteria } objects . The List contains a Criteria object for each } else { * the AlarmReceiver . mensaListAdapter = new ArrayAdapter < Mensa > ( this , android . R . layout . simple _ list _ item _ 1 ) ; 

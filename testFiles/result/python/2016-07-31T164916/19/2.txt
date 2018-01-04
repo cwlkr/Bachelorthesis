@@ -1,0 +1,1 @@
+print " Couldn ' t open reader ! " print ' No card present ' print ' \ nWrite failed ! ' print ' \ n Verifying : ' print ' \ nVerify failed ! ' print ' OK \ r ' , print ' Setting ID to : ' + args [ 0 ] print ' Q5 Control Block : ' , print ' Hitag2 Control Block : ' , 

@@ -1,0 +1,1 @@
+if not card . writeblock ( n , buffer [ n ] ) : h2control = card . HITAG2 _ PUBLIC _ B + card . HITAG2 _ TRANSPORT _ TAG if not card . writeblock ( x , outhex [ x - offset ] ) : 

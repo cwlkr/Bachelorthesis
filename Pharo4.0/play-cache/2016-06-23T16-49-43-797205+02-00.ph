@@ -1,0 +1,1 @@
+|string |string := 'a ,, word, { 	df 45 d5 ,5' , Character cr asString, ' asdf.342.asfd4' , Character cr asString, '{ 1 1 1 a a b c }'.(StructureTypeRepresentator new) makeFeaturesFrom: (NewLineStatementmaker new createTokanizedStatement: string).

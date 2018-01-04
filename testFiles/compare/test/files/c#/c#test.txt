@@ -1,0 +1,375 @@
+using System;
+using System.Diagnostics;
+using System.Threading;
+
+namespace ServiceStack.Redis
+{
+    /// <summary>
+    /// Courtesy of @marcgravell
+    /// http://code.google.com/p/protobuf-net/source/browse/trunk/protobuf-net/BufferPool.cs
+    /// </summary>
+    internal class BufferPool
+    {
+        internal static void Flush()
+        {
+            for (int i = 0; i < pool.Length; i++)
+            {
+                Interlocked.Exchange(ref pool[i], null); // and drop the old value on the floor
+            }
+        }
+
+        private BufferPool() { }
+        const int PoolSize = 1000; //1.45MB
+        //internal const int BufferLength = 1450; //MTU size - some headers
+        private static readonly object[] pool = new object[PoolSize];
+
+        internal static byte[] GetBuffer(int bufferSize)
+        {
+            return bufferSize > RedisConfig.BufferPoolMaxSize 
+                ? new byte[bufferSize] 
+                : GetBuffer();
+        }
+
+        internal static byte[] GetBuffer()
+        {
+            object tmp;
+            for (int i = 0; i < pool.Length; i++)
+            {
+                if ((tmp = Interlocked.Exchange(ref pool[i], null)) != null) 
+                    return (byte[])tmp;
+            }
+            return new byte[RedisConfig.BufferLength];
+        }
+
+        internal static void ResizeAndFlushLeft(ref byte[] buffer, int toFitAtLeastBytes, int copyFromIndex, int copyBytes)
+        {
+            Debug.Assert(buffer != null);
+            Debug.Assert(toFitAtLeastBytes > buffer.Length);
+            Debug.Assert(copyFromIndex >= 0);
+            Debug.Assert(copyBytes >= 0);
+
+            // try doubling, else match
+            int newLength = buffer.Length * 2;
+            if (newLength < toFitAtLeastBytes) newLength = toFitAtLeastBytes;
+
+            var newBuffer = new byte[newLength];
+            if (copyBytes > 0)
+            {
+                Buffer.BlockCopy(buffer, copyFromIndex, newBuffer, 0, copyBytes);
+            }
+            if (buffer.Length == RedisConfig.BufferLength)
+            {
+                ReleaseBufferToPool(ref buffer);
+            }
+            buffer = newBuffer;
+        }
+        
+        internal static void ReleaseBufferToPool(ref byte[] buffer)
+        {
+            if (buffer == null) return;
+            if (buffer.Length == RedisConfig.BufferLength)
+            {
+                for (int i = 0; i < pool.Length; i++)
+                {
+                    if (Interlocked.CompareExchange(ref pool[i], buffer, null) == null)
+                    {
+                        break; // found a null; swapped it in
+                    }
+                }
+            }
+            // if no space, just drop it on the floor
+            buffer = null;
+        }
+
+    }
+}
+using System;
+using System.Collections.Generic;
+
+namespace ServiceStack.Redis
+{
+    /// <summary>
+    /// Resolver strategy for resolving hosts and creating clients
+    /// </summary>
+    public interface IRedisResolver
+    {
+        Func<RedisEndpoint, RedisClient> ClientFactory { get; set; }
+
+        int ReadWriteHostsCount { get; }
+        int ReadOnlyHostsCount { get; }
+
+        void ResetMasters(IEnumerable<string> hosts);
+        void ResetSlaves(IEnumerable<string> hosts);
+
+        RedisClient CreateMasterClient(int desiredIndex);
+        RedisClient CreateSlaveClient(int desiredIndex);
+    }
+
+    public interface IRedisResolverExtended : IRedisResolver
+    {
+        RedisClient CreateRedisClient(RedisEndpoint config, bool master);
+
+        RedisEndpoint GetReadWriteHost(int desiredIndex);
+        RedisEndpoint GetReadOnlyHost(int desiredIndex);
+    }
+
+    public interface IHasRedisResolver
+    {
+        IRedisResolver RedisResolver { get; set; }
+    }
+
+    public static class RedisResolverExtensions
+    {
+        public static RedisClient CreateRedisClient(this IRedisResolver resolver, RedisEndpoint config, bool master)
+        {
+            return ((IRedisResolverExtended)resolver).CreateRedisClient(config, master);
+        }
+
+        public static RedisEndpoint GetReadWriteHost(this IRedisResolver resolver, int desiredIndex)
+        {
+            return ((IRedisResolverExtended)resolver).GetReadWriteHost(desiredIndex);
+        }
+
+        public static RedisEndpoint GetReadOnlyHost(this IRedisResolver resolver, int desiredIndex)
+        {
+            return ((IRedisResolverExtended)resolver).GetReadOnlyHost(desiredIndex);
+        }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using ServiceStack.Redis.Support;
+
+namespace ServiceStack.Redis
+{
+	/// <summary>
+	/// Provides sharding of redis client connections.
+	/// uses consistent hashing to distribute keys across connection pools
+	/// </summary>
+	public class ShardedRedisClientManager
+	{
+		private readonly ConsistentHash<ShardedConnectionPool> _consistentHash;
+
+		public ShardedRedisClientManager(params ShardedConnectionPool[] connectionPools)
+		{
+			if (connectionPools == null) throw new ArgumentNullException("connection pools can not be null.");
+
+			List<KeyValuePair<ShardedConnectionPool, int>> pools = new List<KeyValuePair<ShardedConnectionPool, int>>();
+			foreach (var connectionPool in connectionPools)
+			{
+				pools.Add(new KeyValuePair<ShardedConnectionPool, int>(connectionPool, connectionPool.weight));
+			}
+			_consistentHash = new ConsistentHash<ShardedConnectionPool>(pools);
+		}
+
+		/// <summary>
+		/// maps a key to a redis connection pool
+		/// </summary>
+		/// <param name="key">key to map</param>
+		/// <returns>a redis connection pool</returns>
+		public ShardedConnectionPool GetConnectionPool(string key)
+		{
+			return _consistentHash.GetTarget(key);
+		}
+	}
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ServiceStack.Redis
+{
+	/// <summary>
+	/// Provides a redis connection pool that can be sharded
+	/// </summary>
+	public class ShardedConnectionPool : PooledRedisClientManager
+	{
+		/// <summary>
+		/// logical name
+		/// </summary>
+		public readonly string name;
+
+		/// <summary>
+		/// An arbitrary weight relative to other nodes
+		/// </summary>
+		public readonly int weight;
+
+		/// <param name="name">logical name</param>
+		/// <param name="weight">An arbitrary weight relative to other nodes</param>
+		/// <param name="readWriteHosts">redis nodes</param>
+		public ShardedConnectionPool(string name, int weight, params string[] readWriteHosts)
+			: base(readWriteHosts)
+		{
+			this.PoolTimeout = 1000;
+			this.name = name;
+			this.weight = weight;
+		}
+
+		public override int GetHashCode()
+		{
+			// generate hashcode based on logial name
+			// server alias/ip can change without 
+			// affecting the consistent hash
+			return name.GetHashCode();
+		}
+	}
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
+using ServiceStack.Logging;
+using ServiceStack.Text;
+
+namespace ServiceStack.Redis
+{
+    public class RedisResolver : IRedisResolver, IRedisResolverExtended
+    {
+        static ILog log = LogManager.GetLogger(typeof(RedisResolver));
+
+        public Func<RedisEndpoint, RedisClient> ClientFactory { get; set; }
+
+        public int ReadWriteHostsCount { get; private set; }
+        public int ReadOnlyHostsCount { get; private set; }
+
+        HashSet<RedisEndpoint> allHosts = new HashSet<RedisEndpoint>();
+
+        private RedisEndpoint[] masters;
+        private RedisEndpoint[] slaves;
+
+        public RedisEndpoint[] Masters
+        {
+            get { return masters; }
+        }
+
+        public RedisEndpoint[] Slaves
+        {
+            get { return slaves; }
+        }
+
+        public RedisResolver()
+            : this(TypeConstants<RedisEndpoint>.EmptyArray, TypeConstants<RedisEndpoint>.EmptyArray) {}
+
+        public RedisResolver(IEnumerable<string> masters, IEnumerable<string> slaves)
+            : this(masters.ToRedisEndPoints(), slaves.ToRedisEndPoints()){}
+
+        public RedisResolver(IEnumerable<RedisEndpoint> masters, IEnumerable<RedisEndpoint> slaves)
+        {
+            ResetMasters(masters.ToList());
+            ResetSlaves(slaves.ToList());
+            ClientFactory = RedisConfig.ClientFactory;
+        }
+
+        public virtual void ResetMasters(IEnumerable<string> hosts)
+        {
+            ResetMasters(hosts.ToRedisEndPoints());
+        }
+
+        public virtual void ResetMasters(List<RedisEndpoint> newMasters)
+        {
+            if (newMasters == null || newMasters.Count == 0)
+                throw new Exception("Must provide at least 1 master");
+
+            masters = newMasters.ToArray();
+            ReadWriteHostsCount = masters.Length;
+            newMasters.Each(x => allHosts.Add(x));
+
+            if (log.IsDebugEnabled)
+                log.Debug("New Redis Masters: " + string.Join(", ", masters.Map(x => x.GetHostString())));
+        }
+
+        public virtual void ResetSlaves(IEnumerable<string> hosts)
+        {
+            ResetSlaves(hosts.ToRedisEndPoints());
+        }
+
+        public virtual void ResetSlaves(List<RedisEndpoint> newSlaves)
+        {
+            slaves = (newSlaves ?? new List<RedisEndpoint>()).ToArray();
+            ReadOnlyHostsCount = slaves.Length;
+            newSlaves.Each(x => allHosts.Add(x));
+
+            if (log.IsDebugEnabled)
+                log.Debug("New Redis Slaves: " + string.Join(", ", slaves.Map(x => x.GetHostString())));
+        }
+
+        public virtual RedisClient CreateRedisClient(RedisEndpoint config, bool master)
+        {
+            var client = ClientFactory(config);
+
+            if (master && RedisConfig.VerifyMasterConnections)
+            {
+                var role = client.GetServerRole();
+                if (role != RedisServerRole.Master)
+                {
+                    Interlocked.Increment(ref RedisState.TotalInvalidMasters);
+                    log.Error("Redis Master Host '{0}' is {1}. Resetting allHosts...".Fmt(config.GetHostString(), role));
+                    var newMasters = new List<RedisEndpoint>();
+                    var newSlaves = new List<RedisEndpoint>();
+                    RedisClient masterClient = null;
+                    foreach (var hostConfig in allHosts)
+                    {
+                        try
+                        {
+                            var testClient = ClientFactory(hostConfig);
+                            testClient.ConnectTimeout = RedisConfig.HostLookupTimeoutMs;
+                            var testRole = testClient.GetServerRole();
+                            switch (testRole)
+                            {
+                                case RedisServerRole.Master:
+                                    newMasters.Add(hostConfig);
+                                    if (masterClient == null)
+                                        masterClient = testClient;
+                                    break;
+                                case RedisServerRole.Slave:
+                                    newSlaves.Add(hostConfig);
+                                    break;
+                            }
+
+                        }
+                        catch { /* skip */ }
+                    }
+
+                    if (masterClient == null)
+                    {
+                        Interlocked.Increment(ref RedisState.TotalNoMastersFound);
+                        var errorMsg = "No master found in: " + string.Join(", ", allHosts.Map(x => x.GetHostString()));
+                        log.Error(errorMsg);
+                        throw new Exception(errorMsg);
+                    }
+
+                    ResetMasters(newMasters);
+                    ResetSlaves(newSlaves);
+                    return masterClient;
+                }
+            }
+
+            return client;
+        }
+
+        public RedisEndpoint GetReadWriteHost(int desiredIndex)
+        {
+            return masters[desiredIndex % masters.Length];
+        }
+
+        public RedisEndpoint GetReadOnlyHost(int desiredIndex)
+        {
+            return ReadOnlyHostsCount > 0
+                       ? slaves[desiredIndex % slaves.Length]
+                       : GetReadWriteHost(desiredIndex);
+        }
+
+        public RedisClient CreateMasterClient(int desiredIndex)
+        {
+            return CreateRedisClient(GetReadWriteHost(desiredIndex), master: true);
+        }
+
+        public RedisClient CreateSlaveClient(int desiredIndex)
+        {
+            return CreateRedisClient(GetReadOnlyHost(desiredIndex), master: false);
+        }
+    }
+}

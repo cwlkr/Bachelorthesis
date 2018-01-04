@@ -1,0 +1,1 @@
+Mensa mensa = ( Mensa ) parent . getItemAtPosition ( pos ) ; Intent intent = new Intent ( Main . this , MenuplanActivity . class ) ; Intent intent = new Intent ( this , DrawerMenuActivity . class ) ; 

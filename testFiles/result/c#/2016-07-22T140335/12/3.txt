@@ -1,0 +1,1 @@
+/ / < copyright file = " ClientDescription . cs " company = " Outercurve Foundation " > / / / < returns > < c > true < / c > if the secret matches the one in the authorization server ' s record for the client ; < c > false < / c > otherwise . < / returns > 

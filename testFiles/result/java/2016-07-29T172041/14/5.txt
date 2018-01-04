@@ -1,0 +1,1 @@
+for ( String criteria : criteriaSet ) { Criteria crit = new Criteria ( ) ; for ( Mensa mensa : mensas ) { if ( daily ! = null ) { if ( LoginService . isLoggedIn ( ) ) if ( LoginService . isLoggedIn ( ) ) if ( menuItem ! = null ) { 

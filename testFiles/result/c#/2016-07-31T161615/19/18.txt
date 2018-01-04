@@ -1,0 +1,1 @@
+internal class AuthServerStrings { internal class AuthServerStrings { public class ClientDescription : IClientDescription { this . secret = secret ; this . DefaultCallback = defaultCallback ; this . ClientType = ClientType . Confidential ; this . DefaultCallback = defaultCallback ; this . ClientType = ClientType . Public ; 

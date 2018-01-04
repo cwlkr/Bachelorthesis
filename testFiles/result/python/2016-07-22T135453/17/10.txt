@@ -1,0 +1,1 @@
+card . waitfortag ( ' Waiting for blank tag . . . ' ) card . waitfortag ( ' Waiting for blank tag . . . ' ) # rf / ? ( don ' t care ) - set to 00 print ' \ tNote : Application ID 8000 is \ ' Animal \ ' , and 0000 is non - Animal . ' 

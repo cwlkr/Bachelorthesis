@@ -1,0 +1,1 @@
+public List < Criteria > match ( Set < String > criteriaSet , List < Mensa > mensas ) { if ( ( menu . getDescription ( ) . toLowerCase ( Locale . getDefault ( ) ) ) . contains ( criteria View view = inflater . inflate ( R . layout . fragment _ invited , null ) ; 

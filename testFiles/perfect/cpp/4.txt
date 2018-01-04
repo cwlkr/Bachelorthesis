@@ -1,0 +1,1 @@
+GetPath ( SETTINGS _ LAST _ APP _ PATH ) , 

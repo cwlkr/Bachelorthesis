@@ -1,0 +1,1 @@
+* mensa in which the menu is served in . * starts the normal app and opens it at the invited tab . 

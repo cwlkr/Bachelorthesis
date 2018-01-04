@@ -1,0 +1,1 @@
+* the AlarmReceiver . protected abstract InvitationsBaseAdapter createAdapter ( ) ; menuItem = item ; 

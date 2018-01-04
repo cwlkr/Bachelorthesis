@@ -1,0 +1,1 @@
+* Matches a Set of criteria to each { @ link Menu } of the current day and returns a * this Menu is served in . If criteriaSet or mensas are empty , an empty list is returned . * Is either criteriaSet or mensas are null a { @ link NullPointerException } may be thrown . / / Inflate the menu ; this adds items to the action bar if it is present . 

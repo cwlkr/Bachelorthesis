@@ -1,0 +1,1 @@
+/ * * / * * / * * operation ) ; } ) ; / / Inflate the menu ; this adds items to the action bar if it is present . / * * adapter = createAdapter ( ) ; setUpEmptyView ( view ) ; setHasOptionsMenu ( true ) ; menuItem . expandActionView ( ) ; super . onDestroy ( ) ; / * * menuItem . collapseActionView ( ) ; / * * / * * startActivity ( intent ) ; 

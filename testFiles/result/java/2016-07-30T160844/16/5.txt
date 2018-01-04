@@ -1,0 +1,1 @@
+AlarmManager alarm = ( AlarmManager ) context . getSystemService ( Context . ALARM _ SERVICE ) ; Mensa mensa = ( Mensa ) parent . getItemAtPosition ( pos ) ; TextView showMessage = ( TextView ) view . findViewById ( R . id . show _ message ) ; Intent intent = new Intent ( this , DrawerMenuActivity . class ) ; 

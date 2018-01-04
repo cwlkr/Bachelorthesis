@@ -1,0 +1,1 @@
+if card . tagtype = = card . Q5 or card . tagtype = = card . HITAG2 : 

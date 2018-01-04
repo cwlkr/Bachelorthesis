@@ -1,0 +1,1 @@
+"single instance run"|path   k|k := 2."path surface""path := 'C:\Users\Cedric\Dropbox\pharo\testFiles'.""path pc"path := 'C:\Users\Cédric\Dropbox\pharo\testFiles'.KMeansRunner new runOn: path with: k.

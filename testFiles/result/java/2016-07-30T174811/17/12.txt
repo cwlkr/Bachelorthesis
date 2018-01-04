@@ -1,0 +1,1 @@
+crit . getMap ( ) . put ( menu , temp ) ; SharedPrefsHandler pref = new SharedPrefsHandler ( context ) ; mensaListAdapter = new ArrayAdapter < Mensa > ( this , setUpEmptyView ( view ) ; default : Intent intent = new Intent ( this , DrawerMenuActivity . class ) ; startActivity ( intent ) ; 

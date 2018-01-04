@@ -1,0 +1,1 @@
+[ > + > [ - ] < < - ] bool = ten = = 0 [ > + > [ - ] < < - ] bool = ten = = 0 ; ; text to morse code translator ( using international morse code ) ; ; prints " end of message " prosign after printing out the actual message 

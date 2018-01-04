@@ -1,0 +1,14 @@
+accept ( ) ; 
+adjustSize ( ) ; 
+Application & app , 
+assignmentIntegerToAddressError ( tok ) ; 
+filter ) ; 
+mApplication ( app ) 
+msg . exec ( ) ; 
+namespace {
+QDialog ( parent ) , 
+QWidget * parent ) : 
+reject ( ) ; 
+returnPointerError ( tok ) ; 
+setWindowTitle ( title ) ; 
+this ) ; 

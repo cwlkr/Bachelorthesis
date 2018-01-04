@@ -1,0 +1,1 @@
+|path    kRunner |kRunner := KMeansRunner new.path := 'C:\Users\Cédric\Dropbox\pharo\testFiles'.kRunner runOn: path with: 8 type: 'java'. "nur für analyse"

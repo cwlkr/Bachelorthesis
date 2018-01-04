@@ -1,0 +1,1 @@
+< xsl : stylesheet xmlns : xsl = " http : / / www . w3 . org / 1999 / XSL / Transform " < xsl : output indent = " yes " method = " html " / > < xsl : template match = " / " > < xsl : template match = " golfers " > < xsl : template match = " golfer " > < xsl : template match = " name " > < xsl : template match = " favoriteCourses " > < xsl : template match = " course " > 

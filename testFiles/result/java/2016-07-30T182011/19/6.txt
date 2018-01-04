@@ -1,0 +1,1 @@
+* Matches a Set of criteria to each { @ link Menu } of the current day and returns a * Receives BootUpComplete Broadcast and sets an { @ link AlarmManager } with * predefined values made in the Settings , if there are now settings made , / / Inflate the menu ; this adds items to the action bar if it is present . 

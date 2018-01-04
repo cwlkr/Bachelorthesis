@@ -1,0 +1,1 @@
+* Matches a Set of criteria to each { @ link Menu } of the current day and returns a * List of { @ link Criteria } objects . The List contains a Criteria object for each * List of { @ link Mensa } s you want to match the criterias with . * the AlarmReceiver . 

@@ -1,0 +1,1 @@
+Type Structure Representator235.95623097635087javahomogenity: -0.062166836202071085completenes: 1.4370699124766881v-measure: -0.1299554730824079Results AnalyzerNumber of Clusters: 2nearest Statements per centroid:if ( LoginService . isLoggedIn ( ) ) * import com . ese2013 . mub . model . DailyMenuplan ; 

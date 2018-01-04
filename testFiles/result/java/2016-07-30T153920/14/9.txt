@@ -1,0 +1,1 @@
+* matching criteria of the criteriaSet . The Algorithm also fills this * String set of criterias you want to match with . * mensa in which the menu is served in . * Invited and Sent Invites Fragment . 

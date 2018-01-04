@@ -1,0 +1,1 @@
+* Is either criteriaSet or mensas are null a { @ link NullPointerException } may be thrown . PendingIntent operation = PendingIntent . getBroadcast ( context , 0 , new Intent ( context , AlarmReceiver . class ) , 

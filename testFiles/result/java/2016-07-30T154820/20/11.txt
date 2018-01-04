@@ -1,0 +1,1 @@
+if ( ! crit . getMap ( ) . containsKey ( menu ) ) { mensaListView = ( ListView ) this . findViewById ( R . id . mensa _ list ) ; invitedList = ( ListView ) view . findViewById ( R . id . invited _ list ) ; 

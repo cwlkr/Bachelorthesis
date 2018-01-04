@@ -1,0 +1,1 @@
+|dict |dict := Dictionary new.dict at: 1 put:1.dict at: 2 put:1.dict keys size

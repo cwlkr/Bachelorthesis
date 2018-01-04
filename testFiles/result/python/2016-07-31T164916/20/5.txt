@@ -1,0 +1,1 @@
+try : except : else : else : else : try : except : else : else : else : try : except : try : except : address = 0 try : except : precoded = False else : precoded = True else : else : else : else : writetag = True else : writetag = False offset = 0 offset = 3 else : else : else : 

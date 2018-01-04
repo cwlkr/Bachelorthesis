@@ -1,0 +1,1 @@
+|string line feature|string := '5555' ,Character cr asString,'aaaa',Character cr asString ,'...'.feature := TypeRepresentator new.line := NewLineStatmentmaker new.line createTokanizedStatement: string.feature makeFeaturesFrom: (line createTokanizedStatement: string).

@@ -1,0 +1,1 @@
+folder: javaRepresentors: Type Structure RepresentatorDistortion Function values: 204.96818789324803homogenity: 0.10054121857442344completeness: 1.503710695538653v-measure: 0.18848025597829354Results Analyzernearest Statements per centroid:* if ( LoginService . isLoggedIn ( ) ) import java . util . ArrayList ; 

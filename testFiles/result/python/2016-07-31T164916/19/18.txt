@@ -1,0 +1,1 @@
+raw _ input ( ' Hit < CR > to continue . . . ' ) if not card . writeblock ( n , buffer [ n ] ) : if not card . readblock ( n ) or card . data ! = buffer [ n ] : id = card . FDXBIDEncode ( args [ 0 ] , args [ 1 ] , args [ 2 ] ) h2control = card . HITAG2 _ PUBLIC _ B + card . HITAG2 _ TRANSPORT _ TAG if not card . writeblock ( x , outhex [ x - offset ] ) : 

@@ -1,0 +1,1 @@
+QString filter ; } else { QString filter ; } else { Check64BitPortability instance ; 

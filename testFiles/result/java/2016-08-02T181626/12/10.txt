@@ -1,0 +1,1 @@
+for ( Menu menu : daily . getMenus ( ) ) { PendingIntent operation = PendingIntent . getBroadcast ( context , 0 , new Intent ( context , AlarmReceiver . class ) , 

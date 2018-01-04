@@ -1,0 +1,1 @@
+AlarmManager alarm = ( AlarmManager ) context . getSystemService ( Context . ALARM _ SERVICE ) ; Intent intent = new Intent ( Main . this , MenuplanActivity . class ) ; / / getMenuInflater ( ) . inflate ( R . menu . main , menu ) ; 

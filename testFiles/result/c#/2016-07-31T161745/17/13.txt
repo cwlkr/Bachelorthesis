@@ -1,0 +1,1 @@
+public ClientDescription ( string secret , Uri defaultCallback ) { public virtual bool IsCallbackAllowed ( Uri callback ) { return EqualityComparer < Uri > . Default . Equals ( this . DefaultCallback , callback ) ; public virtual bool IsValidClientSecret ( string secret ) { 

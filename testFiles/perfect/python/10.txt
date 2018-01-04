@@ -1,0 +1,25 @@
+q5control = ' 6000F0E8 ' 
+card = rfidiot . card 
+args = rfidiot . args 
+help = rfidiot . help 
+id = args [ 0 ] 
+out = card . FDXBID128Bit ( id ) 
+outbin = ' ' 
+targettype = card . tagtype 
+buffer = [ ] 
+args = rfidiot . args h2control = card . HITAG2 _ PUBLIC _ B + card . HITAG2 _ TRANSPORT _ TAG 
+outhex [ 0 ] = q5control 
+outhex [ 0 ] = h2control 
+x = string . upper ( raw _ input ( ' * * * Warning ! This will overwrite TAG ! Proceed ( y / n ) ? ' ) ) 
+outhex = [ ' ' , ' ' , ' ' , ' ' , ' ' ] 
+outbin + = chr ( int ( out [ x : x + 8 ] , 2 ) ) 
+outhex [ x / 4 + 1 ] = card . ToHex ( outbin [ x : x + 4 ] ) 
+id = card . FDXBIDEncode ( args [ 0 ] , args [ 1 ] , args [ 2 ] ) 
+x = raw _ input ( ' Incompatible TAG ! Hit < RETURN > to retry . . . ' ) 
+writetag = True 
+writetag = False 
+offset = 0 
+offset = 3 precoded = False 
+precoded = True 
+address = 0 
+address + = 1 

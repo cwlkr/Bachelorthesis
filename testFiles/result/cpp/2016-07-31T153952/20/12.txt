@@ -1,0 +1,1 @@
+QString filter ; } else { QString filter ; } else { Check64BitPortability instance ; " AssignmentAddressToInteger " , " AssignmentIntegerToAddress " , " CastAddressToIntegerAtReturn " , " 64 - bit Windows and Linux they are of different width . In worst case you end up casting 64 - bit address down " " CastIntegerToAddressAtReturn " , 

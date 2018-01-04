@@ -1,0 +1,1 @@
+" way is to store addresses only in pointer types ( or typedefs like uintptr _ t ) . " , CWE758 , false ) ; " way is to store addresses only in pointer types ( or typedefs like uintptr _ t ) . " , CWE758 , false ) ; 

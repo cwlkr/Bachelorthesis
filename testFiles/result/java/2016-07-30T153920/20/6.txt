@@ -1,0 +1,1 @@
+* it does nothing else it sets an daily repeating AlarmManager , starting * starts the normal app and opens it at the invited tab . 

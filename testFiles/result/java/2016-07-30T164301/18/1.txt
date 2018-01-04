@@ -1,0 +1,1 @@
+protected void onCreate ( Bundle savedInstanceState ) { public void onItemClick ( AdapterView < ? > parent , View view , int pos , public boolean onCreateOptionsMenu ( Menu menu ) { protected void setUpEmptyView ( View view ) { public boolean onOptionsItemSelected ( MenuItem item ) { public void onClick ( View v ) { protected void onCreate ( Bundle savedInstanceState ) { 

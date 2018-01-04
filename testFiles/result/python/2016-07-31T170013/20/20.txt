@@ -1,0 +1,1 @@
+print ' Wrong blocksize ! ( % d / % d ) ' % ( len ( buffer [ 0 ] ) , len ( card . data ) ) , print card . demotag ( card . DT _ SET _ UID , card . ToBinary ( args [ 0 ] ) ) print ' \ tNote : Application ID 8000 is \ ' Animal \ ' , and 0000 is non - Animal . ' 

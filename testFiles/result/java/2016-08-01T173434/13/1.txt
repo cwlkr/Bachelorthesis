@@ -1,0 +1,1 @@
+public class BootReceiver extends BroadcastReceiver { public class Main extends Activity { else default : public class ToggleListener implements OnClickListener { else { public class PushNotificationCallbackActivity extends Activity { 

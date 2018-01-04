@@ -1,0 +1,1 @@
+if ( ! crit . getMap ( ) . containsKey ( menu ) ) { crit . getMap ( ) . put ( menu , temp ) ; temp = crit . getMap ( ) . get ( menu ) ; public void onItemClick ( AdapterView < ? > parent , View view , int pos , Mensa mensa = ( Mensa ) parent . getItemAtPosition ( pos ) ; 

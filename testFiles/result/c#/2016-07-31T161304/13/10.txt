@@ -1,0 +1,1 @@
+/ / / < c > true < / c > if the callback URL is allowable for this client ; otherwise , < c > false < / c > . 

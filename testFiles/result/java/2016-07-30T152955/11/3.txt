@@ -1,0 +1,1 @@
+* List of { @ link Criteria } objects . The List contains a Criteria object for each * List of { @ link Mensa } s you want to match the criterias with . * Receives BootUpComplete Broadcast and sets an { @ link AlarmManager } with * predefined values made in the Settings , if there are now settings made , new MensasRequest ( mensaListAdapter ) . execute ( ) ; 

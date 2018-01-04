@@ -1,0 +1,1 @@
+* Receives BootUpComplete Broadcast and sets an { @ link AlarmManager } with * it does nothing else it sets an daily repeating AlarmManager , starting 

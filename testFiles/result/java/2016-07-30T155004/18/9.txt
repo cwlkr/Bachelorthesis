@@ -1,0 +1,1 @@
+for ( Menu menu : daily . getMenus ( ) ) { . toLowerCase ( Locale . getDefault ( ) ) ) ) { crit . getMap ( ) . put ( menu , temp ) ; temp = crit . getMap ( ) . get ( menu ) ; android . R . layout . simple _ list _ item _ 1 ) ; showMessage . setText ( R . string . not _ loged _ in ) ; inflater . inflate ( R . menu . invitations _ menu , menu ) ; 

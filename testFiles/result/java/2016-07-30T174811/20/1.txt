@@ -1,0 +1,1 @@
+if ( ( menu . getDescription ( ) . toLowerCase ( Locale . getDefault ( ) ) ) . contains ( criteria if ( ! crit . getMap ( ) . containsKey ( menu ) ) { mensaListAdapter = new ArrayAdapter < Mensa > ( this , default : 

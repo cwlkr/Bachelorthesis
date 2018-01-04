@@ -1,0 +1,1 @@
+public class CriteriaMatcher { public CriteriaMatcher ( ) { private ListView mensaListView ; private ListView invitedList ; private InvitationsBaseAdapter adapter ; private MenuItem menuItem ; setUpEmptyView ( view ) ; setHasOptionsMenu ( true ) ; menuItem = item ; private View toToggle ; private Context ctx ; startActivity ( intent ) ; 

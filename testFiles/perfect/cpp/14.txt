@@ -1,0 +1,11 @@
+ApplicationDialog : : ~ ApplicationDialog ( ) 
+ApplicationDialog : : ApplicationDialog ( const QString & title , 
+QMessageBox : : Ok , 
+QMessageBox msg ( QMessageBox : : Warning , 
+QString path ( QDir : : toNativeSeparators ( selectedFile ) ) ; 
+reportError ( tok , Severity : : portability , 
+void ApplicationDialog : : Browse ( ) 
+void ApplicationDialog : : Ok ( ) 
+void Check64BitPortability : : assignmentAddressToIntegerError ( const Token * tok ) 
+void Check64BitPortability : : pointerassignment ( ) 
+void Check64BitPortability : : returnPointerError ( const Token * tok ) 

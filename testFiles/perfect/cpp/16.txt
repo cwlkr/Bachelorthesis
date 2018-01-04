@@ -1,0 +1,3 @@
+QString selectedFile = QFileDialog : : getOpenFileName ( this ,
+bool retPointer = false ; 
+retPointer = true ; 

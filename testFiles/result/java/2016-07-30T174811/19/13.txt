@@ -1,0 +1,1 @@
+crit . setCriteriaName ( criteria ) ; if ( daily ! = null ) { if ( ! container . contains ( crit ) ) crit . getMap ( ) . put ( menu , temp ) ; operation ) ; mensaListAdapter = new ArrayAdapter < Mensa > ( this , else default : else { 

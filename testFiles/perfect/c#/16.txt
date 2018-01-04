@@ -1,0 +1,6 @@
+resourceCulture = value ; 
+resourceMan = temp ; 
+this . ClientType = ClientType . Confidential ; 
+this . ClientType = ClientType . Public ; 
+this . DefaultCallback = defaultCallback ; 
+this . secret = secret ; 

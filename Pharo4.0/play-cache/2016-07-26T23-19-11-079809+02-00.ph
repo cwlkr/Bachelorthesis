@@ -1,0 +1,1 @@
+|string f|string := 'if (x > 1) {return 0;}if (x <= 0) {return 1;}else {return v1;}'.f := NewLineStatementmaker new createTokanizedStatement: string.TypeSpecificRepresentator new makeFeaturesFrom: f.

@@ -1,0 +1,1 @@
+Type Structure RepresentatorAverage distortion values: 32.196306363426295Loaded project: java

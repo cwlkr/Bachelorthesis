@@ -1,0 +1,1 @@
+using System . Collections . Generic ; public ClientDescription ( string secret , Uri defaultCallback ) { public ClientDescription ( Uri defaultCallback ) { return MessagingUtilities . EqualsConstantTime ( secret , this . secret ) ; 

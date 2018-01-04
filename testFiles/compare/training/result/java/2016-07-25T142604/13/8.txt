@@ -1,0 +1,1 @@
+* it does nothing else it sets an daily repeating AlarmManager , starting 

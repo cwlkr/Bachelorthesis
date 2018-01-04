@@ -1,0 +1,1 @@
+DailyMenuplan daily = weekly . getDailymenuplan ( Day . today ( ) ) ; for ( Menu menu : daily . getMenus ( ) ) { 

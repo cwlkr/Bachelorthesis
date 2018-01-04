@@ -1,0 +1,1 @@
+if card . errorcode : if x = = 0 : if x > 0 : while 42 : while address < 0xf0 : if precoded : while True : outbin = ' ' print outhex [ x ] if writetag = = True : if x = = offset : if x = = offset : 

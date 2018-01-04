@@ -1,0 +1,1 @@
+public class CriteriaMatcher { private List < Criteria > container ; private List < Mensa > temp ; public CriteriaMatcher ( ) { Criteria crit = new Criteria ( ) ; return container ; 

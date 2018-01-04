@@ -1,0 +1,1 @@
+# http : / / rfidiot . org / if len ( args ) = = 1 : # http : / / rfidiot . org / # http : / / rfidiot . org / # eeprom . py - display reader ' s eeprom settings # http : / / rfidiot . org / # http : / / rfidiot . org / if len ( args ) = = 2 : print outhex [ x / 4 + 1 ] print card . FROSCH _ Errors [ card . errorcode ] 

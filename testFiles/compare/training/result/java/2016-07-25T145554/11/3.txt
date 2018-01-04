@@ -1,0 +1,1 @@
+container = new ArrayList < Criteria > ( ) ; temp = new ArrayList < Mensa > ( ) ; . toLowerCase ( Locale . getDefault ( ) ) ) ) { if ( ! container . contains ( crit ) ) 

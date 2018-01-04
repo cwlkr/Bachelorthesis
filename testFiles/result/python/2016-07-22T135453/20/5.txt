@@ -1,0 +1,1 @@
+# http : / / rfidiot . org / # http : / / rfidiot . org / if x = = 0 : if x > 0 : # http : / / rfidiot . org / # http : / / rfidiot . org / # fdxbnum . py - generate / decode FDX - B EM4x05 compliant IDs # http : / / rfidiot . org / if x = = ' N ' : if x = = ' Y ' : # rf / ? ( don ' t care ) - set to 00 if writetag = = True : if x = = offset : if x = = offset : 

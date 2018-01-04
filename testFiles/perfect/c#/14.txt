@@ -1,0 +1,1 @@
+global : : System . Resources . ResourceManager temp = new global : : System . Resources . ResourceManager ( " DotNetOpenAuth . OAuth2 . AuthServerStrings " , typeof ( AuthServerStrings ) . Assembly ) ; 

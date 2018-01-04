@@ -1,0 +1,1 @@
+* This class works the CriteriaMatcher Algoritm and ensures adapter = createAdapter ( ) ; setUpEmptyView ( view ) ; setHasOptionsMenu ( true ) ; menuItem . expandActionView ( ) ; super . onDestroy ( ) ; menuItem . collapseActionView ( ) ; this . toToggle = toToggle ; this . ctx = ctx ; startActivity ( intent ) ; 

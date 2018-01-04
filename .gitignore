@@ -1,0 +1,39 @@
+#ignore some android specific files
+bin/
+gen/
+ucdetector_reports/
+src/MensaUniBe/reports
+
+
+# Java compiled code
+*.class
+*.war
+*.ear
+
+# eclipse and setting files
+*/eclipse
+*/bin
+*.launch
+.settings/
+.metadata
+local.properties
+
+# Hidden files
+.*
+!.gitignore
+!.classpath
+!.project
+
+# Temporary files
+*/tmp
+*~
+*.tmp
+*.bak
+*.orig
+._*
+
+# OS specifc files
+Thumbs.db
+Desktrop.ini
+.DS_Store
+.directory

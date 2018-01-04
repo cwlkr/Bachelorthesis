@@ -1,0 +1,1 @@
+/ * * / * * * Is either criteriaSet or mensas are null a { @ link NullPointerException } may be thrown . 

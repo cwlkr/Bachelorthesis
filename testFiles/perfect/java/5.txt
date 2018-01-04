@@ -1,0 +1,27 @@
+* This class works the CriteriaMatcher Algoritm and ensures 
+* matching criteria of the criteriaSet . The Algorithm also fills this 
+* Criteria object with all the Menus the String is matching and the mensas 
+* String set of criterias you want to match with . 
+* @ return List of Criteria Objects which stores the matching menus and the 
+* mensa in which the menu is served in . 
+* predefined values made in the Settings , if there are now settings made , 
+* it does nothing else it sets an daily repeating AlarmManager , starting 
+* changes the progressbar in the ActionBar back to not loading 
+* Listener which sets the viability of a view from visible to gone and vice versa 
+* This activity is just used as a callback for the push notifications . It 
+* starts the normal app and opens it at the invited tab . 
+* Receives BootUpComplete Broadcast and sets an { @ link AlarmManager } with 
+* Invited and Sent Invites Fragment . 
+* Matches a Set of criteria to each { @ link Menu } of the current day and returns a 
+* List of { @ link Criteria } objects . The List contains a Criteria object for each 
+* this Menu is served in . If criteriaSet or mensas are empty , an empty list is returned . 
+* Is either criteriaSet or mensas are null a { @ link NullPointerException } may be thrown . 
+* List of { @ link Mensa } s you want to match the criterias with . 
+* an Intent for the { @ link AlarmReceiver } . Its actions depend on the 
+* This simple abstract class has the functionality which is common for both 
+* the AlarmReceiver . 
+/ / Inflate the menu ; this adds items to the action bar if it is present . 
+/ / getMenuInflater ( ) . inflate ( R . menu . main , menu ) ; 
+/ / make aysnc request to get a list of all canteens 
+/ / ad OnItemClickListener 
+/ / create a array adapter 

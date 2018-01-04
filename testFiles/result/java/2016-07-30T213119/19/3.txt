@@ -1,0 +1,1 @@
+* an Intent for the { @ link AlarmReceiver } . Its actions depend on the public void onReceive ( Context context , Intent intent ) { public void onCreateOptionsMenu ( Menu menu , MenuInflater inflater ) { ( ( DrawerMenuActivity ) getActivity ( ) ) . createInvitation ( ) ; 

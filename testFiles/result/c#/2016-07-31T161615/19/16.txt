@@ -1,0 +1,1 @@
+/ / To add or remove a member , edit your . ResX file then rerun ResGen / / To add or remove a member , edit your . ResX file then rerun ResGen public virtual bool IsCallbackAllowed ( Uri callback ) { public virtual bool IsValidClientSecret ( string secret ) { 

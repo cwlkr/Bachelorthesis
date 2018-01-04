@@ -1,0 +1,1 @@
+package com . ese2013 . mub . service ; WeeklyMenuplan weekly = mensa . getMenuplan ( ) ; if ( ! container . contains ( crit ) ) package com . ese2013 . mub . service ; package ch . xonix . mensa . unibe ; import android . widget . AdapterView . OnItemClickListener ; import android . view . View . OnClickListener ; 

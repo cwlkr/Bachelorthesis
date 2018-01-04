@@ -1,0 +1,1 @@
+|string rep|rep := TypeRepresentator new.string := '1 123 . , word adfs . asf4 ,, a.a', Character cr asString , ' adf adfs {}af'.rep makeFeaturesFrom: (NewLineStatementmaker new createTokanizedStatement: string).

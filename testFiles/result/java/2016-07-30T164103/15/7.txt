@@ -1,0 +1,1 @@
+* the AlarmReceiver . * Invited and Sent Invites Fragment . setUpEmptyView ( view ) ; setHasOptionsMenu ( true ) ; menuItem = item ; startActivity ( intent ) ; 

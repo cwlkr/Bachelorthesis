@@ -1,0 +1,1 @@
+DailyMenuplan daily = weekly . getDailymenuplan ( Day . today ( ) ) ; for ( Menu menu : daily . getMenus ( ) ) { if ( ! crit . getMap ( ) . containsKey ( menu ) ) { Calendar tenOClock = Calendar . getInstance ( Locale . getDefault ( ) ) ; ( ( DrawerMenuActivity ) getActivity ( ) ) . createInvitation ( ) ; 

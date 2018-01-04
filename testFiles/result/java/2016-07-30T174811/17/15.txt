@@ -1,0 +1,1 @@
+crit . setCriteriaName ( criteria ) ; container . add ( crit ) ; temp . add ( mensa ) ; temp = crit . getMap ( ) . get ( menu ) ; temp . add ( mensa ) ; public class BootReceiver extends BroadcastReceiver { * the AlarmReceiver . if ( pref . getDoNotification ( ) ) { public class Main extends Activity { / / ad OnItemClickListener 

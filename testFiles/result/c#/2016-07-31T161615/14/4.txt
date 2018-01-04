@@ -1,0 +1,1 @@
+/ / < copyright file = " ClientDescription . cs " company = " Outercurve Foundation " > 

@@ -1,0 +1,1 @@
+* Listener which sets the viability of a view from visible to gone and vice versa 

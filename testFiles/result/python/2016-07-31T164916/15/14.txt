@@ -1,0 +1,1 @@
+print ' Block % 02x : % s \ r ' % ( x , card . data ) , print ' Block % 02x : % s \ r ' % ( n , buffer [ n ] ) , print ' address % 02x : \ t % s ' % ( address , card . readEEPROM ( address ) ) 

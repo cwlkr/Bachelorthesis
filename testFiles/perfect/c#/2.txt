@@ -1,0 +1,4 @@
+public ClientDescription ( string secret , Uri defaultCallback ) { 
+public ClientDescription ( Uri defaultCallback ) { 
+public Uri DefaultCallback { get ; protected set ; } 
+public ClientType ClientType { get ; protected set ; } 

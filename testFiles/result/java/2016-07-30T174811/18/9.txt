@@ -1,0 +1,1 @@
+Toast . makeText ( getActivity ( ) , R . string . toast _ refreshing _ msg , Toast . LENGTH _ SHORT ) . show ( ) ; intent . setFlags ( Intent . FLAG _ ACTIVITY _ SINGLE _ TOP | Intent . FLAG _ ACTIVITY _ CLEAR _ TOP ) ; 

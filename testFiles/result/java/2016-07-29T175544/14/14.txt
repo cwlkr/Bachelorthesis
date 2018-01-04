@@ -1,0 +1,1 @@
+* String set of criterias you want to match with . * starts the normal app and opens it at the invited tab . 

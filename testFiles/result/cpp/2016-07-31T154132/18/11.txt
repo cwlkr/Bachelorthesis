@@ -1,0 +1,1 @@
+QString filter ; filter ) ; QMessageBox : : Ok , this ) ; QString filter ; filter ) ; QMessageBox : : Ok , this ) ; Check64BitPortability instance ; bool retPointer = false ; if ( ! returnType ) 

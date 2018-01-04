@@ -1,0 +1,1 @@
+|boolean|boolean := false.(1=1) ifTrue: [ boolean = false ]; ifTrue: [ boolean := boolean or: false].

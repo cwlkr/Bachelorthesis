@@ -1,0 +1,1 @@
+PendingIntent . FLAG _ CANCEL _ CURRENT ) ; Main . this . startActivity ( intent ) ; SocialManager . getInstance ( ) . loadInvites ( ) ; this . toToggle = toToggle ; this . ctx = ctx ; toToggle . setVisibility ( View . GONE ) ; toToggle . setVisibility ( View . VISIBLE ) ; 

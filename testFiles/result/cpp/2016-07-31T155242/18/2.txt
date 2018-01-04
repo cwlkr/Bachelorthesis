@@ -1,0 +1,1 @@
+" Assigning a pointer to an integer is not portable . \ n " " Assigning a pointer to an integer ( int / long / etc ) is not portable across different platforms and " " Assigning an integer to a pointer is not portable . \ n " 

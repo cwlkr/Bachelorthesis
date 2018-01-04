@@ -1,0 +1,1 @@
+print " Couldn ' t open reader ! " card . settagtype ( args [ 0 ] ) print " Couldn ' t open reader ! " print ' \ nRead % d blocks ' % x if not card . readblock ( 0 ) : print " Couldn ' t open reader ! " print " Couldn ' t open reader ! " card . FDXBIDPrint ( args [ 0 ] ) 

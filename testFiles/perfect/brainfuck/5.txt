@@ -1,0 +1,4 @@
+; ; written by Keymaker 
+; ; remember to write in capitalized letters 
+; ; text to morse code translator ( using international morse code ) 
+; ; prints " end of message " prosign after printing out the actual message 

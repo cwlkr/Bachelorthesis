@@ -1,0 +1,1 @@
+* an Intent for the { @ link AlarmReceiver } . Its actions depend on the public void onItemClick ( AdapterView < ? > parent , View view , int pos , * Listener which sets the viability of a view from visible to gone and vice versa 

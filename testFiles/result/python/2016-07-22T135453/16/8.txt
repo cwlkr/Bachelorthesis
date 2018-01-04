@@ -1,0 +1,1 @@
+for x in range ( 98 ) : if card . readblock ( x ) : print ' \ nRead % d blocks ' % x for n in range ( x ) : for n in range ( x ) : # eeprom . py - display reader ' s eeprom settings if x = = ' N ' : if x = = ' Y ' : print " Writing block % 02x : " % x , print ' \ tAlternatively , specifying a 4 HEX digit Application ID , 3 or 4 digit decimal country code ' 

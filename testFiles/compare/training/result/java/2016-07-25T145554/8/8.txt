@@ -1,0 +1,1 @@
+public class CriteriaMatcher { crit . setCriteriaName ( criteria ) ; container . add ( crit ) ; 

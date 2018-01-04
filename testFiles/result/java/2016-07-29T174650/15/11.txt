@@ -1,0 +1,1 @@
+/ / create a array adapter public abstract class AbstractInvitationsFragment extends Fragment { adapter = createAdapter ( ) ; menuItem . expandActionView ( ) ; super . onDestroy ( ) ; menuItem . collapseActionView ( ) ; this . toToggle = toToggle ; this . ctx = ctx ; 

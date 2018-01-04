@@ -1,0 +1,1 @@
+print ' \ tAlternatively , specifying a 4 HEX digit Application ID , 3 or 4 digit decimal country code ' print ' \ t ( normally based on ISO - 3166 country codes or ICAR . ORG manufacturer codes , range 0 - 4095 ) ' print ' \ tNote : Application ID 8000 is \ ' Animal \ ' , and 0000 is non - Animal . ' 

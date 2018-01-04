@@ -1,0 +1,1 @@
+setContentView ( R . layout . activity _ main ) ; SocialManager . getInstance ( ) . loadInvites ( ) ; SocialManager . getInstance ( ) . removeObserver ( adapter ) ; ToggleAnimation . slide _ up ( ctx , toToggle ) ; ToggleAnimation . slide _ down ( ctx , toToggle ) ; intent . putExtra ( SHOW _ INVITES , true ) ; 

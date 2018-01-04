@@ -1,0 +1,102 @@
+< Fecha > 1972 - 02 - 14 < / Fecha > 
+< Fecha > 2009 - 07 - 14 < / Fecha > 
+< Fecha > 2010 - 09 - 22 < / Fecha > 
+< Fecha > 1944 - 10 - 26 < / Fecha > 
+< title > XML Developer ' s Guide < / title > 
+< publish _ date > 2000 - 10 - 01 < / publish _ date > 
+< title > Midnight Rain < / title > 
+< publish _ date > 2000 - 12 - 16 < / publish _ date > 
+< title > Maeve Ascendant < / title > 
+< publish _ date > 2000 - 11 - 17 < / publish _ date > 
+< publish _ date > 2001 - 03 - 10 < / publish _ date > 
+< description > In post - apocalypse England , the mysterious 
+< publish _ date > 2001 - 09 - 10 < / publish _ date > 
+< title > Lover Birds < / title > 
+< publish _ date > 2000 - 09 - 02 < / publish _ date > 
+< title > Splish Splash < / title > 
+< publish _ date > 2000 - 11 - 02 < / publish _ date > 
+< title > Creepy Crawlies < / title > 
+< publish _ date > 2000 - 12 - 06 < / publish _ date > 
+< title > Paradox Lost < / title > 
+< genre > Science Fiction < / genre > 
+< author > O ' Brien , Tim < / author > 
+< title > Microsoft . NET : The Programming Bible < / title > 
+< publish _ date > 2000 - 12 - 09 < / publish _ date > 
+< title > MSXML3 : A Comprehensive Guide < / title > 
+< publish _ date > 2000 - 12 - 01 < / publish _ date > 
+< title > Visual Studio 7 : A Comprehensive Guide < / title > 
+< publish _ date > 2001 - 04 - 16 < / publish _ date > 
+< Fecha > 1973 - 09 - 23 < / Fecha > 
+< Apellidos > Navarro Rubio < / Apellidos > 
+< Nombre > Rafael < / Nombre > 
+< Edad > 37 < / Edad > 
+< prueba > adfasdfsadf < / prueba > 
+< Nombre > Yolanda < / Nombre > 
+< Edad > 39 < / Edad > 
+< Nombre > Sara < / Nombre > 
+< Edad > 1 < / Edad > 
+< Edad > 0 < / Edad > 
+< Edad > 66 < / Edad > 
+< genre > Computer < / genre > 
+< genre > Fantasy < / genre > 
+< genre > Romance < / genre > 
+< genre > Horror < / genre > 
+< title > Oberon ' s Legacy < / title > 
+< author > Gambardella , Matthew < / author > 
+< price > 44 . 95 < / price > 
+< description > An in - depth look at creating applications 
+< book id = " bk102 " > 
+< author > Ralls , Kim < / author > 
+< price > 5 . 95 < / price > 
+< description > A former architect battles corporate zombies , 
+< book id = " bk103 " > 
+< author > Corets , Eva < / author > 
+< description > After the collapse of a nanotechnology 
+< book id = " bk104 " > 
+< book id = " bk105 " > 
+< title > The Sundered Grail < / title > 
+< book id = " bk106 " > 
+< author > Randall , Cynthia < / author > 
+< price > 4 . 95 < / price > 
+< description > When Carla meets Paul at an ornithology 
+< book id = " bk107 " > 
+< author > Thurman , Paula < / author > 
+< description > A deep sea diver finds true love twenty 
+< book id = " bk108 " > 
+< author > Knorr , Stefan < / author > 
+< description > An anthology of horror stories about roaches , 
+< book id = " bk109 " > 
+< author > Kress , Peter < / author > 
+< price > 6 . 95 < / price > 
+< description > After an inadvertant trip through a Heisenberg 
+< book id = " bk110 " > 
+< price > 36 . 95 < / price > 
+< description > Microsoft ' s . NET initiative is explored in 
+< book id = " bk111 " > 
+< description > The Microsoft MSXML3 parser is covered in 
+< book id = " bk112 " > 
+< author > Galos , Mike < / author > 
+< price > 49 . 95 < / price > 
+< description > Microsoft Visual Studio 7 is explored in depth , 
+< id > 1 < / id > 
+< fname > Dan < / fname > 
+< lname > Wahlin < / lname > 
+< id > 2 < / id > 
+< fname > Heedy < / fname > 
+< id > 3 < / id > 
+< fname > Danny < / fname > 
+< id > 4 < / id > 
+< fname > Jeffery < / fname > 
+< body bgcolor = " # ffffff " > 
+< fname > Terje < / fname > 
+< lname > Beck < / lname > 
+< fname > Jan < / fname > 
+< lname > Refsnes < / lname > 
+< fname > Torleif < / fname > 
+< lname > Rasmussen < / lname > 
+< fname > anton < / fname > 
+< lname > chek < / lname > 
+< fname > stale < / fname > 
+< fname > hari < / fname > 
+< lname > prawin < / lname > 
+< fname > Hege < / fname > 

@@ -1,0 +1,1 @@
+/ * * * * This class works the CriteriaMatcher Algoritm and ensures * / } / * * * Criteria object with all the Menus the String is matching and the mensas * * @ param criteriaSet * String set of criterias you want to match with . * @ param mensas * @ return List of Criteria Objects which stores the matching menus and the * / 

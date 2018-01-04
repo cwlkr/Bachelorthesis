@@ -1,0 +1,1 @@
+* This simple abstract class has the functionality which is common for both * Listener which sets the viability of a view from visible to gone and vice versa * This activity is just used as a callback for the push notifications . It 

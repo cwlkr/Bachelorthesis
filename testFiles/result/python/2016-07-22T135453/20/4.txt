@@ -1,0 +1,1 @@
+raw _ input ( ' Remove source tag and hit < CR > to continue . . . ' ) raw _ input ( ' Invalid tag type ! Hit < CR > to continue . . . ' ) raw _ input ( ' Tag not readable ! Hit < CR > to continue . . . ' ) print ' \ t ( normally based on ISO - 3166 country codes or ICAR . ORG manufacturer codes , range 0 - 4095 ) ' 

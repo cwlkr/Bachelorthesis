@@ -1,0 +1,1 @@
+for ( String criteria : criteriaSet ) { crit . setCriteriaName ( criteria ) ; for ( Mensa mensa : mensas ) { if ( daily ! = null ) { container . add ( crit ) ; 

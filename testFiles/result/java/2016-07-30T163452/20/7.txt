@@ -1,0 +1,1 @@
+TextView showMessage = ( TextView ) view . findViewById ( R . id . show _ message ) ; 

@@ -1,0 +1,1 @@
+print ' \ tIf a single 16 HEX digit ID is provided , it will be decoded according to the FDX - B standard . ' 

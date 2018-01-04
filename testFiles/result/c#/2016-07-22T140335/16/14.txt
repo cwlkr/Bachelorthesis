@@ -1,0 +1,1 @@
+using System ; return resourceMan ; return resourceCulture ; using System ; return resourceMan ; return resourceCulture ; using System ; using Validation ; public ClientDescription ( string secret , Uri defaultCallback ) { public ClientDescription ( Uri defaultCallback ) { 

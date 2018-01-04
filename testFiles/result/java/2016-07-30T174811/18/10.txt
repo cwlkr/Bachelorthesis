@@ -1,0 +1,1 @@
+mensaListView . setOnItemClickListener ( new OnItemClickListener ( ) { adapter = createAdapter ( ) ; setUpEmptyView ( view ) ; setHasOptionsMenu ( true ) ; menuItem = item ; menuItem . expandActionView ( ) ; super . onDestroy ( ) ; if ( menuItem ! = null ) { menuItem . collapseActionView ( ) ; menuItem . setActionView ( null ) ; startActivity ( intent ) ; 

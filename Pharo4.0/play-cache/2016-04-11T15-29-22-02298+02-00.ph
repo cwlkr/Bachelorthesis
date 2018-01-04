@@ -1,0 +1,2 @@
+|aBoolean|
+aBoolean = nil.

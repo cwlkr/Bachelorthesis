@@ -1,0 +1,1 @@
+not ok ( recorded ) 56 - Failure : Tests _ Comment _ Query : : test _ get _ comment _ comment _ approved _ 0 

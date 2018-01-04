@@ -1,0 +1,1 @@
+using System ; internal AuthServerStrings ( ) { return resourceMan ; return resourceCulture ; using System ; internal AuthServerStrings ( ) { return resourceMan ; return resourceCulture ; using System ; using Validation ; protected ClientDescription ( ) { 

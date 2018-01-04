@@ -1,0 +1,1 @@
+* predefined values made in the Settings , if there are now settings made , private static final CharSequence MESSAGE _ GET _ DATA = " lade . . . " ; 

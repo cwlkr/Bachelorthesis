@@ -1,0 +1,1 @@
+tenOClock . set ( Calendar . YEAR , Calendar . MONTH , Calendar . DAY _ OF _ MONTH , 10 , 0 , 0 ) ; PendingIntent operation = PendingIntent . getBroadcast ( context , 0 , new Intent ( context , AlarmReceiver . class ) , Toast . makeText ( Main . this , MESSAGE _ GET _ DATA , Toast . LENGTH _ SHORT ) . show ( ) ; 

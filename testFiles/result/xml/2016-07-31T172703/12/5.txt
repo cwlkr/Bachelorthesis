@@ -1,0 +1,1 @@
+< span class = " largeBlackText " > < b > Golfers : < / b > < / span > < td colspan = " 2 " > < b > City : < / b > < / td > < td colspan = " 2 " > < b > State : < / b > < / td > < td colspan = " 2 " > < b > Course : < / b > < / td > 

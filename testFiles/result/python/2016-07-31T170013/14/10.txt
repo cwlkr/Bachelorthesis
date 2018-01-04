@@ -1,0 +1,1 @@
+# fdxbnum . py - generate / decode FDX - B EM4x05 compliant IDs # rf / ? ( don ' t care ) - set to 00 

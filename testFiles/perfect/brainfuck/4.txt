@@ -1,0 +1,25 @@
+- bool = 0 
+- cont = 0 
+ [ > + > [ - ] < < - ] bool = ten = = 0 
+[ > + > + < < - ] > > [ < < + > > - ] < 
+[ > + > + < < - ] > > [ < < + > > - ] < dup 
+[ > + > + < < - ] > > [ < < + > > - ] < DUP 
+[ > + > + < < - ] > > [ < < + > > - ] < DUP i = div 
+[ > + > + < < - ] > > [ < < + > > - ] < i = div 
+[ > > [ - ] < < - ] IF i THEN bool = 0 
+[ > > > > > > [ - ] < < < < < < - ] if divides then isprime = 0 
+[ IF i = 0 
+[ not 10 
++ + + + + + + + + num = 9 
++ cont = 1 
+< + > cont = 1 
+> [ - ] < clear ten 
+> [ - ] < CLR div 
+> [ < - > - ] < dec num by ten 
+> [ < + > - ] ten = tmp 
+> [ < < + + + + + + + + + + > > - ] if ten = 0 ten = 10 
+> [ < < + + + + + + + + + + > > > + < - ] if ten = 0 ten = 10 inc div 
+> > > + < < bool = 1 
+> > > > [ < < < < + > > > > - ] < < < < copy div to num
+> > > > > + bool = 1 
+> > > > > > > > + < < < < < < < < isprime = 1 

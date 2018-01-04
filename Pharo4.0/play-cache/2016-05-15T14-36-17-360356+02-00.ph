@@ -1,0 +1,1 @@
+|string identifier|string :='a basdfasdf c dasdf ed f gss'.identifier := #word asParser star.identifier matchesSkipIn:string.

@@ -1,0 +1,1 @@
+public CriteriaMatcher ( ) { Criteria crit = new Criteria ( ) ; protected abstract InvitationsBaseAdapter createAdapter ( ) ; public void onDestroy ( ) { protected void loadingFinished ( ) { 

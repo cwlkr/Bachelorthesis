@@ -1,0 +1,1 @@
+Gofer it      url: 'http://smalltalkhub.com/mc/PharoExtras/MorphExamplesAndDemos/main';     package: 'MorphExamplesAndDemos';     load.

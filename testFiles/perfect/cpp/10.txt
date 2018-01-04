@@ -1,0 +1,2 @@
+QString filter ; 
+Check64BitPortability instance ; 

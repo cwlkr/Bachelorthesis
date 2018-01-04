@@ -1,0 +1,12 @@
+# endif / / Q _ OS _ WIN 
+# ifdef Q _ OS _ WIN 
+# include " application . h " 
+# include " applicationdialog . h " 
+# include " check64bit . h " 
+# include " common . h "
+# include " symboldatabase . h "
+# include < QDialog > 
+# include < QFileDialog > 
+# include < QMessageBox > 
+# include < QString > 
+# include < QWidget > 

@@ -1,0 +1,31 @@
+if x = = 0 : 
+if x > 0 : 
+if x = = ' N ' : 
+if x = = ' Y ' : 
+if writetag = = True : 
+if x = = offset : 
+if len ( args ) = = 1 : 
+if card . select ( ) : 
+if card . readblock ( x ) : 
+if card . errorcode : 
+if len ( args ) = = 2 : 
+for x in range ( 98 ) : 
+if not card . writeblock ( n , buffer [ n ] ) : 
+if not card . readblock ( n ) or card . data ! = buffer [ n ] : 
+if not card . writeblock ( x , outhex [ x - offset ] ) : 
+if not help and ( len ( args ) > = 3 or precoded ) : 
+if card . tagtype ! = targettype : 
+if len ( args [ 0 ] ) = = 16 : 
+if args [ 1 ] = = ' WRITE ' : 
+if card . readertype = = card . READER _ ACG : 
+if card . tagtype = = card . Q5 or card . tagtype = = card . HITAG2 : 
+if card . tagtype = = card . Q5 : 
+if card . tagtype = = card . HITAG2 : 
+if card . readertype = = card . READER _ PCSC : 
+if card . readertype = = card . READER _ FROSCH : 
+if not card . readblock ( 0 ) : 
+if len ( card . data ) ! = len ( buffer [ 0 ] ) : 
+if string . upper ( raw _ input ( ' * * * Warning ! Data will be overwritten ! Continue ( y / n ) ? ' ) ) = = ' Y ' : 
+if not help and ( len ( args ) = = 1 or len ( args ) = = 2 ) :if ( len ( args ) = = 4 and args [ 3 ] = = ' WRITE ' ) or precoded : 
+if not card . tagtype = = card . Q5 : 
+if precoded :

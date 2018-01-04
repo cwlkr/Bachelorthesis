@@ -1,0 +1,1 @@
+" Assigning an integer ( int / long / etc ) to a pointer is not portable across different platforms and " " Returning an integer ( int / long / etc ) in a function with pointer return type is not portable across different " 

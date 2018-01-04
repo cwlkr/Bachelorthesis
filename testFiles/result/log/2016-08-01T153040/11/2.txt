@@ -1,0 +1,1 @@
+not ok ( recorded ) 56 - Failure : Tests _ Comment _ Query : : test _ get _ comment _ comment _ approved _ 0 not ok ( recorded ) 58 - Failure : Tests _ Comment _ Query : : test _ get _ comments _ for _ post not ok ( recorded ) 899 - Failure : Tests _ XMLRPC _ wp _ getComments : : test _ number _ filter 

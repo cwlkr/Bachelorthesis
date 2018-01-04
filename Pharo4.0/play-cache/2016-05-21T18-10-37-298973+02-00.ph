@@ -1,0 +1,1 @@
+|aStream list|list := LinkedList new.list addAll: #(($c asString) ($b asString) (1 asString)).aStream := String new writeStream.aStream nextPutAll: list.aStream.1 asString.

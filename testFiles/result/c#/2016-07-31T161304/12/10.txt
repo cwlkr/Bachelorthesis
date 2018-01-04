@@ -1,0 +1,1 @@
+using System . Collections . Generic ; public ClientDescription ( string secret , Uri defaultCallback ) { this . secret = secret ; this . DefaultCallback = defaultCallback ; this . DefaultCallback = defaultCallback ; public Uri DefaultCallback { get ; protected set ; } public ClientType ClientType { get ; protected set ; } 

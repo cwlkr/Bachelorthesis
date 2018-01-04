@@ -1,0 +1,1 @@
+* Matches a Set of criteria to each { @ link Menu } of the current day and returns a * Receives BootUpComplete Broadcast and sets an { @ link AlarmManager } with public static final String SHOW _ INVITES = " showInvites " ; 

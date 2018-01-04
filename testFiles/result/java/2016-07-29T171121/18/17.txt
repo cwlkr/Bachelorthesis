@@ -1,0 +1,1 @@
+Criteria crit = new Criteria ( ) ; * an Intent for the { @ link AlarmReceiver } . Its actions depend on the protected abstract InvitationsBaseAdapter createAdapter ( ) ; 

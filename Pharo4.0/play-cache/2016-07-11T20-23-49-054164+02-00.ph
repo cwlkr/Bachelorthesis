@@ -1,0 +1,1 @@
+|string1 string2|string1 := 'aaasdfg adfsasfd sdf'.string2  := 'aaasdfg adfsasfd sdf'.(string1 = string2)

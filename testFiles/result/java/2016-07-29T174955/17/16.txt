@@ -1,0 +1,1 @@
+public CriteriaMatcher ( ) { / / create a array adapter protected abstract InvitationsBaseAdapter createAdapter ( ) ; public void onDestroy ( ) { protected void loadingFinished ( ) { 

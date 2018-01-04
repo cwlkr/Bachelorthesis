@@ -1,0 +1,1 @@
+Type Structure Representator204.96818789324803javahomogenity: 0.10054121857442344completenes: 1.503710695538653v-measure: 0.18848025597829354Results AnalyzerNumber of Clusters: 2nearest Statements per centroid:import java . util . ArrayList ; if ( LoginService . isLoggedIn ( ) ) * 

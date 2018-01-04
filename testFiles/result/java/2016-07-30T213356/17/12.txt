@@ -1,0 +1,1 @@
+adapter = createAdapter ( ) ; setUpEmptyView ( view ) ; setHasOptionsMenu ( true ) ; menuItem . expandActionView ( ) ; super . onDestroy ( ) ; menuItem . collapseActionView ( ) ; startActivity ( intent ) ; 

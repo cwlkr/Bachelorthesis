@@ -1,0 +1,1 @@
+if ( len ( args ) = = 4 and args [ 3 ] = = ' WRITE ' ) or precoded : print ' \ tAlternatively , specifying a 4 HEX digit Application ID , 3 or 4 digit decimal country code ' print ' \ tNote : Application ID 8000 is \ ' Animal \ ' , and 0000 is non - Animal . ' 

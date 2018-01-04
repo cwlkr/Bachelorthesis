@@ -1,0 +1,1 @@
+AlarmManager alarm = ( AlarmManager ) context . getSystemService ( Context . ALARM _ SERVICE ) ; TextView showMessage = ( TextView ) view . findViewById ( R . id . show _ message ) ; 

@@ -1,0 +1,1 @@
+* matching criteria of the criteriaSet . The Algorithm also fills this * an Intent for the { @ link AlarmReceiver } . Its actions depend on the * Invited and Sent Invites Fragment . public abstract class AbstractInvitationsFragment extends Fragment { 

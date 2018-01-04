@@ -1,0 +1,1 @@
+* This class works the CriteriaMatcher Algoritm and ensures SharedPrefsHandler pref = new SharedPrefsHandler ( context ) ; if ( pref . getDoNotification ( ) ) { mensaListView . setOnItemClickListener ( new OnItemClickListener ( ) { switch ( item . getItemId ( ) ) { if ( toToggle . isShown ( ) ) { 

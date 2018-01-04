@@ -1,0 +1,19 @@
+< xsl : apply - templates select = " name " / > 
+< xsl : value - of select = " @ skill " / > 
+< xsl : value - of select = " @ handicap " / > 
+< xsl : value - of select = " @ clubs " / > 
+< xsl : apply - templates select = " favoriteCourses " / > 
+< xsl : value - of select = " firstName " / > & # xa0 ; 
+< xsl : value - of select = " lastName " / > 
+< xsl : value - of select = " @ city " / > 
+< xsl : value - of select = " @ state " / > 
+< xsl : value - of select = " @ name " / > 
+< xsl : template match = " golfers " > 
+< xsl : template match = " golfer " > 
+< xsl : template match = " name " > 
+< xsl : template match = " favoriteCourses " > 
+< xsl : template match = " course " > 
+< xsl : output indent = " yes " method = " html " / > 
+< xsl : template match = " / " > 
+< xsl : apply - templates / > 
+< xsl : apply - templates / >

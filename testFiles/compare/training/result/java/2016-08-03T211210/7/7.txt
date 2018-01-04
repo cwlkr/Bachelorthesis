@@ -1,0 +1,1 @@
+* List of { @ link Criteria } objects . The List contains a Criteria object for each * List of { @ link Mensa } s you want to match the criterias with . for ( String criteria : criteriaSet ) { Criteria crit = new Criteria ( ) ; crit . setCriteriaName ( criteria ) ; for ( Mensa mensa : mensas ) { if ( daily ! = null ) { container . add ( crit ) ; 

@@ -1,0 +1,1 @@
+for ( String criteria : criteriaSet ) { crit . setCriteriaName ( criteria ) ; for ( Mensa mensa : mensas ) { if ( daily ! = null ) { for ( Menu menu : daily . getMenus ( ) ) { if ( ! container . contains ( crit ) ) return container ; operation ) ; mensaListAdapter = new ArrayAdapter < Mensa > ( this , else default : else { 

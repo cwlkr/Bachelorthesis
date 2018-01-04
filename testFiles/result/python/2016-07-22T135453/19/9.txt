@@ -1,0 +1,1 @@
+raw _ input ( ' Remove source tag and hit < CR > to continue . . . ' ) raw _ input ( ' Invalid tag type ! Hit < CR > to continue . . . ' ) raw _ input ( ' Tag not readable ! Hit < CR > to continue . . . ' ) if not card . readblock ( n ) or card . data ! = buffer [ n ] : id = card . FDXBIDEncode ( args [ 0 ] , args [ 1 ] , args [ 2 ] ) 

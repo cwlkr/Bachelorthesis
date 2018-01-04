@@ -1,0 +1,1 @@
+using System ; get { return resourceMan ; get { return resourceCulture ; set { get { get { get { get { get { get { get { using System ; get { return resourceMan ; get { return resourceCulture ; set { get { get { get { get { get { get { get { using System ; using Validation ; public ClientDescription ( Uri defaultCallback ) { 

@@ -1,0 +1,1 @@
+* This class works the CriteriaMatcher Algoritm and ensures / / make aysnc request to get a list of all canteens * changes the progressbar in the ActionBar back to not loading 

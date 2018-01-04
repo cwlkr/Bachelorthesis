@@ -1,0 +1,1 @@
+|structureFinder|structureFinder := StructureFinder new.structureFinder inputPath: 'C:\Users\Cedric\Dropbox\pharo\testFiles'.structureFinder outputPath: 'C:\Users\Cedric\Dropbox\pharo\testFiles\output.txt'.structureFinder run.Array

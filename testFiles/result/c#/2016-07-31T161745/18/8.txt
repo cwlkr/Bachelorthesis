@@ -1,0 +1,1 @@
+/ / < copyright file = " ClientDescription . cs " company = " Outercurve Foundation " > / / / < param name = " secret " > The secret obtained from the client . < / param > 

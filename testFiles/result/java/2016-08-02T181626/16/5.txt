@@ -1,0 +1,1 @@
+* matching criteria of the criteriaSet . The Algorithm also fills this * this Menu is served in . If criteriaSet or mensas are empty , an empty list is returned . * Invited and Sent Invites Fragment . public abstract class AbstractInvitationsFragment extends Fragment { protected abstract InvitationsBaseAdapter createAdapter ( ) ; 

@@ -1,0 +1,1 @@
+"tree test"|tree string charElement structureElements token|structureElements := StructureElements getUniqueInstance.token := '}'.token at: 1.string := '{}'.charElement := structureElements returnIfContains: (token at:1).charElement isClosingElement: (token at: 1).tree := StructureTree new buildTreeFrom: string.

@@ -1,0 +1,1 @@
+public List < Criteria > match ( Set < String > criteriaSet , List < Mensa > mensas ) { import ch . xonix . mensa . unibe . model . Mensa ; import ch . xonix . mensa . unibe . request . MensasRequest ; View view = inflater . inflate ( R . layout . fragment _ invited , null ) ; 

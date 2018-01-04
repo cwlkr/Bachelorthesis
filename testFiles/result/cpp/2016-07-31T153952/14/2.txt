@@ -1,0 +1,1 @@
+const Scope * scope = symbolDatabase - > functionScopes [ i ] ; const Scope * scope = symbolDatabase - > functionScopes [ i ] ; 
